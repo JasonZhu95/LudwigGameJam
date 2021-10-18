@@ -7,9 +7,13 @@ public class Trampoline : MonoBehaviour
     public float bounce = 25f;
     private GameObject player;
     private Animator anim;
-    private bool isPushing;
     public float playerOffsetX;
     public float playerOffestY;
+
+
+    [SerializeField] private Transform playerCheck;
+    [SerializeField] private float playerCheckRadius = 0.75f;
+    public LayerMask whatIsPlayer;
 
     private void Start()
     {
@@ -19,36 +23,54 @@ public class Trampoline : MonoBehaviour
     
     private void Update()
     {
-        anim.SetBool("isPushing", isPushing);
-    }
-
-    private void OnCollisionEnter2D(Collision2D coll)
-    {
-        if (coll.gameObject.CompareTag("Player"))
+        if (CheckIfPlayer())
         {
-            isPushing = true;
+            StartCoroutine(DisableVelocitySet());
             player.GetComponent<Player>().DashState.ResetCanDash();
-            StartCoroutine(DisableMovement());
-            player.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
-            player.transform.position = new Vector3(transform.position.x + playerOffsetX,
-                transform.position.y + playerOffestY, transform.position.z);
-            player.GetComponent<Rigidbody2D>().velocity = Vector2.up * bounce;
+            if (transform.rotation.eulerAngles.z == 90)
+            {
+                player.transform.position = new Vector3(transform.position.x + playerOffsetX,
+                    transform.position.y + playerOffestY, transform.position.z);
+                player.GetComponent<Rigidbody2D>().velocity = -Vector2.right * bounce;
+            }
+            else if (transform.rotation.eulerAngles.z == 180)
+            {
+                player.transform.position = new Vector3(transform.position.x + playerOffsetX,
+                    transform.position.y + playerOffestY, transform.position.z);
+                player.GetComponent<Rigidbody2D>().velocity = -Vector2.up * bounce;
+            }
+            else if (transform.rotation.eulerAngles.z == 270)
+            {
+                player.transform.position = new Vector3(transform.position.x + playerOffsetX,
+                    transform.position.y + playerOffestY, transform.position.z);
+                player.GetComponent<Rigidbody2D>().velocity = Vector2.right * bounce;
+            }
+            else
+            {
+                player.transform.position = new Vector3(transform.position.x + playerOffsetX,
+                    transform.position.y + playerOffestY, transform.position.z);
+                player.GetComponent<Rigidbody2D>().velocity = Vector2.up * bounce;
+            }
         }
+        anim.SetBool("isPushing", CheckIfPlayer());
     }
 
-    IEnumerator DisableMovement()
+    IEnumerator DisableVelocitySet()
     {
-        player.GetComponent<Player>().canMove = false;
+        player.GetComponent<Player>().disableVelocitySet = true;
         yield return new WaitForSeconds(.2f);
-        player.GetComponent<Player>().canMove = true;
+        player.GetComponent<Player>().disableVelocitySet = false;
     }
 
-    private void OnCollisionExit2D(Collision2D coll)
+
+    public bool CheckIfPlayer()
     {
-        if (coll.gameObject.CompareTag("Player"))
-        {
-            isPushing = false;
-        }
+        return Physics2D.OverlapCircle(playerCheck.position, playerCheckRadius, whatIsPlayer);
+    }
+
+    public virtual void OnDrawGizmos()
+    {
+        Gizmos.DrawWireSphere(playerCheck.position, playerCheckRadius);
     }
 
 }
