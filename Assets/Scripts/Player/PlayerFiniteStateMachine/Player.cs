@@ -37,6 +37,7 @@ public class Player : MonoBehaviour
     [SerializeField] private PlayerData playerData;
 
     private Vector2 temporaryWorkspace;
+    public bool hasHat;
 
     private void Awake()
     {
@@ -56,6 +57,10 @@ public class Player : MonoBehaviour
         LookUpState = new PlayerLookUpState(this, StateMachine, playerData, "lookUp");
         LedgeClimbState = new PlayerLedgeClimbState(this, StateMachine, playerData, "ledgeClimbState");
 
+        if (gameObject.name == "PlayerHat")
+        {
+            hasHat = true;
+        }
     }
 
     private void Start()
