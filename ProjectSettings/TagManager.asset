@@ -53,11 +53,11 @@ TagManager:
   - name: Middle Background
     uniqueID: 317619243
     locked: 0
-  - name: Platforms
-    uniqueID: 1383793693
-    locked: 0
   - name: Obstacles
     uniqueID: 2455353513
+    locked: 0
+  - name: Platforms
+    uniqueID: 1383793693
     locked: 0
   - name: Player
     uniqueID: 1326468893
