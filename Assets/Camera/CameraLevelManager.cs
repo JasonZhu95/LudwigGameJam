@@ -6,7 +6,6 @@ public class CameraLevelManager : MonoBehaviour
 {
     public GameObject virtualCam;
     
-
     private void OnTriggerEnter2D(Collider2D other)
     {
         
@@ -15,6 +14,7 @@ public class CameraLevelManager : MonoBehaviour
             virtualCam.SetActive(true);
 
         }
+        
     }
 
     private void OnTriggerExit2D(Collider2D other)
@@ -23,5 +23,7 @@ public class CameraLevelManager : MonoBehaviour
         {
             virtualCam.SetActive(false);
         }
+
+        
     }
 }

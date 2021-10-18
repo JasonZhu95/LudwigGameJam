@@ -31,13 +31,7 @@ public class PlayerInputHandler : MonoBehaviour
     {
         CheckJumpInputBufferTime();
         CheckDashInputHoldTime();
-        if (InteractInput)
-        {
-            if (Interactable != null)
-            {
-                Interactable.Interact(player: this);
-            }
-        }
+        
     }
 
     public void OnMoveInput(InputAction.CallbackContext context)

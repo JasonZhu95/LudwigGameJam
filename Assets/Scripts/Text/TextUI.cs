@@ -25,12 +25,11 @@ public class TextUI : MonoBehaviour
     }
 
     private IEnumerator StepThroughText(TextObject textObject)
-    {
-        yield return new WaitForSeconds(2);
+    {     
         foreach(string dialogue in textObject.Dialogue)
         {
             yield return typeWriterEffect.Run(dialogue, textLabel);
-            //yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space));
+            yield return new WaitForSeconds(2);
         }
 
         CloseDialogueBox();
