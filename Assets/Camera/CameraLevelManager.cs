@@ -5,9 +5,11 @@ using UnityEngine;
 public class CameraLevelManager : MonoBehaviour
 {
     public GameObject virtualCam;
+    
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        
         if (other.CompareTag("Player") && !other.isTrigger)
         {
             virtualCam.SetActive(true);

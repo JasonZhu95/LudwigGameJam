@@ -7,18 +7,19 @@ public class TextUI : MonoBehaviour
 {
     [SerializeField] private GameObject textBox; 
     [SerializeField] private TMP_Text textLabel;
-    [SerializeField] private TextObject test;
+    
+    public bool isOpen { get; private set; }
 
     private TypeWriterEffect typeWriterEffect;
     private void Start()
     {
         typeWriterEffect = GetComponent<TypeWriterEffect>();
-        ShowDialogue(test);
-        //CloseDialogueBox();
+        CloseDialogueBox();
     }
 
     public void ShowDialogue(TextObject textObject)
     {
+        isOpen = true;
         textBox.SetActive(true);
         StartCoroutine(routine: StepThroughText(textObject));
     }
@@ -32,11 +33,12 @@ public class TextUI : MonoBehaviour
             //yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space));
         }
 
-        //CloseDialogueBox();
+        CloseDialogueBox();
     }
 
     private void CloseDialogueBox()
     {
+        isOpen = false;
         textBox.SetActive(false);
         textLabel.text = string.Empty;
     }
