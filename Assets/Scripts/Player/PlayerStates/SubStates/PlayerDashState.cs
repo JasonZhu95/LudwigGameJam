@@ -80,7 +80,7 @@ public class PlayerDashState : PlayerAbilityState
                 
                 CheckIfAfterImage();
 
-                if (Time.time >= startTime + playerData.dashTime)
+                if (Time.time >= startTime + playerData.dashTime || !player.canMove)
                 {
                     player.RB.drag = 0f;
                     isAbilityDone = true;
