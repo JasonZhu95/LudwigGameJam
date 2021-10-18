@@ -19,6 +19,10 @@ public class PlayerInputHandler : MonoBehaviour
     public bool DashInput { get; private set; }
     public bool DashInputStop { get; private set; }
 
+    public IInteractable Interactable { get; set; }
+    [SerializeField] private TextUI textUI;
+    public TextUI TextUI => textUI;
+
     [SerializeField] private float inputBufferTime = 0.2f;
     private float jumpInputStartTime;
     private float dashInputStartTime;
@@ -27,6 +31,13 @@ public class PlayerInputHandler : MonoBehaviour
     {
         CheckJumpInputBufferTime();
         CheckDashInputHoldTime();
+        if (InteractInput)
+        {
+            if (Interactable != null)
+            {
+                Interactable.Interact(player: this);
+            }
+        }
     }
 
     public void OnMoveInput(InputAction.CallbackContext context)
