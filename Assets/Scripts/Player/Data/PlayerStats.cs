@@ -17,9 +17,6 @@ public class PlayerStats : MonoBehaviour
     public int currentStocks;
     public Image[] stocks;
 
-    private float bounce = 25f;
-
-
     private void Start()
     {
         currentStocks = stockCount;
