@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: JaggedWipe
+  m_Controller: {fileID: 9100000, guid: 21539106534d058479fcfb4f1d6faf99, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 70c1c7f1cbf5ba0498e5a58c4f6e379c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 9ed63ead44eca6846b3ed31c2fe8b4cd, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f2e25d09c860d4546ac4df2688bda7df, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: eb8f7ff59fe75e24a903151422c6138e, type: 2}

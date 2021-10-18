@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Level
+  - NonShootable
+  - Spike
+  - DeathZone
+  - Trampoline
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Ground
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1661491217
+    locked: 0
+  - name: Middle Background
+    uniqueID: 317619243
+    locked: 0
+  - name: Platforms
+    uniqueID: 1383793693
+    locked: 0
+  - name: Obstacles
+    uniqueID: 2455353513
+    locked: 0
+  - name: Player
+    uniqueID: 1326468893
+    locked: 0
+  - name: Foreground
+    uniqueID: 1993079543
+    locked: 0
+  - name: NextLevelWaypoint
+    uniqueID: 158397215
+    locked: 0
