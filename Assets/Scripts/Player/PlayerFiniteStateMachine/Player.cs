@@ -28,6 +28,7 @@ public class Player : MonoBehaviour
     public Vector2 CurrentVelocity { get; private set; }
     public int FacingDirection { get; private set; }
     public bool canMove;
+    public bool disableVelocitySet;
 
     [SerializeField] private Transform groundCheck;
     [SerializeField] private Transform wallCheck;
@@ -80,37 +81,52 @@ public class Player : MonoBehaviour
 
     public void SetVelocityX(float velocity)
     {
-        temporaryWorkspace.Set(velocity, CurrentVelocity.y);
-        RB.velocity = temporaryWorkspace;
-        CurrentVelocity = temporaryWorkspace;
+        if (!disableVelocitySet)
+        {
+            temporaryWorkspace.Set(velocity, CurrentVelocity.y);
+            RB.velocity = temporaryWorkspace;
+            CurrentVelocity = temporaryWorkspace;
+        }
     }
 
     public void SetVelocityY(float velocity)
     {
-        temporaryWorkspace.Set(CurrentVelocity.x, velocity);
-        RB.velocity = temporaryWorkspace;
-        CurrentVelocity = temporaryWorkspace;
+        if (!disableVelocitySet)
+        {
+            temporaryWorkspace.Set(CurrentVelocity.x, velocity);
+            RB.velocity = temporaryWorkspace;
+            CurrentVelocity = temporaryWorkspace;
+        }
     }
 
     public void SetVelocity(float velocity, Vector2 angle, int direction)
     {
-        angle.Normalize();
-        temporaryWorkspace.Set(angle.x * velocity * direction, angle.y * velocity);
-        RB.velocity = temporaryWorkspace;
-        CurrentVelocity = temporaryWorkspace;
+        if (!disableVelocitySet)
+        {
+            angle.Normalize();
+            temporaryWorkspace.Set(angle.x * velocity * direction, angle.y * velocity);
+            RB.velocity = temporaryWorkspace;
+            CurrentVelocity = temporaryWorkspace;
+        }
     }
 
     public void SetVelocity(float velocity, Vector2 direction)
     {
-        temporaryWorkspace = direction * velocity;
-        RB.velocity = temporaryWorkspace;
-        CurrentVelocity = temporaryWorkspace;
+        if (!disableVelocitySet)
+        {
+            temporaryWorkspace = direction * velocity;
+            RB.velocity = temporaryWorkspace;
+            CurrentVelocity = temporaryWorkspace;
+        }
     }
 
     public void SetVelocityZero()
     {
-        RB.velocity = Vector2.zero;
-        CurrentVelocity = Vector2.zero;
+        if (!disableVelocitySet)
+        {
+            RB.velocity = Vector2.zero;
+            CurrentVelocity = Vector2.zero;
+        }
     }
 
     public bool CheckIfGrounded()

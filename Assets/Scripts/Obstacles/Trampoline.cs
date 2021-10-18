@@ -25,11 +25,41 @@ public class Trampoline : MonoBehaviour
     {
         if (CheckIfPlayer())
         {
-            player.transform.position = new Vector3(transform.position.x + playerOffsetX,
-                transform.position.y + playerOffestY, transform.position.z);
-            player.GetComponent<Rigidbody2D>().velocity = Vector2.up * bounce;
+            StartCoroutine(DisableVelocitySet());
+            player.GetComponent<Player>().DashState.ResetCanDash();
+            if (transform.rotation.eulerAngles.z == 90)
+            {
+                player.transform.position = new Vector3(transform.position.x + playerOffsetX,
+                    transform.position.y + playerOffestY, transform.position.z);
+                player.GetComponent<Rigidbody2D>().velocity = -Vector2.right * bounce;
+            }
+            else if (transform.rotation.eulerAngles.z == 180)
+            {
+                player.transform.position = new Vector3(transform.position.x + playerOffsetX,
+                    transform.position.y + playerOffestY, transform.position.z);
+                player.GetComponent<Rigidbody2D>().velocity = -Vector2.up * bounce;
+            }
+            else if (transform.rotation.eulerAngles.z == 270)
+            {
+                player.transform.position = new Vector3(transform.position.x + playerOffsetX,
+                    transform.position.y + playerOffestY, transform.position.z);
+                player.GetComponent<Rigidbody2D>().velocity = Vector2.right * bounce;
+            }
+            else
+            {
+                player.transform.position = new Vector3(transform.position.x + playerOffsetX,
+                    transform.position.y + playerOffestY, transform.position.z);
+                player.GetComponent<Rigidbody2D>().velocity = Vector2.up * bounce;
+            }
         }
         anim.SetBool("isPushing", CheckIfPlayer());
+    }
+
+    IEnumerator DisableVelocitySet()
+    {
+        player.GetComponent<Player>().disableVelocitySet = true;
+        yield return new WaitForSeconds(.2f);
+        player.GetComponent<Player>().disableVelocitySet = false;
     }
 
 
