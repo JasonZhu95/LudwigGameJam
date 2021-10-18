@@ -13,6 +13,7 @@ public class PlayerDashState : PlayerAbilityState
     private Vector2 dashDirection;
     private Vector2 dashDirectionInput;
     private Vector2 lastAfterImagePosition;
+    public bool stopDashTime;
 
     public PlayerDashState(Player player, PlayerStateMachine stateMachine, PlayerData playerData, string animBoolName) : base(player, stateMachine, playerData, animBoolName)
     {
@@ -32,6 +33,7 @@ public class PlayerDashState : PlayerAbilityState
     public override void Exit()
     {
         base.Exit();
+        stopDashTime = false;
 
         if (player.CurrentVelocity.y > 0)
         {
@@ -64,23 +66,23 @@ public class PlayerDashState : PlayerAbilityState
                     startTime = Time.time;
                     player.CheckIfShouldFlip(Mathf.RoundToInt(dashDirection.x));
                     player.RB.drag = playerData.drag;
-                    if (player.canMove)
+                    if (!stopDashTime)
                     {
                         player.SetVelocity(playerData.dashVelocity, dashDirection);
                     }
+
                     PlaceAfterImage();
                 }
             }
             else
             {
-                if (player.canMove)
+                if (!stopDashTime)
                 {
                     player.SetVelocity(playerData.dashVelocity, dashDirection);
                 }
-                
                 CheckIfAfterImage();
 
-                if (Time.time >= startTime + playerData.dashTime || !player.canMove)
+                if (Time.time >= startTime + playerData.dashTime)
                 {
                     player.RB.drag = 0f;
                     isAbilityDone = true;

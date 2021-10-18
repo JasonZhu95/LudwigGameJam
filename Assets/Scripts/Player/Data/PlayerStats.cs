@@ -23,14 +23,13 @@ public class PlayerStats : MonoBehaviour
         currentStocks = stockCount;
         RB = GetComponent<Rigidbody2D>();
         GM = GameObject.Find("GameManager").GetComponent<GameManager>();
-        Debug.Log(stockCount);
     }
 
     private void Update()
     {
         for (int i = 0; i < stocks.Length; i++)
         {
-            if (i < currentStocks && SceneManager.GetActiveScene().buildIndex != 1)
+            if (i < currentStocks)
             {
                 stocks[i].enabled = true;
             }
@@ -76,13 +75,10 @@ public class PlayerStats : MonoBehaviour
     {
         Destroy(gameObject);
         Instantiate(deathEffect, transform.position, Quaternion.identity);
-        if (SceneManager.GetActiveScene().buildIndex != 1)
+        stockCount--;
+        if (stockCount == 0)
         {
-            stockCount--;
-            if (stockCount == 0)
-            {
-                stockCount = 4;
-            }
+            stockCount = 4;
         }
         GM.Respawn();
     }
