@@ -71584,7 +71584,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2634cb501fb41ac4bb4867872b6892d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 8
 --- !u!114 &1704083720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71597,7 +71597,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5383eebe18413af49a4f90bf6cd33ca7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textBox: {fileID: 1782865899}
   textLabel: {fileID: 1851198126}
+  test: {fileID: 11400000, guid: ff71f44b912c998459861d52d9b7f63a, type: 2}
 --- !u!1 &1769533171
 GameObject:
   m_ObjectHideFlags: 0
