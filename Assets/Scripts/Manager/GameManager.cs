@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
     public static float playerPosX = 0;
     public static float playerPosY = 0;
     public static bool reload;
+    private static bool loadNextLevel;
 
     private int roomTracker = 0;
 
@@ -26,11 +27,13 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         player = GameObject.FindWithTag("Player");
-        if (reload)
+        if (reload && !loadNextLevel)
         {
             player = GameObject.FindWithTag("Player");
             player.transform.position = new Vector3(playerPosX, playerPosY, 0);
         }
+
+        loadNextLevel = false;
     }
 
     private void Update()
@@ -40,7 +43,6 @@ public class GameManager : MonoBehaviour
             if (activeRooms[i].activeSelf == true)
             {
                 roomTracker = i;
-                Debug.Log(roomTracker);
             }
         }
     }
@@ -60,6 +62,7 @@ public class GameManager : MonoBehaviour
 
     public void LoadNextLevel()
     {
+        loadNextLevel = true;
         StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
     }
 
