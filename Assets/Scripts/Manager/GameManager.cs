@@ -21,15 +21,16 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-        if (reload)
-        {
-            player.transform.position = new Vector3(playerPosX, playerPosY, 0);
-        }
     }
 
     private void Start()
     {
         player = GameObject.FindWithTag("Player");
+        if (reload)
+        {
+            player = GameObject.FindWithTag("Player");
+            player.transform.position = new Vector3(playerPosX, playerPosY, 0);
+        }
     }
 
     private void Update()
@@ -39,6 +40,7 @@ public class GameManager : MonoBehaviour
             if (activeRooms[i].activeSelf == true)
             {
                 roomTracker = i;
+                Debug.Log(roomTracker);
             }
         }
     }
