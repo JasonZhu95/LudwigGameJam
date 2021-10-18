@@ -9,6 +9,7 @@ TagManager:
   - Spike
   - DeathZone
   - Trampoline
+  - Interactable
   layers:
   - Default
   - TransparentFX
