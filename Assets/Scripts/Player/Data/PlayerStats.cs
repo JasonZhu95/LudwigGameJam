@@ -17,6 +17,9 @@ public class PlayerStats : MonoBehaviour
     public int currentStocks;
     public Image[] stocks;
 
+    public static int Collectibles = 0;
+    public Image CollectibleCount;
+
     private void Start()
     {
         currentStocks = stockCount;
@@ -42,21 +45,17 @@ public class PlayerStats : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D coll)
     {
-        if (coll.gameObject.tag.Equals("Obstacle"))
-        {
-            Die();
-        }
     }
 
     private void OnTriggerEnter2D(Collider2D coll)
     {
-        if (coll.gameObject.tag.Equals("Spike"))
+        if (coll.gameObject.CompareTag("Spike"))
         {
             spikeObject = coll.gameObject;
             isCollidingWithSpike = true;
         }
 
-        if (coll.gameObject.tag.Equals("DeathZone"))
+        if (coll.gameObject.CompareTag("DeathZone"))
         {
             Die();
         }
@@ -64,7 +63,7 @@ public class PlayerStats : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D coll)
     {
-        if (coll.gameObject.tag.Equals("Spike"))
+        if (coll.gameObject.CompareTag("Spike"))
         {
             isCollidingWithSpike = false;
         }

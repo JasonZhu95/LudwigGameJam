@@ -10,6 +10,7 @@ TagManager:
   - DeathZone
   - Trampoline
   - Interactable
+  - Collectible
   layers:
   - Default
   - TransparentFX
