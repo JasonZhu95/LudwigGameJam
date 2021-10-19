@@ -64,6 +64,9 @@ TagManager:
   - name: Collectible
     uniqueID: 1203191551
     locked: 0
+  - name: Boss
+    uniqueID: 4201694153
+    locked: 0
   - name: Player
     uniqueID: 1326468893
     locked: 0
