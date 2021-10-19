@@ -11,6 +11,7 @@ TagManager:
   - Trampoline
   - Interactable
   - Collectible
+  - Obstacle
   layers:
   - Default
   - TransparentFX

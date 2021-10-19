@@ -17,9 +17,6 @@ public class PlayerStats : MonoBehaviour
     public int currentStocks;
     public Image[] stocks;
 
-    public static int Collectibles = 0;
-    public Image CollectibleCount;
-
     private void Start()
     {
         currentStocks = stockCount;
@@ -45,6 +42,10 @@ public class PlayerStats : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D coll)
     {
+        if (coll.gameObject.CompareTag("Obstacle"))
+        {
+            Die();
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D coll)

@@ -22,8 +22,11 @@ public class PlayerDashState : PlayerAbilityState
     public override void Enter()
     {
         base.Enter();
-
         CanDash = false;
+        if (player.hasHat)
+        {
+            CanDash = true;
+        }
         player.InputHandler.UseDashInput();
         isHolding = true;
         dashDirection = Vector2.right * player.FacingDirection;
