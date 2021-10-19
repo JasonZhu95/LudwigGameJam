@@ -1,0 +1,2029 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.17f1 (a4537701e4ab) revision 10769271'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 16299 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2020.3.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/duong/Documents/GitHub/LudwigGameJam
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64959
+Successfully changed project path to: C:/Users/duong/Documents/GitHub/LudwigGameJam
+C:/Users/duong/Documents/GitHub/LudwigGameJam
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 89.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.17f1 (a4537701e4ab)
+[Subsystems] Discovering subsystems at path D:/Unity/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/duong/Documents/GitHub/LudwigGameJam/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2206)
+    Vendor:   
+    VRAM:     10078 MB
+    Driver:   27.21.14.6192
+Initialize mono
+Mono path[0] = 'D:/Unity/2020.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2020.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002023 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 88.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.096 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1097ms)
+		BeginReloadAssembly (54ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (502ms)
+			LoadAssemblies (52ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (164ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (226ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (89ms)
+				BeforeProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (92ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005013 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 93.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.486 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1487ms)
+		BeginReloadAssembly (146ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1276ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (388ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (568ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (93ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (353ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3737 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 159.2 MB.
+System memory in use after: 159.4 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 4175.
+Total: 3.952700 ms (FindLiveObjects: 0.309500 ms CreateObjectMapping: 0.190100 ms MarkObjects: 3.371100 ms  DeleteObjects: 0.080800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/stadium.png
+  artifactKey: Guid(ba544a043ee782a40a331b15ce8569dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stadium.png using Guid(ba544a043ee782a40a331b15ce8569dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74df3a396fce9b8977b36fb71bf3b7aa') in 0.179947 seconds 
+  Import took 0.185903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.768675 seconds.
+  path: Assets/stadium.png
+  artifactKey: Guid(ba544a043ee782a40a331b15ce8569dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stadium.png using Guid(ba544a043ee782a40a331b15ce8569dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1242a681766f4f20d979d49dd62915e2') in 0.040696 seconds 
+  Import took 0.046994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.015279 seconds.
+  path: Assets/Stadium.prefab
+  artifactKey: Guid(9f89ab7181cb06743ad5074578f87bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stadium.prefab using Guid(9f89ab7181cb06743ad5074578f87bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e505e4a73909b7a2596d30dd6658c32f') in 0.177464 seconds 
+  Import took 0.183658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.554004 seconds.
+  path: Assets/stadium.asset
+  artifactKey: Guid(e248267206ede6c4c8451290567cfdd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stadium.asset using Guid(e248267206ede6c4c8451290567cfdd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ff147a2f308977e39e9e51f7dce941') in 0.026528 seconds 
+  Import took 0.032943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Stadium.prefab
+  artifactKey: Guid(9f89ab7181cb06743ad5074578f87bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stadium.prefab using Guid(9f89ab7181cb06743ad5074578f87bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208fc5108b6da4f729dcd75695dcd364') in 0.016565 seconds 
+  Import took 0.022507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.948104 seconds.
+  path: Assets/stadium
+  artifactKey: Guid(094be5760e5d9c0489b38e8027043fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stadium using Guid(094be5760e5d9c0489b38e8027043fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '654682f43d0116d3ebd2bb7c277e8b34') in 0.002444 seconds 
+  Import took 0.008368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006149 seconds.
+  path: Assets/stadium
+  artifactKey: Guid(094be5760e5d9c0489b38e8027043fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stadium using Guid(094be5760e5d9c0489b38e8027043fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '654682f43d0116d3ebd2bb7c277e8b34') in 0.002289 seconds 
+  Import took 0.009613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.040506 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_0.asset
+  artifactKey: Guid(002fe5b0f487d014286dc83df5f85253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_0.asset using Guid(002fe5b0f487d014286dc83df5f85253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38c48a30b2d2ccc300a2a2dd12abcb1a') in 0.015453 seconds 
+  Import took 0.021610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000835 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_23.asset
+  artifactKey: Guid(d31e45baa2ca78d49895141406bb16f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_23.asset using Guid(d31e45baa2ca78d49895141406bb16f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c1bc2d73b368d32f3e83d0040c32a76') in 0.012826 seconds 
+  Import took 0.020085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_20.asset
+  artifactKey: Guid(08932784193677042aba8920f3acdf5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_20.asset using Guid(08932784193677042aba8920f3acdf5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab04a0df79ff66011bd5cef0fd847c7') in 0.012036 seconds 
+  Import took 0.018860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/TileMap/Assets/Main Blocks_10.asset
+  artifactKey: Guid(41cfc4e7323fce74c823dcd4e1f798d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Main Blocks_10.asset using Guid(41cfc4e7323fce74c823dcd4e1f798d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd236763d6ad63fb4df60c97e1927f2') in 0.012398 seconds 
+  Import took 0.019085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_64.asset
+  artifactKey: Guid(e0ef729a9fa3f8a49b0016288f5aa659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_64.asset using Guid(e0ef729a9fa3f8a49b0016288f5aa659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a7a6287a40707a22c450e6ff4bfb281') in 0.012429 seconds 
+  Import took 0.019673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_81.asset
+  artifactKey: Guid(198cedfc6a4682848a0136e71f5cd07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_81.asset using Guid(198cedfc6a4682848a0136e71f5cd07f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5153f8d18c423b72f8eed5bc5d8bd0a6') in 0.012174 seconds 
+  Import took 0.018210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/TileMap/Assets/Main Blocks_7.asset
+  artifactKey: Guid(6a00f2721c40151418a789fa2bdba00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Main Blocks_7.asset using Guid(6a00f2721c40151418a789fa2bdba00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '291e94b60526ec1e04620625eaaa7401') in 0.009448 seconds 
+  Import took 0.017484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_41.asset
+  artifactKey: Guid(c239f943b0be09644a5547f1f11d59ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_41.asset using Guid(c239f943b0be09644a5547f1f11d59ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1767082c0644b892b165cadc90094da7') in 0.012285 seconds 
+  Import took 0.018529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_59.asset
+  artifactKey: Guid(4f0e44eea149d8f4e8e43f690a844613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_59.asset using Guid(4f0e44eea149d8f4e8e43f690a844613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aeb92aee416b0cd47bb73bf23195fad') in 0.013088 seconds 
+  Import took 0.019417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_37.asset
+  artifactKey: Guid(a06a82ef2eb21824fb63e02972c919d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_37.asset using Guid(a06a82ef2eb21824fb63e02972c919d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec669c71715709ce2a9d32755b9cc950') in 0.013370 seconds 
+  Import took 0.019568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_50.asset
+  artifactKey: Guid(83f9caacb994a874d9f05dad1001e523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_50.asset using Guid(83f9caacb994a874d9f05dad1001e523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b01c352ff3db81f956c682557dba1ca') in 0.014626 seconds 
+  Import took 0.020621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_44.asset
+  artifactKey: Guid(ca32661fff957c241b6263c662aadd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_44.asset using Guid(ca32661fff957c241b6263c662aadd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e63205794a0c34f3ed42bc82024e6b') in 0.010711 seconds 
+  Import took 0.016114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_11.asset
+  artifactKey: Guid(fbe065565f9fa1046afbb79521aaa1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_11.asset using Guid(fbe065565f9fa1046afbb79521aaa1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5a06b01dccf1ac8263fe62672c5d353') in 0.011083 seconds 
+  Import took 0.018824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/TileMap/Assets/Main Blocks_6.asset
+  artifactKey: Guid(981ee8dd0e42cfb4fabfbc6d0ff26771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Main Blocks_6.asset using Guid(981ee8dd0e42cfb4fabfbc6d0ff26771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27cc7ab02ad704152b586aad2b4f4b50') in 0.009219 seconds 
+  Import took 0.016054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_4.asset
+  artifactKey: Guid(1264639133000674b875188485daf786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_4.asset using Guid(1264639133000674b875188485daf786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '355d49f88b05c2f62dbcb410353ac50a') in 0.014436 seconds 
+  Import took 0.020732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_15.asset
+  artifactKey: Guid(610b5a108ea557c4a9c965021ed596f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_15.asset using Guid(610b5a108ea557c4a9c965021ed596f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '713239caf6bbd3d2f3f1a660f731cb38') in 0.011447 seconds 
+  Import took 0.017867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_71.asset
+  artifactKey: Guid(7ee7b719366981a4d81c012705ab0732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_71.asset using Guid(7ee7b719366981a4d81c012705ab0732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08930cf9aa6e0bbefe0e8d27dc874ec6') in 0.010871 seconds 
+  Import took 0.016996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000621 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_6.asset
+  artifactKey: Guid(46cb02a779eb4b347adf4f066528fc68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_6.asset using Guid(46cb02a779eb4b347adf4f066528fc68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '350ebdecf11211b8ef7dd944a48edc18') in 0.012953 seconds 
+  Import took 0.019124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_18.asset
+  artifactKey: Guid(a2b6b328a001c6c419fb7bf49c907829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_18.asset using Guid(a2b6b328a001c6c419fb7bf49c907829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e78db3b1f4bd0eaa3fe25b72378316c5') in 0.011585 seconds 
+  Import took 0.017321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_38.asset
+  artifactKey: Guid(1c63264321196b84b8743acdeed1bd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_38.asset using Guid(1c63264321196b84b8743acdeed1bd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2137e04ec546a5e7dc907a6ac59a23e') in 0.016679 seconds 
+  Import took 0.022048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_62.asset
+  artifactKey: Guid(2648dbf8e3583904ab8a12fd73107291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_62.asset using Guid(2648dbf8e3583904ab8a12fd73107291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b545f11d303ec5337a792625ec0e90') in 0.011011 seconds 
+  Import took 0.018087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/TileMap/Assets/Main Blocks_9.asset
+  artifactKey: Guid(3dd06e336debf984f875d3701634eb1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Main Blocks_9.asset using Guid(3dd06e336debf984f875d3701634eb1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4251fb0a56e9d9a196dca9f6eeaa2d43') in 0.008765 seconds 
+  Import took 0.014563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/TileMap/Assets/props_24.asset
+  artifactKey: Guid(6df97a9b4a032054d85e962ecba55734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/props_24.asset using Guid(6df97a9b4a032054d85e962ecba55734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52040a589dca8cfa23cd31f36e978c6f') in 0.011069 seconds 
+  Import took 0.019198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_47.asset
+  artifactKey: Guid(347c9c0cbc7f61542b62d2aa3d987fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_47.asset using Guid(347c9c0cbc7f61542b62d2aa3d987fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6e017d76d1e8296918cd93b43c71dde') in 0.011676 seconds 
+  Import took 0.017594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_48.asset
+  artifactKey: Guid(b8f274b7c8bf23e4b961a4eb49db3272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_48.asset using Guid(b8f274b7c8bf23e4b961a4eb49db3272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'befedeff61bcaab44a65dd2381354f8a') in 0.011716 seconds 
+  Import took 0.017310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_65.asset
+  artifactKey: Guid(3eef00e461f15f34893b326d5fd18610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_65.asset using Guid(3eef00e461f15f34893b326d5fd18610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78c4b32d68bd657f85c533fb7707913') in 0.012650 seconds 
+  Import took 0.018569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_7.asset
+  artifactKey: Guid(2efb75844e9394d46881fb4ff2c6aeba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_7.asset using Guid(2efb75844e9394d46881fb4ff2c6aeba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e418af3e24f9cf10acb7bebe9e404041') in 0.016997 seconds 
+  Import took 0.023366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_70.asset
+  artifactKey: Guid(d2805c6e7cda91448a752f1277bcf30f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_70.asset using Guid(d2805c6e7cda91448a752f1277bcf30f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4440b68d5be8b2be9bdcb872e9fa1ab9') in 0.011358 seconds 
+  Import took 0.017574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/TileMap/Assets/Main Blocks_3.asset
+  artifactKey: Guid(0757c80e63159f445affbfc6e3a9c7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Main Blocks_3.asset using Guid(0757c80e63159f445affbfc6e3a9c7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e270704af915088b6514834d733fd75') in 0.010617 seconds 
+  Import took 0.016192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_22.asset
+  artifactKey: Guid(11fb5eaf947e16c42994cf2ee6f7059a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_22.asset using Guid(11fb5eaf947e16c42994cf2ee6f7059a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a5b7a7830591d4d0c4f41d313bdebd') in 0.010484 seconds 
+  Import took 0.016995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_72.asset
+  artifactKey: Guid(8dfe1b0e0cdfcd34b9790cd65de0e802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_72.asset using Guid(8dfe1b0e0cdfcd34b9790cd65de0e802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c59c1c6b74979da5c67c9cf54ea0195c') in 0.013006 seconds 
+  Import took 0.018671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/TileMap/Assets/Main Blocks_2.asset
+  artifactKey: Guid(2863e57d5b645004896479c9fa5473d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Main Blocks_2.asset using Guid(2863e57d5b645004896479c9fa5473d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a16255ee17825f2ecdd1eb6fe8eb766') in 0.009637 seconds 
+  Import took 0.016580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_51.asset
+  artifactKey: Guid(b3356244a3b950948969f6ad44cd3e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_51.asset using Guid(b3356244a3b950948969f6ad44cd3e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d7ad91cdb67f3e887f493aec67c756') in 0.010980 seconds 
+  Import took 0.017438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_29.asset
+  artifactKey: Guid(2432d8eb27688c347acf4d8c4fcfa395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_29.asset using Guid(2432d8eb27688c347acf4d8c4fcfa395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bfc817eeab6938d8ae7cccefd60be3b') in 0.013220 seconds 
+  Import took 0.020451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_43.asset
+  artifactKey: Guid(b36f28efc5b1f854eb3bf7f38f13dbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_43.asset using Guid(b36f28efc5b1f854eb3bf7f38f13dbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef67487241779834cf635248f6c493c') in 0.013266 seconds 
+  Import took 0.019184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/TileMap/Assets/Main Blocks_1.asset
+  artifactKey: Guid(272ae7becb8fc4943b68bf4f50362dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Main Blocks_1.asset using Guid(272ae7becb8fc4943b68bf4f50362dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed90c6ffedae9f8594e564131c53dc55') in 0.011862 seconds 
+  Import took 0.019500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/TileMap/Assets/Main Blocks_0.asset
+  artifactKey: Guid(6fdfbe36cc66548418b3d43253acd3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Main Blocks_0.asset using Guid(6fdfbe36cc66548418b3d43253acd3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a98a55033b3666ae14e693d1e07f85') in 0.009153 seconds 
+  Import took 0.020540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_25.asset
+  artifactKey: Guid(92456ff3657c1864b95e39d25df8ac7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_25.asset using Guid(92456ff3657c1864b95e39d25df8ac7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adec40eaf337d1e6c423b21a52dac726') in 0.011590 seconds 
+  Import took 0.017747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_83.asset
+  artifactKey: Guid(922902c37391e644e82054ac5f0a04a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_83.asset using Guid(922902c37391e644e82054ac5f0a04a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0b75727016af9b386ad2c10b522aeb2') in 0.011484 seconds 
+  Import took 0.017142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_54.asset
+  artifactKey: Guid(a5df034ccaabe1046a708223b23c3836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_54.asset using Guid(a5df034ccaabe1046a708223b23c3836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c91060bc609e18caacd249c2c403c8d4') in 0.013852 seconds 
+  Import took 0.019605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000667 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_58.asset
+  artifactKey: Guid(7b74eb1a37c6b2e45ba83b2bb38b9958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_58.asset using Guid(7b74eb1a37c6b2e45ba83b2bb38b9958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '510e6634a52dba4f5021bf2896ebfcf5') in 0.016865 seconds 
+  Import took 0.022878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_61.asset
+  artifactKey: Guid(76296caede52ac042968f86cd8d4379c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_61.asset using Guid(76296caede52ac042968f86cd8d4379c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84aeec148ea44b3b89fd52f8e7d916fb') in 0.014246 seconds 
+  Import took 0.022000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_12.asset
+  artifactKey: Guid(218a2250b72e8bd4689be38c2fa63e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_12.asset using Guid(218a2250b72e8bd4689be38c2fa63e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71de5bfb69f904ccd7e7e541130f243f') in 0.012263 seconds 
+  Import took 0.019550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_42.asset
+  artifactKey: Guid(0b1f27493ebee4846b216b9aebca85b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_42.asset using Guid(0b1f27493ebee4846b216b9aebca85b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d4b7910a8d4ec81990ef882999626ae') in 0.014163 seconds 
+  Import took 0.021016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_14.asset
+  artifactKey: Guid(fba10d47bc75f79439cd2147cfe2e677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_14.asset using Guid(fba10d47bc75f79439cd2147cfe2e677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af93d4830e7870b33641e8077d968f37') in 0.011833 seconds 
+  Import took 0.017947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_30.asset
+  artifactKey: Guid(24e82b64e3516a2459cd3a504537131b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_30.asset using Guid(24e82b64e3516a2459cd3a504537131b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '259c0fabe72e3031634b9ccc1e6cf5eb') in 0.013171 seconds 
+  Import took 0.019461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_67.asset
+  artifactKey: Guid(03b519a1db24ac744b3c9a89a2ddc696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_67.asset using Guid(03b519a1db24ac744b3c9a89a2ddc696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f88f7ff03f43f50ff6d0ee56c4cfb72') in 0.012469 seconds 
+  Import took 0.018734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_8.asset
+  artifactKey: Guid(e2d680e9ea11f874090e39b8ce00eeba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_8.asset using Guid(e2d680e9ea11f874090e39b8ce00eeba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a332a2b6392d546e24cff9b9f0798830') in 0.012131 seconds 
+  Import took 0.018870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/TileMap/Assets/Main Blocks_5.asset
+  artifactKey: Guid(f0908be186a99bb4c9a31e86d63d2573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Main Blocks_5.asset using Guid(f0908be186a99bb4c9a31e86d63d2573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded2f35aecf218b16fea75caad52c7d2') in 0.009846 seconds 
+  Import took 0.015360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_2.asset
+  artifactKey: Guid(ceb6bd919f3e7284bbd4a7e4db2c6f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_2.asset using Guid(ceb6bd919f3e7284bbd4a7e4db2c6f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec4f0e5be3a1c1d68daff816d5fcb94') in 0.013367 seconds 
+  Import took 0.019448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_32.asset
+  artifactKey: Guid(b4de22258f3d0804f9443336f54b255f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_32.asset using Guid(b4de22258f3d0804f9443336f54b255f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e265cd4cf364e1f5969c8069a3d8cf72') in 0.012608 seconds 
+  Import took 0.019284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_52.asset
+  artifactKey: Guid(93a26e218a59b7641a81ad3d5289cae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_52.asset using Guid(93a26e218a59b7641a81ad3d5289cae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed9c6428eeb4ff884f7bec1c7a25db7') in 0.011277 seconds 
+  Import took 0.018811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_21.asset
+  artifactKey: Guid(c76aea89128a1ca4a9e3dc79a2c31479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_21.asset using Guid(c76aea89128a1ca4a9e3dc79a2c31479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a976d57d7848f0e089ba9d3246a34e3') in 0.012494 seconds 
+  Import took 0.019093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_56.asset
+  artifactKey: Guid(126e1adff6fd6a140b7961cfff598c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_56.asset using Guid(126e1adff6fd6a140b7961cfff598c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7fa51916f928d3a4c491c9c446358d0') in 0.011476 seconds 
+  Import took 0.017108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_1.asset
+  artifactKey: Guid(1a66a7c00affa2844b589aa8f9947230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_1.asset using Guid(1a66a7c00affa2844b589aa8f9947230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '643f351e0b87ff3c525ab132d1209349') in 0.012243 seconds 
+  Import took 0.017888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_45.asset
+  artifactKey: Guid(23b859a2b225ed74ebcd5d09a10657a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_45.asset using Guid(23b859a2b225ed74ebcd5d09a10657a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3096f5cae69b73778c543e8e135e21ba') in 0.012704 seconds 
+  Import took 0.019493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_16.asset
+  artifactKey: Guid(e2d13ec95691b344c858e3b98d33d209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_16.asset using Guid(e2d13ec95691b344c858e3b98d33d209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '750e89e863261fd30bb520bf072c10e9') in 0.010709 seconds 
+  Import took 0.017351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_27.asset
+  artifactKey: Guid(9808b86a561e3ca44bfc61fd0df23f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_27.asset using Guid(9808b86a561e3ca44bfc61fd0df23f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '994e2d0ed099158ddfe74cfefa473155') in 0.013379 seconds 
+  Import took 0.018950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_75.asset
+  artifactKey: Guid(c3071c72ca972c2448d25f55746804d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_75.asset using Guid(c3071c72ca972c2448d25f55746804d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f46a3afef438453ee23c2c234d4c8c') in 0.012388 seconds 
+  Import took 0.018364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_77.asset
+  artifactKey: Guid(2397b8fc076ffb849b09b257907df210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_77.asset using Guid(2397b8fc076ffb849b09b257907df210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41f73ea5847658d3d6f868f9779c2e0e') in 0.010953 seconds 
+  Import took 0.017706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_0.asset
+  artifactKey: Guid(e3f976a0b40d818429116a7c88dedee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_0.asset using Guid(e3f976a0b40d818429116a7c88dedee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8800c31bb7c8125978092205296c1525') in 0.014707 seconds 
+  Import took 0.021975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_6.asset
+  artifactKey: Guid(8745abbfacfe5ed45b04642587d5e0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_6.asset using Guid(8745abbfacfe5ed45b04642587d5e0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4b97185ae084d5852224fff52a8d958') in 0.010626 seconds 
+  Import took 0.016058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_5.asset
+  artifactKey: Guid(7159111a5bbb0bd4e93f7ed0f47ef136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_5.asset using Guid(7159111a5bbb0bd4e93f7ed0f47ef136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d7585ed724bf16000aee358b95696a') in 0.014863 seconds 
+  Import took 0.020149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_60.asset
+  artifactKey: Guid(6ca7b47e74b66bf419d3e41b9c541d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_60.asset using Guid(6ca7b47e74b66bf419d3e41b9c541d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e7446a6ca7cdd73b7bfbd299ba4b3b') in 0.011303 seconds 
+  Import took 0.017301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_24.asset
+  artifactKey: Guid(3f714121e8c78ce4d9bca37737578afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_24.asset using Guid(3f714121e8c78ce4d9bca37737578afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe62d6eec635003eceb8171e5dba162') in 0.013990 seconds 
+  Import took 0.021342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/TileMap/Assets/Main Blocks_4.asset
+  artifactKey: Guid(658e12a84c2e7384f9d9ba1fe3e9f9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Main Blocks_4.asset using Guid(658e12a84c2e7384f9d9ba1fe3e9f9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b9168cbe03968b2eb5449ff92bbaa37') in 0.009376 seconds 
+  Import took 0.015226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_28.asset
+  artifactKey: Guid(de703f059c2a21c4e8024796e4541a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_28.asset using Guid(de703f059c2a21c4e8024796e4541a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa432718c37804584494baf9895c2ae') in 0.011200 seconds 
+  Import took 0.017754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_19.asset
+  artifactKey: Guid(62bb8ddcaf06f1342a2a2095cf2fc974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_19.asset using Guid(62bb8ddcaf06f1342a2a2095cf2fc974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc7284f6f18d33c4c203e31afd0c742') in 0.011793 seconds 
+  Import took 0.018603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_9.asset
+  artifactKey: Guid(2574ff232f30c4a4ab3446a92b649ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_9.asset using Guid(2574ff232f30c4a4ab3446a92b649ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a302d68afeb5d6afcfe11bc0961886') in 0.011045 seconds 
+  Import took 0.016808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_76.asset
+  artifactKey: Guid(96c6fefbd2e36a849b2490d405946013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_76.asset using Guid(96c6fefbd2e36a849b2490d405946013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06693d964767023daf497e455fa7c041') in 0.011605 seconds 
+  Import took 0.018131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_1.asset
+  artifactKey: Guid(6f075cc21ef060b4182b31398e46fe5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_1.asset using Guid(6f075cc21ef060b4182b31398e46fe5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f1b1887ecd9c93143972b2704393231') in 0.013211 seconds 
+  Import took 0.019199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/TileMap/Assets/Main Blocks_8.asset
+  artifactKey: Guid(b9113552400cfff4ea62da2eb26ac9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Main Blocks_8.asset using Guid(b9113552400cfff4ea62da2eb26ac9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce8405f7cc0fbb78b1adbfe2e65edd4d') in 0.009900 seconds 
+  Import took 0.016803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_4.asset
+  artifactKey: Guid(0c0d86aea1ce5e64692b5d33ccd23f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_4.asset using Guid(0c0d86aea1ce5e64692b5d33ccd23f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca6720cad0375db676f5c49b51578c1') in 0.012364 seconds 
+  Import took 0.018646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_35.asset
+  artifactKey: Guid(b5267ab5378d0bc44b994f1c67cfaa86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_35.asset using Guid(b5267ab5378d0bc44b994f1c67cfaa86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50758b9aa9b8e75aaee333b8b45a7de') in 0.015773 seconds 
+  Import took 0.022032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_36.asset
+  artifactKey: Guid(6ddd91334037a6d4cb73a4f90ad0b13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_36.asset using Guid(6ddd91334037a6d4cb73a4f90ad0b13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8726e743f90bd1b36b688ba8d69394ae') in 0.011585 seconds 
+  Import took 0.019492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_49.asset
+  artifactKey: Guid(4ab04f8387899524da90708cafd60c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_49.asset using Guid(4ab04f8387899524da90708cafd60c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee095815ed1fee165dd866eac5c330d3') in 0.012986 seconds 
+  Import took 0.019314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_74.asset
+  artifactKey: Guid(963eab31f13099243957e1c038d50752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_74.asset using Guid(963eab31f13099243957e1c038d50752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05db9a0234d96ec6af445b3a1a82a19b') in 0.011946 seconds 
+  Import took 0.017478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_78.asset
+  artifactKey: Guid(a1fb776bae4463e49bcf82a62c677501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_78.asset using Guid(a1fb776bae4463e49bcf82a62c677501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7267eaea8df86efc3a12a026b91f9e10') in 0.011020 seconds 
+  Import took 0.017336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_57.asset
+  artifactKey: Guid(69bc376462d267842aeba63042721111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_57.asset using Guid(69bc376462d267842aeba63042721111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f57debd0f3b40154dab5edc806b921d5') in 0.014363 seconds 
+  Import took 0.021224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_82.asset
+  artifactKey: Guid(3e32c5513be37a64a87f7372e3698847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_82.asset using Guid(3e32c5513be37a64a87f7372e3698847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14a196ba4e3300a9672fc3748303d4bd') in 0.011492 seconds 
+  Import took 0.017142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_55.asset
+  artifactKey: Guid(ef281b92a92eda84a9187a662bd043e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_55.asset using Guid(ef281b92a92eda84a9187a662bd043e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61f667ff1e763ecdf255c050bbbd84f5') in 0.013763 seconds 
+  Import took 0.020162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_26.asset
+  artifactKey: Guid(c57cde7659da9e0468794048e79684c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_26.asset using Guid(c57cde7659da9e0468794048e79684c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef6502ebd8a845cc67a8f2d1491ec52') in 0.012376 seconds 
+  Import took 0.018126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_3.asset
+  artifactKey: Guid(8d2d495eebfa0e74b9e9ca85c5ad00e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_3.asset using Guid(8d2d495eebfa0e74b9e9ca85c5ad00e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd19867b9943f7109fcc0947eead0212') in 0.011283 seconds 
+  Import took 0.018424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_66.asset
+  artifactKey: Guid(7f9c1a8bd195ac54aa67b7c4d2295409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_66.asset using Guid(7f9c1a8bd195ac54aa67b7c4d2295409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e141ee9388e10d3893177458b774d5') in 0.012164 seconds 
+  Import took 0.018073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_63.asset
+  artifactKey: Guid(0a22f9827b994dd4bb6f188758cee51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_63.asset using Guid(0a22f9827b994dd4bb6f188758cee51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '336b123ee52906715f7ae040fa1df512') in 0.011887 seconds 
+  Import took 0.018503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_79.asset
+  artifactKey: Guid(c40f29ad83c847b4f9b4d1acfe29e9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_79.asset using Guid(c40f29ad83c847b4f9b4d1acfe29e9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a389afd3d1bf584e74a4693c489c9a') in 0.013760 seconds 
+  Import took 0.019335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_14.asset
+  artifactKey: Guid(4b315b72018569642b1ea80c10212ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_14.asset using Guid(4b315b72018569642b1ea80c10212ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe167a548717f893eecefe3246ac4b48') in 0.011957 seconds 
+  Import took 0.018843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_11.asset
+  artifactKey: Guid(8fed9ed4220fe5e4fa40f9feb56ec29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_11.asset using Guid(8fed9ed4220fe5e4fa40f9feb56ec29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc3f7338f6a8f5cc2a469c92090f829') in 0.016932 seconds 
+  Import took 0.025230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_34.asset
+  artifactKey: Guid(b379b17381166254f996848e6b87ab28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_34.asset using Guid(b379b17381166254f996848e6b87ab28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b96a816160fdc5f560d874d209dc51dd') in 0.015154 seconds 
+  Import took 0.021190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_44.asset
+  artifactKey: Guid(39ab6dc3ba9ba9045a2ada28ace513e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_44.asset using Guid(39ab6dc3ba9ba9045a2ada28ace513e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c626ee0175caf581ef0b6d64c7a8d26') in 0.011681 seconds 
+  Import took 0.017113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_87.asset
+  artifactKey: Guid(0cbce634a4a2943468ce3bb96f241290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_87.asset using Guid(0cbce634a4a2943468ce3bb96f241290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf8dbc3cf33a786aa55cc04fc7e8e09') in 0.014160 seconds 
+  Import took 0.021361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_62.asset
+  artifactKey: Guid(fa53a581e00955444922b2783c4c43ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_62.asset using Guid(fa53a581e00955444922b2783c4c43ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c8e1c7581f1f4121610a39e5b1ab8a2') in 0.012247 seconds 
+  Import took 0.017822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_91.asset
+  artifactKey: Guid(d6f9ad5c73ea49e4393f7cf289db94cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_91.asset using Guid(d6f9ad5c73ea49e4393f7cf289db94cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64bc59bf06b0bed9aafefd3032324560') in 0.013300 seconds 
+  Import took 0.020227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_71.asset
+  artifactKey: Guid(0331400d299013d4582e0121dc75031a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_71.asset using Guid(0331400d299013d4582e0121dc75031a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2135e6f04b72610930da4b98a0cf5451') in 0.014654 seconds 
+  Import took 0.021658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_64.asset
+  artifactKey: Guid(a2419b8bce9f2c244969eba4e2134643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_64.asset using Guid(a2419b8bce9f2c244969eba4e2134643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1caa6aad9d6c1c666076bcd4377692') in 0.011027 seconds 
+  Import took 0.017244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_16.asset
+  artifactKey: Guid(6a3278aa935a35a46869e43a148e981d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_16.asset using Guid(6a3278aa935a35a46869e43a148e981d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689ee788cf89a5db7cd9784ee89102d2') in 0.013382 seconds 
+  Import took 0.019597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_84.asset
+  artifactKey: Guid(b424073c17661b44b9bab530731a372f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_84.asset using Guid(b424073c17661b44b9bab530731a372f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '921afa9d4e11878f8516938f6567f212') in 0.014668 seconds 
+  Import took 0.021435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_75.asset
+  artifactKey: Guid(4f6bc4d3309bad84e8fc4311f065adc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_75.asset using Guid(4f6bc4d3309bad84e8fc4311f065adc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a70bca7bfbc3441310261da8f492490e') in 0.011699 seconds 
+  Import took 0.017948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_9.asset
+  artifactKey: Guid(291e5388336681f43b6aff53d05d4db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_9.asset using Guid(291e5388336681f43b6aff53d05d4db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0fa4a03311601fba7e746bc56d3ed43') in 0.012394 seconds 
+  Import took 0.018122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_54.asset
+  artifactKey: Guid(f5eeb9f7c460b184281edbf400786d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_54.asset using Guid(f5eeb9f7c460b184281edbf400786d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '739496c34c66ac261b56276e46bcbe35') in 0.013270 seconds 
+  Import took 0.020677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_65.asset
+  artifactKey: Guid(60f65a439fb2daa4a81e21bc88f93602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_65.asset using Guid(60f65a439fb2daa4a81e21bc88f93602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '339dc521f83a1b709e577dd9ace90f9e') in 0.012668 seconds 
+  Import took 0.020317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_100.asset
+  artifactKey: Guid(dadf504980859ce438281ff44b70410e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_100.asset using Guid(dadf504980859ce438281ff44b70410e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '826458a823fd29a90c28e005194e038a') in 0.013888 seconds 
+  Import took 0.019724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_41.asset
+  artifactKey: Guid(881ef97c5b47ff84a909fd4b6cf7d532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_41.asset using Guid(881ef97c5b47ff84a909fd4b6cf7d532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8cde26feaed5abcdf625b0854a25e44') in 0.011268 seconds 
+  Import took 0.018103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_24.asset
+  artifactKey: Guid(55c8e7ac85337394784c038c6edc7e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_24.asset using Guid(55c8e7ac85337394784c038c6edc7e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5d69f95276edfb728750c5082a944ca') in 0.011502 seconds 
+  Import took 0.018105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_68.asset
+  artifactKey: Guid(6c265e2b14bca334fa068988c2ee366f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_68.asset using Guid(6c265e2b14bca334fa068988c2ee366f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6447d8aa0ff34d5a4042b3d252eebd7') in 0.011411 seconds 
+  Import took 0.017398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_72.asset
+  artifactKey: Guid(b8cd68a26b1d29544bc21fffc5af42fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_72.asset using Guid(b8cd68a26b1d29544bc21fffc5af42fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71df1927e19209287e41ab3df79b1701') in 0.015175 seconds 
+  Import took 0.020954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_8.asset
+  artifactKey: Guid(d73870bf8bce3c24381daa6408e423b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_8.asset using Guid(d73870bf8bce3c24381daa6408e423b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b56e875050b83d75b50f1a033f61ed2') in 0.010618 seconds 
+  Import took 0.017025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_116.asset
+  artifactKey: Guid(6fe9510f0ad7f354586058cfd9435cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_116.asset using Guid(6fe9510f0ad7f354586058cfd9435cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0260432d7d467380f93c9b7893bac881') in 0.013498 seconds 
+  Import took 0.020952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_120.asset
+  artifactKey: Guid(cce31affa16da404f847095fd8344ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_120.asset using Guid(cce31affa16da404f847095fd8344ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5475407ba84b3c66e9d822c6a3b9d82') in 0.013020 seconds 
+  Import took 0.018843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_114.asset
+  artifactKey: Guid(5aa421980c5bd704192d7798ae65dcf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_114.asset using Guid(5aa421980c5bd704192d7798ae65dcf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb0adc788e416b88f4d44cde56b649ed') in 0.012696 seconds 
+  Import took 0.018199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_107.asset
+  artifactKey: Guid(2e121e46f96bbf14887c015824f121f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_107.asset using Guid(2e121e46f96bbf14887c015824f121f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '823f06dd9baeaa5c8b93e31765b5df29') in 0.011919 seconds 
+  Import took 0.018100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_40.asset
+  artifactKey: Guid(71aff40bbe33eac46b8d5e74e3080d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_40.asset using Guid(71aff40bbe33eac46b8d5e74e3080d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ebbc41e79f897ce911ecc0bbe44cc0') in 0.011636 seconds 
+  Import took 0.018882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_73.asset
+  artifactKey: Guid(e11ebad5dc0ef9546a37167aaa4ef17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_73.asset using Guid(e11ebad5dc0ef9546a37167aaa4ef17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3d5cb943adb8563e8800cb3675b8af') in 0.010610 seconds 
+  Import took 0.017037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_82.asset
+  artifactKey: Guid(393bb3b68c003e0409fa7ad5788f1069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_82.asset using Guid(393bb3b68c003e0409fa7ad5788f1069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3760c021b1b77e34f86e331c88061dc9') in 0.010683 seconds 
+  Import took 0.016614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_131.asset
+  artifactKey: Guid(d1d969dde379efd4bb836b3dfb3ed68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_131.asset using Guid(d1d969dde379efd4bb836b3dfb3ed68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '163e1bd46d45f144f06a44f59e2b9b05') in 0.014077 seconds 
+  Import took 0.020151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_121.asset
+  artifactKey: Guid(339a41d02be01f643a5c636ebab8ab3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_121.asset using Guid(339a41d02be01f643a5c636ebab8ab3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d7e3042bfc4192a287a9a3e0e54f7f') in 0.011610 seconds 
+  Import took 0.017510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_92.asset
+  artifactKey: Guid(abaad0f23eca9634cb90f4c0ac19a742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_92.asset using Guid(abaad0f23eca9634cb90f4c0ac19a742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '409c173a6a475737172fb4c2baefdb71') in 0.012620 seconds 
+  Import took 0.019288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_50.asset
+  artifactKey: Guid(22c76ec28240efc4cbc96c1e06746b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_50.asset using Guid(22c76ec28240efc4cbc96c1e06746b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76a23c5782d58a657354878041e2098') in 0.013759 seconds 
+  Import took 0.019728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_38.asset
+  artifactKey: Guid(41b970e4bb9943842b7af104f33ba619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_38.asset using Guid(41b970e4bb9943842b7af104f33ba619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd40635fd95682fb2aff9921a26b1f1') in 0.012927 seconds 
+  Import took 0.018633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_109.asset
+  artifactKey: Guid(52f0a1de65f3c1d45aed847ac0d377fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_109.asset using Guid(52f0a1de65f3c1d45aed847ac0d377fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '843aea399ac328fccb94f7688ee0b7a7') in 0.013292 seconds 
+  Import took 0.020151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_96.asset
+  artifactKey: Guid(802b411a9de504043bc20e84a1cf5220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_96.asset using Guid(802b411a9de504043bc20e84a1cf5220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b61434aa8f83ba08c7bfaabed8b04d89') in 0.012389 seconds 
+  Import took 0.020140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_58.asset
+  artifactKey: Guid(7ad0498c156c27648938f3171a770464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_58.asset using Guid(7ad0498c156c27648938f3171a770464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db4eb9913f3d2f13fb7f8e667ec0a5d9') in 0.011507 seconds 
+  Import took 0.017468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_119.asset
+  artifactKey: Guid(6671eec5738e1294aab225c5eee8cd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_119.asset using Guid(6671eec5738e1294aab225c5eee8cd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93ec02a04e781bce7e3505eb36001bf1') in 0.014395 seconds 
+  Import took 0.020338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_49.asset
+  artifactKey: Guid(9ef1b2b82356de6458e08f5fc19ef05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_49.asset using Guid(9ef1b2b82356de6458e08f5fc19ef05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa94c80e85c68e51a4e612b42bce3c6f') in 0.010540 seconds 
+  Import took 0.016839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_27.asset
+  artifactKey: Guid(54f6ef47247b6c14ba553d1d3ce8f99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_27.asset using Guid(54f6ef47247b6c14ba553d1d3ce8f99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7bd2b9037cc65fdc577b8b4fd96b46') in 0.012881 seconds 
+  Import took 0.020868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_79.asset
+  artifactKey: Guid(8209784d7138cd54bb311b9e2e9d4132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_79.asset using Guid(8209784d7138cd54bb311b9e2e9d4132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6eb3a48073cae18f3b2137211d66e39') in 0.011706 seconds 
+  Import took 0.018117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000765 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_105.asset
+  artifactKey: Guid(f4644cc41a017c74e9c6713562ed405a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_105.asset using Guid(f4644cc41a017c74e9c6713562ed405a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '403d6417b80d49aa940b75b29ca667d7') in 0.011180 seconds 
+  Import took 0.018086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_77.asset
+  artifactKey: Guid(9d5e2fcddc741b346a0d0e607a4e3799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_77.asset using Guid(9d5e2fcddc741b346a0d0e607a4e3799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b13a68cd8c47e0cc0fce3d642222c8c') in 0.013544 seconds 
+  Import took 0.020261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_30.asset
+  artifactKey: Guid(64f92da822ec5944c9927c45c62ef43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_30.asset using Guid(64f92da822ec5944c9927c45c62ef43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b78f926b6b4978b127bf6ad38c454c') in 0.011367 seconds 
+  Import took 0.017944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_104.asset
+  artifactKey: Guid(1575ea7aa014b934d9b310885a388060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_104.asset using Guid(1575ea7aa014b934d9b310885a388060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d2395d6416e21f4b013de8d9aadddd') in 0.012206 seconds 
+  Import took 0.018585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_57.asset
+  artifactKey: Guid(d1105538115e7c849b0fcf9bdb03be79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_57.asset using Guid(d1105538115e7c849b0fcf9bdb03be79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc8b2601330491ac3cca81f95270070d') in 0.011044 seconds 
+  Import took 0.016808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_113.asset
+  artifactKey: Guid(74319851ee6957c459f4881e90a0433b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_113.asset using Guid(74319851ee6957c459f4881e90a0433b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a4e57da27a163269695ad9145c0379') in 0.013761 seconds 
+  Import took 0.021358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_101.asset
+  artifactKey: Guid(40d6e669cfa6f7f4fb67abac769d80a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_101.asset using Guid(40d6e669cfa6f7f4fb67abac769d80a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f4326f24dad2130a5e5b909d1aff2f9') in 0.010944 seconds 
+  Import took 0.017897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_21.asset
+  artifactKey: Guid(8a879b2f8c7f31641a74e0941c782b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_21.asset using Guid(8a879b2f8c7f31641a74e0941c782b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6926947e1fb3811b1f824da77f1caba') in 0.012411 seconds 
+  Import took 0.018481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_63.asset
+  artifactKey: Guid(907ca3d13776c064da4acd00feec9a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_63.asset using Guid(907ca3d13776c064da4acd00feec9a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ff4eaa87872eb4faca1c703edc0871') in 0.014318 seconds 
+  Import took 0.020018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_117.asset
+  artifactKey: Guid(334518f7eb096b842b00b6856ba14aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_117.asset using Guid(334518f7eb096b842b00b6856ba14aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2764dff0be37dc47829cb3ced6ca70a7') in 0.010795 seconds 
+  Import took 0.016590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_111.asset
+  artifactKey: Guid(4e33860b814b7fc479d7e47d5f64086b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_111.asset using Guid(4e33860b814b7fc479d7e47d5f64086b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfaa3a706ac207c47762a8e85f3d3de2') in 0.012216 seconds 
+  Import took 0.019199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_110.asset
+  artifactKey: Guid(72d5da2bb654ba04782fa6627b05696f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_110.asset using Guid(72d5da2bb654ba04782fa6627b05696f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd968ba783d3c64470e01690bd0f47365') in 0.012988 seconds 
+  Import took 0.019199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_122.asset
+  artifactKey: Guid(1048a041f777b1a48ad3814fa44f3eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_122.asset using Guid(1048a041f777b1a48ad3814fa44f3eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52577eecf2229c5dbb329cb3171bc178') in 0.011647 seconds 
+  Import took 0.018049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_67.asset
+  artifactKey: Guid(17bf774e51b24834182bd6dd637b7829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_67.asset using Guid(17bf774e51b24834182bd6dd637b7829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '545e7088525a056376fd3ff03a6acb3c') in 0.011232 seconds 
+  Import took 0.017792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_78.asset
+  artifactKey: Guid(7f882b6ccb8a65b4e8732e305bcfa336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_78.asset using Guid(7f882b6ccb8a65b4e8732e305bcfa336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda9c693ddba61d8dd224a28556e4d84') in 0.012035 seconds 
+  Import took 0.018814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_18.asset
+  artifactKey: Guid(afe6fdddcbb7451469ce2fa8d3c60332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_18.asset using Guid(afe6fdddcbb7451469ce2fa8d3c60332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c82328017dcbe82c6a1e2d7cfe58f53') in 0.012025 seconds 
+  Import took 0.017510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_97.asset
+  artifactKey: Guid(5622fbedbc537e34182f1c8319834d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_97.asset using Guid(5622fbedbc537e34182f1c8319834d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da71f3958145df88ceaffa6287cb42a') in 0.013079 seconds 
+  Import took 0.019082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_80.asset
+  artifactKey: Guid(ef617639a9ed6124cb3c2719d32f90b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_80.asset using Guid(ef617639a9ed6124cb3c2719d32f90b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '337c1de196fb804e9b129c52504cad70') in 0.012453 seconds 
+  Import took 0.018932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_13.asset
+  artifactKey: Guid(a7681a3bdba7b044d8609b67fb9f22c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_13.asset using Guid(a7681a3bdba7b044d8609b67fb9f22c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17390cdb77ccaecab0a15823500d214d') in 0.012486 seconds 
+  Import took 0.018066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_123.asset
+  artifactKey: Guid(af935adc016dc9d4995dc75036ddae2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_123.asset using Guid(af935adc016dc9d4995dc75036ddae2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd698a49bbfbaa4c1e0e5e2439f8a9a1') in 0.015144 seconds 
+  Import took 0.021362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_118.asset
+  artifactKey: Guid(5682b4214bd4c58448ecd8527bbd849b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_118.asset using Guid(5682b4214bd4c58448ecd8527bbd849b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd938e81f2cacebb134b8917cc9f81bfb') in 0.015933 seconds 
+  Import took 0.021861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_15.asset
+  artifactKey: Guid(2610d1161c89a4545aa660d3a8708c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_15.asset using Guid(2610d1161c89a4545aa660d3a8708c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c834623aedfe99e073ed56fcb23629') in 0.010540 seconds 
+  Import took 0.016852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_69.asset
+  artifactKey: Guid(a258be98628781b429d3bc296ba3f1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_69.asset using Guid(a258be98628781b429d3bc296ba3f1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c6ad114749dc8b3fa570de10f5f63d') in 0.013324 seconds 
+  Import took 0.020852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_61.asset
+  artifactKey: Guid(97f4a36ceabfeeb489e3e8fcb20bd81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_61.asset using Guid(97f4a36ceabfeeb489e3e8fcb20bd81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3611fc2d06b553c85b693de72d9a80d1') in 0.010554 seconds 
+  Import took 0.016963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_10.asset
+  artifactKey: Guid(b32f112831c5b1f4fa7bc71c78d380c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_10.asset using Guid(b32f112831c5b1f4fa7bc71c78d380c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce458760d9635a04575da09ce0ec373e') in 0.015769 seconds 
+  Import took 0.021836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001067 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_28.asset
+  artifactKey: Guid(4d44e1372a8b2d54fb06248c4b9340f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_28.asset using Guid(4d44e1372a8b2d54fb06248c4b9340f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d814ff0aa9d1fe3baa83da7af9066d') in 0.016790 seconds 
+  Import took 0.023769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002093 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_130.asset
+  artifactKey: Guid(4c0019aa0af1dae4ea0da91e5b3073f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_130.asset using Guid(4c0019aa0af1dae4ea0da91e5b3073f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552cc845081c3b0ad23e522a659ff244') in 0.013045 seconds 
+  Import took 0.020068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_33.asset
+  artifactKey: Guid(06340d7960ec6194b8ceb02439f25d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_33.asset using Guid(06340d7960ec6194b8ceb02439f25d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e98864c75ff0c5c5b484a6a7d2dee54d') in 0.015888 seconds 
+  Import took 0.023362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001019 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_5.asset
+  artifactKey: Guid(d9ff7c634e9f9cd4ebec679686f98728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_5.asset using Guid(d9ff7c634e9f9cd4ebec679686f98728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '313603b59cb1835b3b314645e6656c6b') in 0.016896 seconds 
+  Import took 0.023901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_39.asset
+  artifactKey: Guid(f371a12895695424db3c8bd98c27cdb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_39.asset using Guid(f371a12895695424db3c8bd98c27cdb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb4e5088040a746f6369d31d6f8dd40') in 0.016067 seconds 
+  Import took 0.022795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_2.asset
+  artifactKey: Guid(29f89ffcd98c53a439e2e160dc35170f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_2.asset using Guid(29f89ffcd98c53a439e2e160dc35170f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf767faf5406b7189f0088112338a820') in 0.014114 seconds 
+  Import took 0.020459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_39.asset
+  artifactKey: Guid(0f1b0ff568bf764459a072c4e410e202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_39.asset using Guid(0f1b0ff568bf764459a072c4e410e202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb339c084b551d52b5196f1325d0199') in 0.013574 seconds 
+  Import took 0.020314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_46.asset
+  artifactKey: Guid(c4f0251895dafaa4b9649cc9838c99f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_46.asset using Guid(c4f0251895dafaa4b9649cc9838c99f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78fe997e4068b2a4f8286e224388a80') in 0.011959 seconds 
+  Import took 0.018875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_40.asset
+  artifactKey: Guid(9d3c9b4187a24184297fa4254568dc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_40.asset using Guid(9d3c9b4187a24184297fa4254568dc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c651deef93e5fd1bd10f1a506c7b0fc') in 0.011072 seconds 
+  Import took 0.016833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_112.asset
+  artifactKey: Guid(1c902f7ee32d47e42abe7c1c17481566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_112.asset using Guid(1c902f7ee32d47e42abe7c1c17481566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa008c96745edd66c82a12e97b4f3d72') in 0.012771 seconds 
+  Import took 0.018930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_59.asset
+  artifactKey: Guid(0cdc4f4ded57f7f4f9b4ae0459930156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_59.asset using Guid(0cdc4f4ded57f7f4f9b4ae0459930156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da68bd91257c8b773645c1d7bc129d73') in 0.011541 seconds 
+  Import took 0.017477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_126.asset
+  artifactKey: Guid(8b4d445a9c6fdde478d2623616612bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_126.asset using Guid(8b4d445a9c6fdde478d2623616612bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be872982e06b5470dfd129ee5182868e') in 0.014797 seconds 
+  Import took 0.021575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_83.asset
+  artifactKey: Guid(846fd109caa10224f9b1c03fd00bf9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_83.asset using Guid(846fd109caa10224f9b1c03fd00bf9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '093434455823de685fdefbf21f8ef6c2') in 0.010907 seconds 
+  Import took 0.016590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_66.asset
+  artifactKey: Guid(f6a81967f4d6ea64e9c0a7909379c721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_66.asset using Guid(f6a81967f4d6ea64e9c0a7909379c721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af70b608b1be9530b16cd2dd14cb5b2') in 0.013293 seconds 
+  Import took 0.018884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_90.asset
+  artifactKey: Guid(939c41fc19efea3408a4281afd07d2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_90.asset using Guid(939c41fc19efea3408a4281afd07d2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5639db3c4ae5bae056da2314d9f31155') in 0.010567 seconds 
+  Import took 0.016756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_128.asset
+  artifactKey: Guid(9ef05be8472ad1a4e8cbdcc741c602cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_128.asset using Guid(9ef05be8472ad1a4e8cbdcc741c602cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de8169c1955bfa3f1a08c0aeafc77343') in 0.011115 seconds 
+  Import took 0.018035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_60.asset
+  artifactKey: Guid(ade2de83c1c115a4baba935af6495f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_60.asset using Guid(ade2de83c1c115a4baba935af6495f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11085a7bc1c5a8f8f0ddfbe9d59a601d') in 0.010937 seconds 
+  Import took 0.019114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_32.asset
+  artifactKey: Guid(44441e885b3316c4b8a8d29ccfcd5b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_32.asset using Guid(44441e885b3316c4b8a8d29ccfcd5b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d0c9df248c7c6989aae48b12298140') in 0.014460 seconds 
+  Import took 0.020367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_35.asset
+  artifactKey: Guid(fca5ec3af7c9749418ba4ba0b267ea71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_35.asset using Guid(fca5ec3af7c9749418ba4ba0b267ea71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb76bc8923d39a069603e798db635607') in 0.011538 seconds 
+  Import took 0.017051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_95.asset
+  artifactKey: Guid(5b6a14eed39dc9d49930dd804af21e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_95.asset using Guid(5b6a14eed39dc9d49930dd804af21e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884e2a31f6da8ceccdcb464a70d93de0') in 0.010717 seconds 
+  Import took 0.016594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_98.asset
+  artifactKey: Guid(8e969d51f76a9374c8944c336ae37d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_98.asset using Guid(8e969d51f76a9374c8944c336ae37d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '574a8d8cd3e77f1537d6153445a314db') in 0.013061 seconds 
+  Import took 0.019622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_25.asset
+  artifactKey: Guid(e6bc4d5bff1ca874cb92e57104db4aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_25.asset using Guid(e6bc4d5bff1ca874cb92e57104db4aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '008b916dcd50e17349736e4892c031c3') in 0.011000 seconds 
+  Import took 0.016647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_106.asset
+  artifactKey: Guid(608d9545e4d064344a1b30d9eaded066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_106.asset using Guid(608d9545e4d064344a1b30d9eaded066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c77efb72e67ae454b704818abbf6c56') in 0.015820 seconds 
+  Import took 0.021927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_29.asset
+  artifactKey: Guid(b3bc10b9929afc9498be0a96bef3f831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_29.asset using Guid(b3bc10b9929afc9498be0a96bef3f831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea97b07fcc9fa09b0c8a953e9f91325') in 0.012758 seconds 
+  Import took 0.018374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_129.asset
+  artifactKey: Guid(1c881837be736ed4da769a74efa079af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_129.asset using Guid(1c881837be736ed4da769a74efa079af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c204182d7a0bfff59179dce2abdaeb') in 0.011513 seconds 
+  Import took 0.018189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_52.asset
+  artifactKey: Guid(6a2fe629e0026114899bf75a6a913525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_52.asset using Guid(6a2fe629e0026114899bf75a6a913525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b0e68c6c2b7f08f7ec3023cdebc6143') in 0.012302 seconds 
+  Import took 0.018040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_86.asset
+  artifactKey: Guid(5af40243e53b9c54cb17f4886870e6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_86.asset using Guid(5af40243e53b9c54cb17f4886870e6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d4e145456e7dfb19ca650b7843a218a') in 0.013615 seconds 
+  Import took 0.019668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_31.asset
+  artifactKey: Guid(9192bd214e1fc8e4789f218a484df7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_31.asset using Guid(9192bd214e1fc8e4789f218a484df7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5910c53b7813b9157c7041a6efd60de8') in 0.013002 seconds 
+  Import took 0.018593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_89.asset
+  artifactKey: Guid(9879f5de85c3c8248aec278c4801a4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_89.asset using Guid(9879f5de85c3c8248aec278c4801a4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcbd65e3a8452c1f770097d8db1863c3') in 0.010369 seconds 
+  Import took 0.016209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_94.asset
+  artifactKey: Guid(2b598e90c380988448007dd9148e332d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_94.asset using Guid(2b598e90c380988448007dd9148e332d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad912effc3e20516feb1c667be910fe6') in 0.012486 seconds 
+  Import took 0.019254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_23.asset
+  artifactKey: Guid(b8239ac8c460a6543a77b1d15bf5c9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_23.asset using Guid(b8239ac8c460a6543a77b1d15bf5c9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0355296aee9391f5a2cbc5aa8c4d03') in 0.012153 seconds 
+  Import took 0.018178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_37.asset
+  artifactKey: Guid(2a91394ef244f3e4284fda9e82435740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_37.asset using Guid(2a91394ef244f3e4284fda9e82435740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0967c0a61b16f4d45a8d852643c80a5a') in 0.011976 seconds 
+  Import took 0.017736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_70.asset
+  artifactKey: Guid(6717fa028e1bff0469d0a8afa6a9f41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_70.asset using Guid(6717fa028e1bff0469d0a8afa6a9f41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a7d4500d38ac84011d939884bbef1a6') in 0.012506 seconds 
+  Import took 0.018454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_76.asset
+  artifactKey: Guid(69bd20f867ff2ff4e97f8de0a53e8548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_76.asset using Guid(69bd20f867ff2ff4e97f8de0a53e8548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d64952f52c02cb091620985d627a41e') in 0.012650 seconds 
+  Import took 0.018332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_46.asset
+  artifactKey: Guid(8c1b0d4f731b7a64dbaf23baabd0eaae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_46.asset using Guid(8c1b0d4f731b7a64dbaf23baabd0eaae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d42aad3efd1494c8acd7b1a624a43a') in 0.011822 seconds 
+  Import took 0.017717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_88.asset
+  artifactKey: Guid(188d77595a3595d478fc5e9a5b247758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_88.asset using Guid(188d77595a3595d478fc5e9a5b247758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '302cbce2e3d360cf54c1385b72aecfae') in 0.010847 seconds 
+  Import took 0.018301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_26.asset
+  artifactKey: Guid(5f67d15c7be3d5747b4331b4528e762e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_26.asset using Guid(5f67d15c7be3d5747b4331b4528e762e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7225b7c475f027e1ce000f2b7e39e2c') in 0.013090 seconds 
+  Import took 0.018764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_103.asset
+  artifactKey: Guid(9d63a7293e42aa84380fe228dd74d4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_103.asset using Guid(9d63a7293e42aa84380fe228dd74d4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c3a63f538a7c0e6dbc5f2f2c3ea9bc') in 0.012564 seconds 
+  Import took 0.018501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_132.asset
+  artifactKey: Guid(b9762ac60f9cb3949bbc9b26e26632d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_132.asset using Guid(b9762ac60f9cb3949bbc9b26e26632d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '184e4ee7ad56b427f966e8a515753096') in 0.013992 seconds 
+  Import took 0.021471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_51.asset
+  artifactKey: Guid(0f76eb79d57219940908a5778e1711b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_51.asset using Guid(0f76eb79d57219940908a5778e1711b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f8e3ea541bac1f0ae1277680abac759') in 0.012964 seconds 
+  Import took 0.019893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_42.asset
+  artifactKey: Guid(8ee13e43646941a42987227988177a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_42.asset using Guid(8ee13e43646941a42987227988177a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40278d749d0166447c9251486708067c') in 0.010992 seconds 
+  Import took 0.016866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_133.asset
+  artifactKey: Guid(dd263a87e2331084d9be1a4853c4b691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_133.asset using Guid(dd263a87e2331084d9be1a4853c4b691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c85f8f8afe5d85da7317c72ff15d4bd8') in 0.011135 seconds 
+  Import took 0.016661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_99.asset
+  artifactKey: Guid(d29631710f85bf342bc5bd7ba5d9d1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_99.asset using Guid(d29631710f85bf342bc5bd7ba5d9d1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a7aca64effa0ef3787e5dc2ac2560e2') in 0.012606 seconds 
+  Import took 0.018532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_93.asset
+  artifactKey: Guid(635d09ca3a1bc044e96565e1028051a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_93.asset using Guid(635d09ca3a1bc044e96565e1028051a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba123b38e3c2f01eae1455b64664089d') in 0.013901 seconds 
+  Import took 0.019713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_81.asset
+  artifactKey: Guid(feb5411e5a8424245b69671f9dcea498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_81.asset using Guid(feb5411e5a8424245b69671f9dcea498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f1925f87bfa2f8f60df9f7167109e09') in 0.012167 seconds 
+  Import took 0.020389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_124.asset
+  artifactKey: Guid(e445843f11b306d4ba4b92182dce06c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_124.asset using Guid(e445843f11b306d4ba4b92182dce06c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac21b7a4b3ae83f16199c2376fbe5760') in 0.011131 seconds 
+  Import took 0.016838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_108.asset
+  artifactKey: Guid(9c52ec6136905a347af15dd15dcbba65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_108.asset using Guid(9c52ec6136905a347af15dd15dcbba65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df585dccb862d5fe3f7f747932bad146') in 0.012058 seconds 
+  Import took 0.017973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_74.asset
+  artifactKey: Guid(5707f1c1681126a45a4e215651583e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_74.asset using Guid(5707f1c1681126a45a4e215651583e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baa8b7217abb49cee4547d0fd4966e37') in 0.013273 seconds 
+  Import took 0.019433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_20.asset
+  artifactKey: Guid(d34b409cd6187f342aa01033712cb19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_20.asset using Guid(d34b409cd6187f342aa01033712cb19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd160152d1a2be2b5601b9ff92435183f') in 0.011447 seconds 
+  Import took 0.019081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_125.asset
+  artifactKey: Guid(829ec22561848fc4993a532cf39dd656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_125.asset using Guid(829ec22561848fc4993a532cf39dd656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34cbd327d7bfba1917a41da480c73c84') in 0.011877 seconds 
+  Import took 0.017688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_55.asset
+  artifactKey: Guid(fb109db8f4b551c47a54c460eb64cb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_55.asset using Guid(fb109db8f4b551c47a54c460eb64cb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '143e5bb62341f2ddec0cb471bb1bb523') in 0.017285 seconds 
+  Import took 0.025539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_56.asset
+  artifactKey: Guid(9ae46a021382c724fad6dd4248333a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_56.asset using Guid(9ae46a021382c724fad6dd4248333a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a47282749348b79c5c5def4c394f74b5') in 0.011980 seconds 
+  Import took 0.017848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_19.asset
+  artifactKey: Guid(d37fcf2e0c236504eb8b730e8d373861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_19.asset using Guid(d37fcf2e0c236504eb8b730e8d373861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de7ea830874cfa925716aad3782ffeba') in 0.018616 seconds 
+  Import took 0.025744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001278 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_43.asset
+  artifactKey: Guid(760f0bf865bfe224e830c44df20b7685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_43.asset using Guid(760f0bf865bfe224e830c44df20b7685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5362e480f49e7da710a689e9e7d4e7ed') in 0.012957 seconds 
+  Import took 0.019193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_12.asset
+  artifactKey: Guid(8e0c8bdb0fd832a4b9e4594ed4e5ba7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_12.asset using Guid(8e0c8bdb0fd832a4b9e4594ed4e5ba7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1507e275c43b44202856cbb41b835d0') in 0.014718 seconds 
+  Import took 0.020991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_85.asset
+  artifactKey: Guid(5c04288c53f341f48b246126fbede5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_85.asset using Guid(5c04288c53f341f48b246126fbede5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f498dacb1578b362122f4f72e858288c') in 0.010853 seconds 
+  Import took 0.016538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_115.asset
+  artifactKey: Guid(20656694e3b06664a866c1db4ad30717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_115.asset using Guid(20656694e3b06664a866c1db4ad30717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '736a1eaeda47569e551465861fc3a467') in 0.010609 seconds 
+  Import took 0.016065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_31.asset
+  artifactKey: Guid(fd67f1ce8a8f98b40871fe3151fc8c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_31.asset using Guid(fd67f1ce8a8f98b40871fe3151fc8c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12bf4ee27661f37662418bfbd6210754') in 0.011712 seconds 
+  Import took 0.018898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_17.asset
+  artifactKey: Guid(fff3a06f657d11d46a6452d1147168a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_17.asset using Guid(fff3a06f657d11d46a6452d1147168a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573fc419606323a712b7ade498031709') in 0.013258 seconds 
+  Import took 0.019556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_10.asset
+  artifactKey: Guid(616009efddf820443b33de54de681cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_10.asset using Guid(616009efddf820443b33de54de681cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b5ba7d395f81cde6af2bc3956630f3e') in 0.011195 seconds 
+  Import took 0.017371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_73.asset
+  artifactKey: Guid(e5277c9a0e1a37e459781fd8b0acce62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_73.asset using Guid(e5277c9a0e1a37e459781fd8b0acce62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a99fc94e87ce343b8469846388c37f04') in 0.011017 seconds 
+  Import took 0.016981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_7.asset
+  artifactKey: Guid(5a1265f411a68bb45b3859d8a9c70448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_7.asset using Guid(5a1265f411a68bb45b3859d8a9c70448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb425184656c58edb75b5ef1b94e375d') in 0.011577 seconds 
+  Import took 0.018981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_45.asset
+  artifactKey: Guid(da9956c61d10c1f43b7b50448f1def01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_45.asset using Guid(da9956c61d10c1f43b7b50448f1def01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '295d126d26cc9a79b084db3e3c26f14c') in 0.011601 seconds 
+  Import took 0.017118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_53.asset
+  artifactKey: Guid(8bafc7d9c6774764aaba05f629fe93b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_53.asset using Guid(8bafc7d9c6774764aaba05f629fe93b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e23656d390201421d088ca1d68ef7822') in 0.012851 seconds 
+  Import took 0.018563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_34.asset
+  artifactKey: Guid(2f48474da4921214f8d6f8b8e37c25ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_34.asset using Guid(2f48474da4921214f8d6f8b8e37c25ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e3532b4a3ad3c197baa4ebd29771b43') in 0.010355 seconds 
+  Import took 0.015962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_47.asset
+  artifactKey: Guid(0867a74945ed537428b5be49325cde02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_47.asset using Guid(0867a74945ed537428b5be49325cde02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '415484733736bc0e0468e22e875e5417') in 0.014342 seconds 
+  Import took 0.020508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_3.asset
+  artifactKey: Guid(4a4288d68e20624468913a331b245575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_3.asset using Guid(4a4288d68e20624468913a331b245575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '839c822b36bcdf0f3d564584fd532321') in 0.011815 seconds 
+  Import took 0.017595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_36.asset
+  artifactKey: Guid(59acb483713ac0f428c194092d4180db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_36.asset using Guid(59acb483713ac0f428c194092d4180db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02081807ded656137d3b89bfb18a2e76') in 0.013804 seconds 
+  Import took 0.020151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_53.asset
+  artifactKey: Guid(078c7c188437d074a8d5857e2d8142d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_53.asset using Guid(078c7c188437d074a8d5857e2d8142d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de31373470e3c1b7f0eba73815ba3e82') in 0.010679 seconds 
+  Import took 0.017243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_69.asset
+  artifactKey: Guid(189a23bfe69898e41aeea6f952ff3c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_69.asset using Guid(189a23bfe69898e41aeea6f952ff3c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da830c57269ccc7c8ec45697eeffe5d') in 0.011672 seconds 
+  Import took 0.017609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_13.asset
+  artifactKey: Guid(d1cbc44c5eb6c3e43b5fccaf84a0f33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_13.asset using Guid(d1cbc44c5eb6c3e43b5fccaf84a0f33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04be84aa55ce2671ea493679c57596e') in 0.013454 seconds 
+  Import took 0.019215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_127.asset
+  artifactKey: Guid(7e4e1ffa7399f804d9b528ceb06fa0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_127.asset using Guid(7e4e1ffa7399f804d9b528ceb06fa0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2813e91964f16207ee0dfbc6b5707a1b') in 0.010372 seconds 
+  Import took 0.016429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_22.asset
+  artifactKey: Guid(34b837c8d7640234781e10114b6f7248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_22.asset using Guid(34b837c8d7640234781e10114b6f7248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a44a1030d39533f05be0e3cf065af97d') in 0.014123 seconds 
+  Import took 0.021458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_48.asset
+  artifactKey: Guid(20d59f6b36421f449b421dfd9267e864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_48.asset using Guid(20d59f6b36421f449b421dfd9267e864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa20513bca191c9d6b418755db2d52d0') in 0.011000 seconds 
+  Import took 0.016523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_33.asset
+  artifactKey: Guid(dedf6a197145d0f498622f1771db1224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_33.asset using Guid(dedf6a197145d0f498622f1771db1224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5112e5e8fd14d83860582c27377d424e') in 0.015073 seconds 
+  Import took 0.020839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_80.asset
+  artifactKey: Guid(28a3ce54ea2f5db4d94614221152de7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_80.asset using Guid(28a3ce54ea2f5db4d94614221152de7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f943114d865369ec26c8e70723bf20d') in 0.010786 seconds 
+  Import took 0.017201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_68.asset
+  artifactKey: Guid(282a44a7b23413944b150a355c38e27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/icons-keyboard-16x16-1bit-ansdor_68.asset using Guid(282a44a7b23413944b150a355c38e27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02ba0cb1d053f47312469c89bdac572a') in 0.010908 seconds 
+  Import took 0.017751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_17.asset
+  artifactKey: Guid(1e077f6fa6685754cb5a9b2114eaa739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_17.asset using Guid(1e077f6fa6685754cb5a9b2114eaa739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa9fa6df0deb3eef9b52c02fe074a63') in 0.012647 seconds 
+  Import took 0.019305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/TileMap/Assets/Tiles-and-Enemies_102.asset
+  artifactKey: Guid(67af219fb80677840aec217259922ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Assets/Tiles-and-Enemies_102.asset using Guid(67af219fb80677840aec217259922ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e4db47ff262acc8a2f0d5d3d734ce08') in 0.012973 seconds 
+  Import took 0.019029 seconds .
+
