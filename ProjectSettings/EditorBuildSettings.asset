@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Prologue.unity
     guid: af446b8ec7c8dc34bbc935b03095ecb4
   - enabled: 1
+    path: Assets/Scenes/Arena.unity
+    guid: ac76a03afdc266446aed06ca7edc4d4a
+  - enabled: 1
     path: Assets/Scenes/Pools.unity
     guid: 2824a3bd48549104ba6efe14f796e72d
   m_configObjects: {}
