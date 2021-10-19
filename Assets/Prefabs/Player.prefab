@@ -103,12 +103,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canMove: 1
-  disableVelocitySet: 0
   groundCheck: {fileID: 7005955142967516711}
   wallCheck: {fileID: 7005955143195719421}
   ledgeCheck: {fileID: 740887119}
   playerData: {fileID: 11400000, guid: cfed3f5831c37634486133686d96ac11, type: 2}
-  hasHat: 0
 --- !u!114 &7005955142802262170
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -121,7 +119,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0599a7e04878aa14abbd85103c5c67ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textUI: {fileID: 0}
   inputBufferTime: 0.2
 --- !u!114 &7005955142802262174
 MonoBehaviour:
@@ -287,7 +284,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1326468893
-  m_SortingLayer: 6
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 978942612559604503, guid: 9cec9a8fa118f36409673ee031cd2a37, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

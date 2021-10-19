@@ -23,7 +23,6 @@ public class PlayerGroundedState : PlayerState
         base.Enter();
         player.JumpState.ResetAmountOfJumpsLeft();
         player.DashState.ResetCanDash();
-        player.DashState.dashCount = 0;
     }
 
     public override void Exit()

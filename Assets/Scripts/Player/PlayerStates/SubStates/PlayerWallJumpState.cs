@@ -6,8 +6,6 @@ public class PlayerWallJumpState : PlayerAbilityState
 {
     private int wallJumpDirection;
 
-    public bool isWallJumping;
-
     public PlayerWallJumpState(Player player, PlayerStateMachine stateMachine, PlayerData playerData, string animBoolName) : base(player, stateMachine, playerData, animBoolName)
     {
 
@@ -16,7 +14,6 @@ public class PlayerWallJumpState : PlayerAbilityState
     public override void Enter()
     {
         base.Enter();
-        isWallJumping = true;
 
         player.InputHandler.UseJumpInput();
         player.JumpState.ResetAmountOfJumpsLeft();
@@ -28,7 +25,6 @@ public class PlayerWallJumpState : PlayerAbilityState
     public override void Exit()
     {
         base.Exit();
-        isWallJumping = false;
     }
 
     public override void LogicUpdate()

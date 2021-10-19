@@ -5,7 +5,6 @@ using UnityEngine;
 public class PlayerWallGrabState : PlayerTouchingWallState
 {
     private Vector2 holdPosition;
-    public bool isWallGrab;
 
     public PlayerWallGrabState(Player player, PlayerStateMachine stateMachine, PlayerData playerData, string animBoolName) : base(player, stateMachine, playerData, animBoolName)
     {
@@ -15,7 +14,6 @@ public class PlayerWallGrabState : PlayerTouchingWallState
     {
         base.Enter();
 
-        isWallGrab = true;
         holdPosition = player.transform.position;
         HoldPosition();
     }
@@ -23,7 +21,6 @@ public class PlayerWallGrabState : PlayerTouchingWallState
     public override void Exit()
     {
         base.Exit();
-        isWallGrab = false;
     }
 
     public override void LogicUpdate()
