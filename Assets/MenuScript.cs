@@ -9,6 +9,7 @@ public class MenuScript : MonoBehaviour
  
     [SerializeField] GameObject pauseMenu;
     public static bool isPaused = false;
+    public static MenuScript instance;
 
     private PlayerInputHandler pc;
     private GameObject player;
@@ -23,7 +24,7 @@ public class MenuScript : MonoBehaviour
 
     public void Update()
     { 
-        if (pc.InteractInput)
+        if (pc.PauseInput)
         {
             if (isPaused)
             {
