@@ -88,7 +88,7 @@ public class PlayerStats : MonoBehaviour
         {
             if (spikeObject.transform.rotation.eulerAngles.z == 90)
             {
-                if (RB.velocity.x <= 0.0) { }
+                if (RB.velocity.x < 0.01) { }
                 else
                 {
                     Die();
@@ -97,7 +97,7 @@ public class PlayerStats : MonoBehaviour
             // Facing Down
             else if (spikeObject.transform.rotation.eulerAngles.z == 180)
             {
-                if (RB.velocity.y <= 0.0) { }
+                if (RB.velocity.y < 0.01) { }
                 else
                 {
                     Die();
@@ -106,16 +106,16 @@ public class PlayerStats : MonoBehaviour
             // Facing Right
             else if (spikeObject.transform.rotation.eulerAngles.z == 270)
             {
-                if (RB.velocity.x >= 0.0) { }
+                if (RB.velocity.x > 0.01) { }
                 else
                 {
                     Die();
                 }
             }
             // Facing Up
-            else
+            else if (spikeObject.transform.rotation.eulerAngles.z == 0)
             {
-                if (RB.velocity.y >= 0.0) { }
+                if (RB.velocity.y > 0.01) { }
                 else
                 {
                     Die();
