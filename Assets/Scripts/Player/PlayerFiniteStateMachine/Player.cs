@@ -58,9 +58,9 @@ public class Player : MonoBehaviour
         LookUpState = new PlayerLookUpState(this, StateMachine, playerData, "lookUp");
         LedgeClimbState = new PlayerLedgeClimbState(this, StateMachine, playerData, "ledgeClimbState");
 
-        if (gameObject.transform.GetChild(3).gameObject.name == "HatCheck")
+        //if (gameObject.transform.GetChild(3).gameObject.name == "HatCheck")
         {
-            hasHat = true;
+            //hasHat = true;
         }
     }
 
