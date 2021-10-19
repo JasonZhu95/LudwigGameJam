@@ -29764,11 +29764,11 @@ MonoBehaviour:
   gun: {fileID: 1469265875}
   laser: {fileID: 2332047167929010872, guid: ff219cae9542e684a91c6b7d91016fcd, type: 3}
   laserFirePoint: {fileID: 199872439}
-  laserForce: 10
+  laserForce: 20
   whatIsPlayer:
     serializedVersion: 2
     m_Bits: 128
-  FireRate: 0.5
+  FireRate: 2
 --- !u!1 &1324970801
 GameObject:
   m_ObjectHideFlags: 0
@@ -29969,7 +29969,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1469265875}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.532, y: 0.182, z: 0}
+  m_LocalPosition: {x: -0.426, y: 0.269, z: 0}
   m_LocalScale: {x: 1, y: -1, z: 1}
   m_Children:
   - {fileID: 199872439}
