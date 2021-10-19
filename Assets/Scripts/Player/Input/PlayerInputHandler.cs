@@ -6,6 +6,8 @@ using UnityEngine.InputSystem;
 
 public class PlayerInputHandler : MonoBehaviour
 {
+
+    public int smashBalls = 0;
     public Vector2 RawMovementInput { get; private set; }
     public Vector2 RawDashDirectionInput { get; private set; }
     public Vector2Int DashDirectionInput { get; private set; }
@@ -13,6 +15,7 @@ public class PlayerInputHandler : MonoBehaviour
     public int NormInputY { get; private set; }
 
     public bool InteractInput { get; private set; }
+    public bool PauseInput { get; private set; }
     public bool JumpInput { get; private set; }
     public bool JumpInputStop { get; private set; }
     public bool GrabInput { get; private set; }
@@ -116,6 +119,19 @@ public class PlayerInputHandler : MonoBehaviour
         {
             InteractInput = false;
         }
+    }
+    public void OnPauseInput(InputAction.CallbackContext context)
+    {
+        if (context.started)
+        {
+            PauseInput = true;
+        }
+
+        if (context.canceled)
+        {
+            PauseInput = false;
+        }
+  
     }
 
     public void UseDashInput() => DashInput = false;
