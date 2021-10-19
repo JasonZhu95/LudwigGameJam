@@ -17,9 +17,18 @@ public class GunScript : MonoBehaviour
     private float detectRadius = 100f;
     public LayerMask whatIsPlayer;
 
-    public float FireRate;
     private float nextTimetoFire = 0;
 
+    private SpriteRenderer BossSprite;
+
+    public float period = 5f;
+
+
+
+    private void Start()
+    {
+        BossSprite = GameObject.Find("FinalBoss").GetComponent<SpriteRenderer>();
+    }
 
     private void Update()
     {
@@ -41,8 +50,8 @@ public class GunScript : MonoBehaviour
         {
             if (Time.time > nextTimetoFire)
             {
-                nextTimetoFire = Time.time + 1 / FireRate;
-                ShootLaser();
+                nextTimetoFire += period;
+                StartCoroutine(ShootLaser());
             }
         }
     }
@@ -52,10 +61,19 @@ public class GunScript : MonoBehaviour
         return Physics2D.OverlapCircle(transform.position, detectRadius, whatIsPlayer);
     }
 
-    private void ShootLaser()
+    IEnumerator ShootLaser()
     {
+        BossSprite.color = new Color(1, 0, 0);
+        yield return new WaitForSeconds(1.5f);
         GameObject LaserIns = Instantiate(laser, laserFirePoint.position, Quaternion.identity);
         LaserIns.GetComponent<Rigidbody2D>().AddForce(direction * laserForce);
+        yield return new WaitForSeconds(.3f);
+        GameObject LaserIns2 = Instantiate(laser, laserFirePoint.position, Quaternion.identity);
+        LaserIns2.GetComponent<Rigidbody2D>().AddForce(direction * laserForce);
+        yield return new WaitForSeconds(.3f);
+        GameObject LaserIns3 = Instantiate(laser, laserFirePoint.position, Quaternion.identity);
+        LaserIns3.GetComponent<Rigidbody2D>().AddForce(direction * laserForce);
+        BossSprite.color = new Color(1, 1, 1);
     }
 
     private void OnDrawGizmos()
