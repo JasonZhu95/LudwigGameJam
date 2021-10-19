@@ -10,6 +10,8 @@ TagManager:
   - DeathZone
   - Trampoline
   - Interactable
+  - Collectible
+  - Obstacle
   layers:
   - Default
   - TransparentFX
@@ -58,6 +60,12 @@ TagManager:
     locked: 0
   - name: Platforms
     uniqueID: 1383793693
+    locked: 0
+  - name: Collectible
+    uniqueID: 1203191551
+    locked: 0
+  - name: Boss
+    uniqueID: 4201694153
     locked: 0
   - name: Player
     uniqueID: 1326468893

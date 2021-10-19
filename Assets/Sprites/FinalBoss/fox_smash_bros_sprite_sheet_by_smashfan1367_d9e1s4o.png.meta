@@ -1,0 +1,2739 @@
+fileFormatVersion: 2
+guid: 5ab55399054e3f341b9942d883d959b7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3676561508945067466
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_0
+  - first:
+      213: -872462399201953149
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_1
+  - first:
+      213: 3615180300261217674
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_2
+  - first:
+      213: -4757931041223369231
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_3
+  - first:
+      213: 5696770118668821145
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_4
+  - first:
+      213: 7006406047840951778
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_5
+  - first:
+      213: -6068770846419597363
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_6
+  - first:
+      213: 7464917621236541944
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_7
+  - first:
+      213: 4655838331096929746
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_8
+  - first:
+      213: 8260334207674341708
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_9
+  - first:
+      213: 4622144892718360496
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_10
+  - first:
+      213: -5975132647094511904
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_11
+  - first:
+      213: 2011280023201279568
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_12
+  - first:
+      213: -1459545702959212742
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_13
+  - first:
+      213: -4766436703861665021
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_14
+  - first:
+      213: 4111174387612253652
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_15
+  - first:
+      213: 4515479890452482385
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_16
+  - first:
+      213: -9054174101807712873
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_17
+  - first:
+      213: 4237986149273208902
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_18
+  - first:
+      213: 4422381112148804541
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_19
+  - first:
+      213: 7359147077858058027
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_20
+  - first:
+      213: 3481840199811927171
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_21
+  - first:
+      213: -592566535050621826
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_22
+  - first:
+      213: 507575105456549854
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_23
+  - first:
+      213: -7531723544860987202
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_24
+  - first:
+      213: -4924643849093145828
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_25
+  - first:
+      213: -1227934094371383894
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_26
+  - first:
+      213: -3895557726908857667
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_27
+  - first:
+      213: 5381092756963186798
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_28
+  - first:
+      213: -4713613419854880900
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_29
+  - first:
+      213: 6109384274599591866
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_30
+  - first:
+      213: 821278118435779845
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_31
+  - first:
+      213: -1337594603384758139
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_32
+  - first:
+      213: -8790390493583762436
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_33
+  - first:
+      213: -3836438481008217967
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_34
+  - first:
+      213: -4557789592916120964
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_35
+  - first:
+      213: 7410179241615335485
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_36
+  - first:
+      213: -5024849166692840370
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_37
+  - first:
+      213: -5756862030909423775
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_38
+  - first:
+      213: -5876525311543321038
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_39
+  - first:
+      213: -1406669926393842090
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_40
+  - first:
+      213: -3692507836230890331
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_41
+  - first:
+      213: -6701560121131175303
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_42
+  - first:
+      213: -2037680096633505286
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_43
+  - first:
+      213: 7057659105489776561
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_44
+  - first:
+      213: -3607376791371843150
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_45
+  - first:
+      213: 6460390095017655379
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_46
+  - first:
+      213: -7705940703409059690
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_47
+  - first:
+      213: 3344629137018023578
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_48
+  - first:
+      213: -5633756470825193418
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_49
+  - first:
+      213: -2124269835232480486
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_50
+  - first:
+      213: -1276683234538352809
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_51
+  - first:
+      213: 3193068540841354566
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_52
+  - first:
+      213: 5855888915701912169
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_53
+  - first:
+      213: 3013653288628022833
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_54
+  - first:
+      213: -3020243929310880495
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_55
+  - first:
+      213: 7582800308496541959
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_56
+  - first:
+      213: 1764914293808392587
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_57
+  - first:
+      213: 927648496363701166
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_58
+  - first:
+      213: -5467224645908148262
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_59
+  - first:
+      213: -5067937610262777116
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_60
+  - first:
+      213: 6237444255371194592
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_61
+  - first:
+      213: 5587507304976971737
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_62
+  - first:
+      213: -4681373804410856154
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_63
+  - first:
+      213: -634300452220622738
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_64
+  - first:
+      213: -7473686759526957425
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_65
+  - first:
+      213: -6389137536474236999
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_66
+  - first:
+      213: -1494964239380267048
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_67
+  - first:
+      213: 3602596609225311769
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_68
+  - first:
+      213: -6512501140958735315
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_69
+  - first:
+      213: -7169330211393737327
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_70
+  - first:
+      213: -1219738837119060791
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_71
+  - first:
+      213: -1534852017938543911
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_72
+  - first:
+      213: 8050355201568967322
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_73
+  - first:
+      213: 6352197315673118232
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_74
+  - first:
+      213: -2514583438729093414
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_75
+  - first:
+      213: -4577271369405092347
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_76
+  - first:
+      213: -6998355861670837179
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_77
+  - first:
+      213: 8390197717418743426
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_78
+  - first:
+      213: -991072573193881433
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_79
+  - first:
+      213: 6753826984699332182
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_80
+  - first:
+      213: 1517881884127798158
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_81
+  - first:
+      213: 8563319697879273043
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_82
+  - first:
+      213: -2778209858284592602
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_83
+  - first:
+      213: -8247839906625003073
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_84
+  - first:
+      213: 9213144713513604864
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_85
+  - first:
+      213: -5354182980073539733
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_86
+  - first:
+      213: 1455047714325863135
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_87
+  - first:
+      213: 5897008223447335689
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_88
+  - first:
+      213: -2238855937474237231
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_89
+  - first:
+      213: 2726610777056227011
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_90
+  - first:
+      213: -7700695378931890726
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_91
+  - first:
+      213: 2256072618171777309
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_92
+  - first:
+      213: 5639604530772106059
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_93
+  - first:
+      213: 4510373029311978185
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_94
+  - first:
+      213: 6667243239173478765
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_95
+  - first:
+      213: -5452582381187283547
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_96
+  - first:
+      213: 9072890698913817413
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_97
+  - first:
+      213: 5657178232808228079
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_98
+  - first:
+      213: 4896699160537824408
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_99
+  - first:
+      213: -6269573155088145626
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_100
+  - first:
+      213: 9105044919880139309
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_101
+  - first:
+      213: -455279174551131100
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_102
+  - first:
+      213: 888842268358901061
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_103
+  - first:
+      213: -694953027272425553
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_104
+  - first:
+      213: -3592231995009572640
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_105
+  - first:
+      213: 8989425583773696031
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_106
+  - first:
+      213: 4353500197778144366
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_107
+  - first:
+      213: -2987600844485539087
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_108
+  - first:
+      213: 138149844979344053
+    second: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_109
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_0
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 421
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd7b8f8635c50330800000000000000
+      internalID: 3676561508945067466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_1
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 415
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38abea7021464e3f0800000000000000
+      internalID: -872462399201953149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_2
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 423
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a855f0c3453bb2230800000000000000
+      internalID: 3615180300261217674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_3
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 423
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd93163dee68fdb0800000000000000
+      internalID: -4757931041223369231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_4
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 422
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 992a05a7d3efe0f40800000000000000
+      internalID: 5696770118668821145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_5
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 423
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed55b1dd21cb3160800000000000000
+      internalID: 7006406047840951778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_6
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 424
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7c9e3a11567cba0800000000000000
+      internalID: -6068770846419597363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_7
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 427
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9ab539607b89760800000000000000
+      internalID: 7464917621236541944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_8
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 430
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d51ea06b4cdc9040800000000000000
+      internalID: 4655838331096929746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_9
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 424
+        width: 26
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49df6e523a92a270800000000000000
+      internalID: 8260334207674341708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_10
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 437
+        width: 49
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b72dde6a48252040800000000000000
+      internalID: 4622144892718360496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_11
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 436
+        width: 56
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6971cd380141da0800000000000000
+      internalID: -5975132647094511904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_12
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 431
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e60ce568089eb10800000000000000
+      internalID: 2011280023201279568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_13
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 203
+        width: 237
+        height: 289
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a371ba98ae6aebbe0800000000000000
+      internalID: -1459545702959212742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_14
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 367
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30311fd42173addb0800000000000000
+      internalID: -4766436703861665021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_15
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 364
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ddff47d253dd0930800000000000000
+      internalID: 4111174387612253652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_16
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 367
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15907dc49053aae30800000000000000
+      internalID: 4515479890452482385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_17
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 368
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 795b53f10ac195280800000000000000
+      internalID: -9054174101807712873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_18
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 368
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648847ee2f950da30800000000000000
+      internalID: 4237986149273208902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_19
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 368
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3c603d0347f5d30800000000000000
+      internalID: 4422381112148804541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_20
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 372
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f5591e641f02660800000000000000
+      internalID: 7359147077858058027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_21
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 372
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c0772d63bf15030800000000000000
+      internalID: 3481840199811927171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_22
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 372
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c068c30e7c6c7f0800000000000000
+      internalID: -592566535050621826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_23
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 375
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edfa1918ed44b0700800000000000000
+      internalID: 507575105456549854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_24
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 400
+        width: 53
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb07d1a3751f97790800000000000000
+      internalID: -7531723544860987202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_25
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 393
+        width: 44
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b9d79d28628abb0800000000000000
+      internalID: -4924643849093145828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_26
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 395
+        width: 53
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa51761727085fee0800000000000000
+      internalID: -1227934094371383894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_27
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 362
+        width: 53
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db2c19d03e230f9c0800000000000000
+      internalID: -3895557726908857667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_28
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 339
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68d73a2a5b7daa40800000000000000
+      internalID: 5381092756963186798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_29
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 356
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f19058191e59eb0800000000000000
+      internalID: -4713613419854880900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_30
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 316
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfbddbf0a4e8c450800000000000000
+      internalID: 6109384274599591866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_31
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 314
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5057a2fe814c56b00800000000000000
+      internalID: 821278118435779845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_32
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 315
+        width: 47
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580a5cb8bc8ef6de0800000000000000
+      internalID: -1337594603384758139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_33
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 314
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb18f86b62420680800000000000000
+      internalID: -8790390493583762436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_34
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 312
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 190bdd0278b32cac0800000000000000
+      internalID: -3836438481008217967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_35
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 313
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a2341738a7fb0c0800000000000000
+      internalID: -4557789592916120964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_36
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 311
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30a47a62ce36d660800000000000000
+      internalID: 7410179241615335485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_37
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 312
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c0b514e46244ab0800000000000000
+      internalID: -5024849166692840370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_38
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 312
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16fb5baeb748b10b0800000000000000
+      internalID: -5756862030909423775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_39
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 308
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e5ed34d53627ea0800000000000000
+      internalID: -5876525311543321038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_40
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 303
+        width: 44
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 656f111a7218a7ce0800000000000000
+      internalID: -1406669926393842090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_41
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 320
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac8c1bcfa391ccc0800000000000000
+      internalID: -3692507836230890331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_42
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 254
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9727d0383964ff2a0800000000000000
+      internalID: -6701560121131175303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_43
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 269
+        width: 47
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af9b64a8fb4b8b3e0800000000000000
+      internalID: -2037680096633505286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_44
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 267
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bfe4883097d1f160800000000000000
+      internalID: 7057659105489776561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_45
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 266
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b9fa43cbe500fdc0800000000000000
+      internalID: -3607376791371843150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_46
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 256
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35cbaf3109ae7a950800000000000000
+      internalID: 6460390095017655379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_47
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 253
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698441112cffe0590800000000000000
+      internalID: -7705940703409059690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_48
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 249
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e6161ca728a6e20800000000000000
+      internalID: 3344629137018023578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_49
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 257
+        width: 50
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630f765b650e0d1b0800000000000000
+      internalID: -5633756470825193418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_50
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 252
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a13f3e7f6d31582e0800000000000000
+      internalID: -2124269835232480486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_51
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 260
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f05a2cc5f484ee0800000000000000
+      internalID: -1276683234538352809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_52
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 256
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 645e2589bee005c20800000000000000
+      internalID: 3193068540841354566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_53
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 275
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9625f8861fb444150800000000000000
+      internalID: 5855888915701912169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_54
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 187
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e6cd0f2b5a2d920800000000000000
+      internalID: 3013653288628022833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_55
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 213
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d1562f520f516d0800000000000000
+      internalID: -3020243929310880495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_56
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 213
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709a8a684b48b3960800000000000000
+      internalID: 7582800308496541959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_57
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 213
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b896575033c3e7810800000000000000
+      internalID: 1764914293808392587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_58
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 198
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea30f2e746bafdc00800000000000000
+      internalID: 927648496363701166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_59
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 198
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf4261b6248024b0800000000000000
+      internalID: -5467224645908148262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_60
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 199
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e2f17438911ba9b0800000000000000
+      internalID: -5067937610262777116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_61
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 198
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e073bbb08adf8650800000000000000
+      internalID: 6237444255371194592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_62
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 198
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d77d0d3a40da8d40800000000000000
+      internalID: 5587507304976971737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_63
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 198
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d954fe35b680fb0800000000000000
+      internalID: -4681373804410856154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_64
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 197
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68258079138237f0800000000000000
+      internalID: -634300452220622738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_65
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 232
+        width: 41
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8efadf4d71284890800000000000000
+      internalID: -7473686759526957425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_66
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 158
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7b65df2493557a0800000000000000
+      internalID: -6389137536474236999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_67
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 148
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dfb3d7e1f1d04be0800000000000000
+      internalID: -1494964239380267048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_68
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 197
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916c6e9578efef130800000000000000
+      internalID: 3602596609225311769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_69
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 170
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2414dd87b2fe95a0800000000000000
+      internalID: -6512501140958735315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_70
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 179
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d6660582c618c90800000000000000
+      internalID: -7169330211393737327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_71
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 185
+        width: 54
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c435c67dfd921fe0800000000000000
+      internalID: -1219738837119060791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_72
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da4bffb83c13bae0800000000000000
+      internalID: -1534852017938543911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_73
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 184
+        width: 54
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a8c39376b98bf60800000000000000
+      internalID: 8050355201568967322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_74
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 173
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816d2ef9dc9872850800000000000000
+      internalID: 6352197315673118232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_75
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 183
+        width: 54
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aded8707fa76a1dd0800000000000000
+      internalID: -2514583438729093414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_76
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 159
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e2b02e0f34a70c0800000000000000
+      internalID: -4577271369405092347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_77
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 143
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54446553c68d0ee90800000000000000
+      internalID: -6998355861670837179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_78
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 139
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 286990eee58ff6470800000000000000
+      internalID: 8390197717418743426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_79
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 131
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a87520eeb00f32f0800000000000000
+      internalID: -991072573193881433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_80
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 146
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6568379fbd96abd50800000000000000
+      internalID: 6753826984699332182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_81
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 145
+        width: 83
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8320721889901510800000000000000
+      internalID: 1517881884127798158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_82
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 143
+        width: 12
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e033215e507d670800000000000000
+      internalID: 8563319697879273043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_83
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 157
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 622657d7ad0d179d0800000000000000
+      internalID: -2778209858284592602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_84
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 137
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb16359cd49c98d80800000000000000
+      internalID: -8247839906625003073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_85
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 144
+        width: 80
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0071f39bd4aabdf70800000000000000
+      internalID: 9213144713513604864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_86
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 142
+        width: 12
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67364282fe12b5b0800000000000000
+      internalID: -5354182980073539733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_87
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 155
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda13afdf2e513410800000000000000
+      internalID: 1455047714325863135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_88
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 138
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 903c22c4cb166d150800000000000000
+      internalID: 5897008223447335689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_89
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 135
+        width: 74
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dce297036cfde0e0800000000000000
+      internalID: -2238855937474237231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_90
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 141
+        width: 12
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce20373e0ed6d520800000000000000
+      internalID: 2726610777056227011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_91
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 142
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad5c5475a52a12590800000000000000
+      internalID: -7700695378931890726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_92
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 142
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d114d91d71e2f4f10800000000000000
+      internalID: 2256072618171777309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_93
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 130
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4bda5ad076e34e40800000000000000
+      internalID: 5639604530772106059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_94
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 141
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca94a88f50189e30800000000000000
+      internalID: 4510373029311978185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_95
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 132
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d695f06c66ec68c50800000000000000
+      internalID: 6667243239173478765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_96
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 137
+        width: 54
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a547cc96398454b0800000000000000
+      internalID: -5452582381187283547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_97
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 120
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54324ba350269ed70800000000000000
+      internalID: 9072890698913817413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_98
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 119
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe44b9531a5528e40800000000000000
+      internalID: 5657178232808228079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_99
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 136
+        width: 54
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c7fc351f194f340800000000000000
+      internalID: 4896699160537824408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_100
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 25
+        width: 329
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62365adde600ef8a0800000000000000
+      internalID: -6269573155088145626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_101
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 119
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d224e613d1e9b5e70800000000000000
+      internalID: 9105044919880139309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_102
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 119
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c2f3fb0068ea9f0800000000000000
+      internalID: -455279174551131100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_103
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 113
+        width: 66
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d72e2755dc55c00800000000000000
+      internalID: 888842268358901061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_104
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 110
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf38d957e70b56f0800000000000000
+      internalID: -694953027272425553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_105
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 39
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e069a27804d52ec0800000000000000
+      internalID: -3592231995009572640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_106
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 40
+        width: 126
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10c3afb0fad0cc70800000000000000
+      internalID: 8989425583773696031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_107
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 40
+        width: 156
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6cb8223d5dba6c30800000000000000
+      internalID: 4353500197778144366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fox_smash_bros_sprite_sheet_by_smashfan1367_d9e1s4o_108
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 41
+        width: 190
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa48c56cd8e986d0800000000000000
+      internalID: -2987600844485539087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
