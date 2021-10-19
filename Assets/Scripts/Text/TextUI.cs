@@ -29,7 +29,7 @@ public class TextUI : MonoBehaviour
         foreach(string dialogue in textObject.Dialogue)
         {
             yield return typeWriterEffect.Run(dialogue, textLabel);
-            yield return new WaitForSeconds(2);
+            yield return new WaitForSeconds(15);
         }
         CloseDialogueBox();
     }
