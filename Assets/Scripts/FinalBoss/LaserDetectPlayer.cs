@@ -6,9 +6,13 @@ public class LaserDetectPlayer : MonoBehaviour
 {
 
     private Player player;
+    private Transform firePointRotation;
     private void Start()
     {
+        firePointRotation = GameObject.Find("FirePoint").GetComponent<Transform>();
         player = GameObject.Find("Player").GetComponent<Player>();
+        Vector3 temp = firePointRotation.eulerAngles;
+        gameObject.transform.eulerAngles = temp;
         StartCoroutine(DestroyLaser());
     }
 
@@ -27,7 +31,6 @@ public class LaserDetectPlayer : MonoBehaviour
     {
         if (coll.gameObject.CompareTag("Player"))
         {
-            Debug.Log("Check");
             player.GetComponent<PlayerStats>().Die();
             Destroy(gameObject);
         }
