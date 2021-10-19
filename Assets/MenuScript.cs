@@ -8,7 +8,10 @@ public class MenuScript : MonoBehaviour
 {
  
     [SerializeField] GameObject pauseMenu;
+    [SerializeField] Text smashBallNum;
+
     public static bool isPaused = false;
+    public static MenuScript instance;
 
     private PlayerInputHandler pc;
     private GameObject player;
@@ -21,9 +24,11 @@ public class MenuScript : MonoBehaviour
 
     }
 
+    
+
     public void Update()
     { 
-        if (pc.InteractInput)
+        if (pc.PauseInput)
         {
             if (isPaused)
             {
@@ -34,6 +39,8 @@ public class MenuScript : MonoBehaviour
                 PauseGame();
             }
         }
+
+        smashBallNum.text = pc.smashBalls.ToString();
     }
 
 
