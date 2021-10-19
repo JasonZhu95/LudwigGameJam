@@ -31,7 +31,6 @@ public class TextUI : MonoBehaviour
             yield return typeWriterEffect.Run(dialogue, textLabel);
             yield return new WaitForSeconds(2);
         }
-
         CloseDialogueBox();
     }
 

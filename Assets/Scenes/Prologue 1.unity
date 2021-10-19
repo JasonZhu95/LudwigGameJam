@@ -8292,7 +8292,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1993079543
-  m_SortingLayer: 6
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_Sprite: {fileID: 6572635881525203500, guid: f2780453da87d934891787ebe21b4ceb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -8393,7 +8393,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d12d1558bc937164ea5e8d22f1536de9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textObject: {fileID: 11400000, guid: ff71f44b912c998459861d52d9b7f63a, type: 2}
+  textObject: {fileID: 11400000, guid: 3dca0c2d726634741be63675f77cadb4, type: 2}
 --- !u!1 &340420399
 GameObject:
   m_ObjectHideFlags: 0
@@ -8405,6 +8405,7 @@ GameObject:
   - component: {fileID: 340420400}
   - component: {fileID: 340420401}
   - component: {fileID: 340420402}
+  - component: {fileID: 340420403}
   m_Layer: 2
   m_Name: Room3
   m_TagString: Level
@@ -8469,6 +8470,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   virtualCam: {fileID: 1434234047}
+--- !u!114 &340420403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 340420399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d12d1558bc937164ea5e8d22f1536de9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textObject: {fileID: 11400000, guid: e30d1f07f3fe64a4098d0badde4cc7ca, type: 2}
 --- !u!1 &374482568
 GameObject:
   m_ObjectHideFlags: 0
@@ -8738,7 +8752,7 @@ MeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1993079543
-  m_SortingLayer: 6
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!4 &451501321 stripped
@@ -8815,7 +8829,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1993079543
-  m_SortingLayer: 6
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_Sprite: {fileID: 8482718980485798393, guid: f2780453da87d934891787ebe21b4ceb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -8897,7 +8911,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1993079543
-  m_SortingLayer: 6
+  m_SortingLayer: 8
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: cca0c5521d3364746aa9345d18603d74, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -9619,7 +9633,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1993079543
-  m_SortingLayer: 6
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_Sprite: {fileID: -2093190517858184491, guid: f2780453da87d934891787ebe21b4ceb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -9886,7 +9900,7 @@ MeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1993079543
-  m_SortingLayer: 6
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &969862092
@@ -9900,6 +9914,7 @@ GameObject:
   - component: {fileID: 969862093}
   - component: {fileID: 969862094}
   - component: {fileID: 969862095}
+  - component: {fileID: 969862096}
   m_Layer: 2
   m_Name: Room4
   m_TagString: Level
@@ -9964,6 +9979,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   virtualCam: {fileID: 1235650010}
+--- !u!114 &969862096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 969862092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d12d1558bc937164ea5e8d22f1536de9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textObject: {fileID: 11400000, guid: 9c4dd38e4a94925409f9ec193862baa5, type: 2}
 --- !u!1 &1026502439
 GameObject:
   m_ObjectHideFlags: 0
@@ -70270,7 +70298,7 @@ MeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1993079543
-  m_SortingLayer: 6
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!95 &1131089955 stripped
@@ -70549,6 +70577,7 @@ GameObject:
   - component: {fileID: 1373178697}
   - component: {fileID: 1373178698}
   - component: {fileID: 1373178699}
+  - component: {fileID: 1373178700}
   m_Layer: 2
   m_Name: Room5
   m_TagString: Level
@@ -70613,6 +70642,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   virtualCam: {fileID: 127923996}
+--- !u!114 &1373178700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1373178696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d12d1558bc937164ea5e8d22f1536de9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textObject: {fileID: 11400000, guid: db1a576a4ab5d7b478a4bc0ad21abd86, type: 2}
 --- !u!1 &1417347540
 GameObject:
   m_ObjectHideFlags: 3
@@ -70769,7 +70811,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1993079543
-  m_SortingLayer: 6
+  m_SortingLayer: 8
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: cca0c5521d3364746aa9345d18603d74, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -70979,7 +71021,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1993079543
-  m_SortingLayer: 6
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_Sprite: {fileID: -5247582017333130376, guid: f2780453da87d934891787ebe21b4ceb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -71225,7 +71267,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1993079543
-  m_SortingLayer: 6
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_Sprite: {fileID: 730697089558657612, guid: f2780453da87d934891787ebe21b4ceb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -71441,7 +71483,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 158397215
-  m_SortingLayer: 7
+  m_SortingLayer: 9
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: dc3d4e0dd3e2871418ce3e31a7dac476, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -71786,7 +71828,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1993079543
-  m_SortingLayer: 6
+  m_SortingLayer: 8
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: cca0c5521d3364746aa9345d18603d74, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -72227,7 +72269,7 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1993079543
-  m_SortingLayer: 6
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
