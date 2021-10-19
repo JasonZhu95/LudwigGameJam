@@ -14,6 +14,7 @@ public class PlayerDashState : PlayerAbilityState
     private Vector2 dashDirectionInput;
     private Vector2 lastAfterImagePosition;
     public bool stopDashTime;
+    public int dashCount;
 
     public PlayerDashState(Player player, PlayerStateMachine stateMachine, PlayerData playerData, string animBoolName) : base(player, stateMachine, playerData, animBoolName)
     {
@@ -22,11 +23,8 @@ public class PlayerDashState : PlayerAbilityState
     public override void Enter()
     {
         base.Enter();
+        dashCount++;
         CanDash = false;
-        if (player.hasHat)
-        {
-            CanDash = true;
-        }
         player.InputHandler.UseDashInput();
         isHolding = true;
         dashDirection = Vector2.right * player.FacingDirection;
@@ -41,6 +39,11 @@ public class PlayerDashState : PlayerAbilityState
         if (player.CurrentVelocity.y > 0)
         {
             player.SetVelocityY(player.CurrentVelocity.y * playerData.dashEndYMultiplier);
+        }
+
+        if (player.hasHat && dashCount < 2)
+        {
+            CanDash = true;
         }
     }
 

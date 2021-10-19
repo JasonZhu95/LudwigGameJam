@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerJumpState : PlayerAbilityState
 {
     private int amountofJumpsLeft;
+    public bool isJumping;
 
     public PlayerJumpState(Player player, PlayerStateMachine stateMachine, PlayerData playerData, string animBoolName) : base(player, stateMachine, playerData, animBoolName)
     {
@@ -15,6 +16,7 @@ public class PlayerJumpState : PlayerAbilityState
     {
         base.Enter();
 
+        isJumping = true;
         player.InputHandler.UseJumpInput();
         player.SetVelocityY(playerData.jumpVelocity);
         isAbilityDone = true;
@@ -25,6 +27,7 @@ public class PlayerJumpState : PlayerAbilityState
     public override void Exit()
     {
         base.Exit();
+        isJumping = false;
     }
 
     public override void LogicUpdate()

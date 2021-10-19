@@ -38,6 +38,7 @@ public class Player : MonoBehaviour
 
     private Vector2 temporaryWorkspace;
     public bool hasHat;
+    static public int hatDashCount;
 
     private void Awake()
     {
@@ -57,7 +58,7 @@ public class Player : MonoBehaviour
         LookUpState = new PlayerLookUpState(this, StateMachine, playerData, "lookUp");
         LedgeClimbState = new PlayerLedgeClimbState(this, StateMachine, playerData, "ledgeClimbState");
 
-        if (gameObject.name == "PlayerHat")
+        if (gameObject.transform.GetChild(3).gameObject.name == "HatCheck")
         {
             hasHat = true;
         }
