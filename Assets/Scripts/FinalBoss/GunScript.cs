@@ -17,17 +17,23 @@ public class GunScript : MonoBehaviour
     private float detectRadius = 100f;
     public LayerMask whatIsPlayer;
 
-    private float nextTimetoFire = 0;
+    private float nextTimetoFire = 2;
+    private float nextTimetoShine = 2;
 
     private SpriteRenderer BossSprite;
 
     public float period = 5f;
+    public float shinePeriod = 5f;
+
+    public GameObject shine;
 
 
 
     private void Start()
     {
         BossSprite = GameObject.Find("FinalBoss").GetComponent<SpriteRenderer>();
+        shine = GameObject.Find("BossShine");
+        shine.SetActive(false);
     }
 
     private void Update()
@@ -53,12 +59,25 @@ public class GunScript : MonoBehaviour
                 nextTimetoFire += period;
                 StartCoroutine(ShootLaser());
             }
+
+            if (Time.time > nextTimetoShine)
+            {
+                nextTimetoShine += shinePeriod;
+                StartCoroutine(StartShine());
+            }
         }
     }
 
     public bool CheckForPlayer()
     {
         return Physics2D.OverlapCircle(transform.position, detectRadius, whatIsPlayer);
+    }
+
+    IEnumerator StartShine()
+    {
+        shine.SetActive(true);
+        yield return new WaitForSeconds(1f);
+        shine.SetActive(false);
     }
 
     IEnumerator ShootLaser()
