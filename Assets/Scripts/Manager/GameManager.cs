@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+
     public Animator transitionAnim;
     public float transitionTime = 1f;
 
