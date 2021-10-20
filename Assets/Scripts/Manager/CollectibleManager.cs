@@ -7,8 +7,6 @@ using UnityEngine.SocialPlatforms.Impl;
 public class CollectibleManager : MonoBehaviour
 {
     public static CollectibleManager instance;
-    public TextMeshProUGUI text;
-    private int collectibleCount;
 
     private void Start()
     {
@@ -18,9 +16,5 @@ public class CollectibleManager : MonoBehaviour
         }
     }
 
-    public void ChangeCount(int count)
-    {
-        collectibleCount = count;
-        text.text = "X" + collectibleCount.ToString();
-    }
+    
 }

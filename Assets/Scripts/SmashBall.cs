@@ -1,12 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SmashBall : MonoBehaviour
 {
     private GameObject player;
     private PlayerInputHandler pc;
-     
+    public static SmashBall instance;
+    
+
+    private void Awake()
+    {
+       
+    }
+   
     private void OnTriggerEnter2D(Collider2D collision)
     {
         player = GameObject.FindGameObjectWithTag("Player");
@@ -14,8 +22,9 @@ public class SmashBall : MonoBehaviour
 
         if (collision.CompareTag("Player"))
         {
-            pc.smashBalls++;
-            Destroy(gameObject);
+            PlayerInputHandler.smashBalls++;
+            gameObject.SetActive(false);
         }
     }
+
 }
