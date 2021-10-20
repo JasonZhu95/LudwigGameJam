@@ -13,16 +13,21 @@ public class GameManager : MonoBehaviour
     private GameObject player;
     public GameObject[] spawnLocations;
     public GameObject[] activeRooms;
+    
+
 
     public static float playerPosX = 0;
     public static float playerPosY = 0;
     public static bool reload;
     private static bool loadNextLevel;
 
+    
+
     private int roomTracker = 0;
 
     private void Awake()
     {
+        
     }
 
     private void Start()
@@ -47,6 +52,7 @@ public class GameManager : MonoBehaviour
                 roomTracker = i;
             }
         }
+        
     }
 
     public void Respawn()
@@ -55,12 +61,15 @@ public class GameManager : MonoBehaviour
         playerPosX = spawnLocations[roomTracker].transform.position.x;
         playerPosY = spawnLocations[roomTracker].transform.position.y;
         ReloadScene();
+       
     }
 
     public void ReloadScene()
-    {
+    {  
         StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex));
+        
     }
+
 
     public void LoadNextLevel()
     {
@@ -75,5 +84,6 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(transitionTime);
 
         SceneManager.LoadScene(levelIndex);
+ 
     }
 }

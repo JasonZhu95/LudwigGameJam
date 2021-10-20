@@ -10,7 +10,7 @@ public class Collectible : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            CollectibleManager.instance.ChangeCount(count);
+            //CollectibleManager.instance.ChangeCount(count);
             Destroy(gameObject);
         }
     }
