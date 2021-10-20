@@ -34,4 +34,7 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 64
+  whatIsNotGrabbable:
+    serializedVersion: 2
+    m_Bits: 512
   wallCheckDistance: 0.7

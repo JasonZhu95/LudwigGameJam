@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Pools.unity
     guid: 2824a3bd48549104ba6efe14f796e72d
+  - enabled: 1
+    path: Assets/Scenes/Top64.unity
+    guid: bba8d42741117cc44b94cf3fa8719ab7
   m_configObjects: {}

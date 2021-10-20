@@ -10,6 +10,7 @@ public class MovingPlatform : MonoBehaviour
     private Player player;
 
     public float speed = 10f;
+    public float speedBack = 5f;
     public float velocityDampener = 0.75f;
     private Vector3 startPosition;
     private Vector3 endPosition;
@@ -34,7 +35,7 @@ public class MovingPlatform : MonoBehaviour
         }
         if (transform.position == endPosition)
         {
-            StartCoroutine(LerpVector3(gameObject, startPosition, speed));
+            StartCoroutine(LerpVector3(gameObject, startPosition, speedBack));
         }
     }
 
