@@ -30,6 +30,8 @@ public class PlayerInputHandler : MonoBehaviour
     private float jumpInputStartTime;
     private float dashInputStartTime;
 
+    public bool disableInputs;
+
     private void Update()
     {
         CheckJumpInputBufferTime();
@@ -39,37 +41,47 @@ public class PlayerInputHandler : MonoBehaviour
 
     public void OnMoveInput(InputAction.CallbackContext context)
     {
-        RawMovementInput = context.ReadValue<Vector2>();
+        if (!disableInputs)
+        {
+            RawMovementInput = context.ReadValue<Vector2>();
 
-        if (Mathf.Abs(RawMovementInput.x) > 0.5f)
-        {
-            NormInputX = (int)(RawMovementInput * Vector2.right).normalized.x;
-        }
-        else
-        {
-            NormInputX = 0;
-        }
+            if (Mathf.Abs(RawMovementInput.x) > 0.5f)
+            {
+                NormInputX = (int)(RawMovementInput * Vector2.right).normalized.x;
+            }
+            else
+            {
+                NormInputX = 0;
+            }
 
-        if (Mathf.Abs(RawMovementInput.y) > 0.5f)
-        {
-            NormInputY = (int)(RawMovementInput * Vector2.up).normalized.y;
-        }
-        else
-        {
-            NormInputY = 0;
+            if (Mathf.Abs(RawMovementInput.y) > 0.5f)
+            {
+                NormInputY = (int)(RawMovementInput * Vector2.up).normalized.y;
+            }
+            else
+            {
+                NormInputY = 0;
+            }
         }
     }
 
     public void OnJumpInput(InputAction.CallbackContext context)
     {
-        if (context.started)
+        if (!disableInputs)
         {
-            JumpInput = true;
-            JumpInputStop = false;
-            jumpInputStartTime = Time.time;
-        }
+            if (context.started)
+            {
+                JumpInput = true;
+                JumpInputStop = false;
+                jumpInputStartTime = Time.time;
+            }
 
-        if (context.canceled)
+            if (context.canceled)
+            {
+                JumpInputStop = true;
+            }
+        }
+        else
         {
             JumpInputStop = true;
         }
@@ -77,12 +89,19 @@ public class PlayerInputHandler : MonoBehaviour
 
     public void OnGrabInput(InputAction.CallbackContext context)
     {
-        if (context.started)
+        if (!disableInputs)
         {
-            GrabInput = true;
-        }
+            if (context.started)
+            {
+                GrabInput = true;
+            }
 
-        if (context.canceled)
+            if (context.canceled)
+            {
+                GrabInput = false;
+            }
+        }
+        else
         {
             GrabInput = false;
         }
@@ -90,13 +109,20 @@ public class PlayerInputHandler : MonoBehaviour
 
     public void OnDashInput(InputAction.CallbackContext context)
     {
-        if (context.started)
+        if (!disableInputs)
         {
-            DashInput = true;
-            DashInputStop = false;
-            dashInputStartTime = Time.time;
+            if (context.started)
+            {
+                DashInput = true;
+                DashInputStop = false;
+                dashInputStartTime = Time.time;
+            }
+            else if (context.canceled)
+            {
+                DashInputStop = true;
+            }
         }
-        else if (context.canceled)
+        else
         {
             DashInputStop = true;
         }
@@ -104,18 +130,28 @@ public class PlayerInputHandler : MonoBehaviour
 
     public void OnDashDirectionInput(InputAction.CallbackContext context)
     {
-        RawDashDirectionInput = context.ReadValue<Vector2>();
-        DashDirectionInput = Vector2Int.RoundToInt(RawDashDirectionInput.normalized);
+        if (!disableInputs)
+        {
+            RawDashDirectionInput = context.ReadValue<Vector2>();
+            DashDirectionInput = Vector2Int.RoundToInt(RawDashDirectionInput.normalized);
+        }
     }
 
     public void OnInteractInput(InputAction.CallbackContext context)
     {
-        if (context.started)
+        if (!disableInputs)
         {
-            InteractInput = true;
-        }
+            if (context.started)
+            {
+                InteractInput = true;
+            }
 
-        if (context.canceled)
+            if (context.canceled)
+            {
+                InteractInput = false;
+            }
+        }
+        else
         {
             InteractInput = false;
         }

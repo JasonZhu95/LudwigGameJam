@@ -78,6 +78,10 @@ public class Player : MonoBehaviour
     {
         CurrentVelocity = RB.velocity;
         StateMachine.CurrentState.LogicUpdate();
+        if (InputHandler.disableInputs)
+        {
+            SetVelocityX(-5f);
+        }
     }
 
     private void FixedUpdate()
