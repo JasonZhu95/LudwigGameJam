@@ -19,6 +19,7 @@ public class Timer : MonoBehaviour
     private void Awake()
     {
         instance = this;
+        
     }
 
     private void Start()
@@ -45,7 +46,7 @@ public class Timer : MonoBehaviour
         {
             elapsedTime += Time.deltaTime;
             timePlaying = TimeSpan.FromSeconds(elapsedTime);
-            string timePlayingStr = "Time: " + timePlaying.ToString("mm':'ss'.'ff");
+            string timePlayingStr = timePlaying.ToString("mm':'ss'.'ff");
             timerText.text = timePlayingStr;
 
             yield return null;
