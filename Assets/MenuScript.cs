@@ -34,7 +34,7 @@ public class MenuScript : MonoBehaviour
             {
                 ResumeGame();
             }
-            else
+            else if(isPaused == false)
             {
                 PauseGame();
             }
