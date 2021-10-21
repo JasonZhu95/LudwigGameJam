@@ -18,6 +18,10 @@ public class ShineRedash : MonoBehaviour
             if (transform.GetChild(0).gameObject.activeSelf)
             {
                 player.DashState.ResetCanDash();
+                if (player.GetComponent<Player>().hasHat)
+                {
+                    player.GetComponent<Player>().DashState.dashCount = 0;
+                }
             }
             StartCoroutine(RespawnShine());
         }

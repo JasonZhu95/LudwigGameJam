@@ -10,7 +10,6 @@ public class Trampoline : MonoBehaviour
     public float playerOffsetX;
     public float playerOffestY;
 
-
     [SerializeField] private Transform playerCheck;
     [SerializeField] private float playerCheckRadius = 0.75f;
     public LayerMask whatIsPlayer;
@@ -27,6 +26,15 @@ public class Trampoline : MonoBehaviour
         {
             StartCoroutine(DisableVelocitySet());
             player.GetComponent<Player>().DashState.ResetCanDash();
+            if (player.GetComponent<Player>().hasHat)
+            {
+                player.GetComponent<Player>().DashState.dashCount = 0;
+            }
+            else
+            {
+                player.GetComponent<Player>().trampolineHatCheck = false;
+            }
+
             if (transform.rotation.eulerAngles.z == 90)
             {
                 player.transform.position = new Vector3(transform.position.x + playerOffsetX,
