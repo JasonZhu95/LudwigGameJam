@@ -8,6 +8,7 @@ public class PlayerTouchingWallState : PlayerState
     protected bool isTouchingWall;
     protected bool isTouchingLedge;
     protected bool grabInput;
+    protected bool dashInput;
     protected bool jumpInput;
     protected int xInput;
     protected int yInput;
@@ -33,6 +34,7 @@ public class PlayerTouchingWallState : PlayerState
         yInput = player.InputHandler.NormInputY;
         grabInput = player.InputHandler.GrabInput;
         jumpInput = player.InputHandler.JumpInput;
+        dashInput = player.InputHandler.DashInput;
 
         if (jumpInput)
         {
@@ -50,6 +52,10 @@ public class PlayerTouchingWallState : PlayerState
         else if (isTouchingWall && !isTouchingLedge)
         {
             stateMachine.ChangeState(player.LedgeClimbState);
+        }
+        else if (dashInput && player.DashState.CheckIfCanDash())
+        {
+            stateMachine.ChangeState(player.DashState);
         }
     }
 

@@ -26,8 +26,7 @@ public class GunScript : MonoBehaviour
     public float shinePeriod = 5f;
 
     public GameObject shine;
-
-
+    public float waitingTime;
 
     private void Start()
     {
@@ -42,6 +41,8 @@ public class GunScript : MonoBehaviour
 
         direction = targetPos - (Vector2)transform.position;
 
+        waitingTime += Time.deltaTime;
+
         gun.transform.right = direction;
         if (gun.transform.rotation.eulerAngles.z <= 90.0f || gun.transform.rotation.eulerAngles.z >= 270.0f)
         {
@@ -54,13 +55,13 @@ public class GunScript : MonoBehaviour
 
         if (CheckForPlayer())
         {
-            if (Time.time > nextTimetoFire)
+            if (waitingTime > nextTimetoFire)
             {
                 nextTimetoFire += period;
                 StartCoroutine(ShootLaser());
             }
 
-            if (Time.time > nextTimetoShine)
+            if (waitingTime > nextTimetoShine)
             {
                 nextTimetoShine += shinePeriod;
                 StartCoroutine(StartShine());
