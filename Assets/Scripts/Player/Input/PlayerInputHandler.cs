@@ -36,7 +36,8 @@ public class PlayerInputHandler : MonoBehaviour
     {
         CheckJumpInputBufferTime();
         CheckDashInputHoldTime();
-        
+        CheckInteractInputTime();
+        CheckPauseInputTime();
     }
 
     public void OnMoveInput(InputAction.CallbackContext context)
@@ -172,6 +173,7 @@ public class PlayerInputHandler : MonoBehaviour
 
     public void UseDashInput() => DashInput = false;
     public void UseJumpInput() => JumpInput = false;
+    public void UseInteractInput() => InteractInput = false;
 
     private void CheckJumpInputBufferTime()
     {
@@ -186,6 +188,22 @@ public class PlayerInputHandler : MonoBehaviour
         if (Time.time >= dashInputStartTime + inputBufferTime)
         {
             DashInput = false;
+        }
+    }
+
+    private void CheckInteractInputTime()
+    {
+        if (Time.time >= inputBufferTime)
+        {
+            InteractInput = false;
+        }
+    }
+
+    private void CheckPauseInputTime()
+    {
+        if (Time.time >= inputBufferTime)
+        {
+            PauseInput = false;
         }
     }
 }
