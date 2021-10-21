@@ -37,9 +37,12 @@ public class GunScript : MonoBehaviour
 
     private void Update()
     {
-        Vector2 targetPos = target.position;
+        if (target != null)
+        {
+            Vector2 targetPos = target.position;
+            direction = targetPos - (Vector2)transform.position;
+        }
 
-        direction = targetPos - (Vector2)transform.position;
 
         waitingTime += Time.deltaTime;
 

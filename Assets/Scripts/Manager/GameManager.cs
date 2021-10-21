@@ -20,13 +20,10 @@ public class GameManager : MonoBehaviour
     public static bool reload;
     private static bool loadNextLevel;
 
-    
-
     private int roomTracker = 0;
 
     private void Awake()
     {
-        
     }
 
     private void Start()
