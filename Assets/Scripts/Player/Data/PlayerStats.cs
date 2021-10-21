@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerStats : MonoBehaviour
 {
+    private Player player;
     private Rigidbody2D RB;
     private GameManager GM;
     private GameObject spikeObject;
@@ -20,6 +21,7 @@ public class PlayerStats : MonoBehaviour
     private void Start()
     {
         currentStocks = stockCount;
+        player = GetComponent<Player>();
         RB = GetComponent<Rigidbody2D>();
         GM = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
@@ -87,6 +89,10 @@ public class PlayerStats : MonoBehaviour
     {
         if (isCollidingWithSpike)
         {
+            if (player.CheckIfTouchingWall())
+            {
+                Die();
+            }
             if (spikeObject.transform.rotation.eulerAngles.z == 90)
             {
                 if (RB.velocity.x < 0.01) { }

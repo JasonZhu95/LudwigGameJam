@@ -38,7 +38,7 @@ public class Player : MonoBehaviour
 
     private Vector2 temporaryWorkspace;
     public bool hasHat;
-    static public int hatDashCount;
+    public bool trampolineHatCheck;
 
     private void Awake()
     {
