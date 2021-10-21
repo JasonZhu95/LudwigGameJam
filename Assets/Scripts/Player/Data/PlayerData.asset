@@ -21,7 +21,7 @@ MonoBehaviour:
   coyoteTime: 0.2
   variableJumpHeightMult: 0.5
   wallSlideVelocity: 1.5
-  wallClimbVelocity: 4
+  wallClimbVelocity: 4.5
   dashCooldown: 0.2
   dashTime: 0.2
   dashVelocity: 25
