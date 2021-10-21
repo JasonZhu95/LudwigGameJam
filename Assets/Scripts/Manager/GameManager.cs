@@ -13,7 +13,6 @@ public class GameManager : MonoBehaviour
     private GameObject player;
     public GameObject[] spawnLocations;
     public GameObject[] activeRooms;
-    
 
 
     public static float playerPosX = 0;
@@ -61,6 +60,7 @@ public class GameManager : MonoBehaviour
         playerPosX = spawnLocations[roomTracker].transform.position.x;
         playerPosY = spawnLocations[roomTracker].transform.position.y;
         ReloadScene();
+        
        
     }
 

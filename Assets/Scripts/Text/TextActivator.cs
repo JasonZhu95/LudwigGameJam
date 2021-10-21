@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TextActivator : MonoBehaviour, IInteractable
 {
-    [SerializeField] private TextObject textObject;
+    [SerializeField] public TextObject textObject;
 
     public void Interact(PlayerInputHandler player)
     {
