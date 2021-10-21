@@ -30792,6 +30792,10 @@ PrefabInstance:
       propertyPath: smashBallNum
       value: 
       objectReference: {fileID: 112955102}
+    - target: {fileID: 7381506253438762664, guid: 981b4cfc381075947b9c3c263c87fd4a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -7.600006
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 981b4cfc381075947b9c3c263c87fd4a, type: 3}
 --- !u!114 &112955102 stripped

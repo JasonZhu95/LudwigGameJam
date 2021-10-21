@@ -7,13 +7,16 @@ public class TextUI : MonoBehaviour
 {
     [SerializeField] private GameObject textBox; 
     [SerializeField] private TMP_Text textLabel;
+    private PlayerInputHandler playerInput;
+    private TypeWriterEffect typeWriterEffect;
     
+
     public bool isOpen { get; private set; }
 
-    private TypeWriterEffect typeWriterEffect;
+    
     private void Start()
     {
-        typeWriterEffect = GetComponent<TypeWriterEffect>();
+        typeWriterEffect = GetComponent<TypeWriterEffect>();      
         CloseDialogueBox();
     }
 
@@ -29,8 +32,12 @@ public class TextUI : MonoBehaviour
         foreach(string dialogue in textObject.Dialogue)
         {
             yield return typeWriterEffect.Run(dialogue, textLabel);
-            yield return new WaitForSeconds(15);
+
+            yield return new WaitForSeconds(8);
+            textLabel.CrossFadeAlpha(0, 1, false);
+            yield return new WaitForSeconds(1);
         }
+        
         CloseDialogueBox();
     }
 
