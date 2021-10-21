@@ -7,6 +7,7 @@ public class PlayerWallJumpState : PlayerAbilityState
     private int wallJumpDirection;
 
     public bool isWallJumping;
+    protected bool dashInput;
 
     public PlayerWallJumpState(Player player, PlayerStateMachine stateMachine, PlayerData playerData, string animBoolName) : base(player, stateMachine, playerData, animBoolName)
     {
@@ -37,6 +38,12 @@ public class PlayerWallJumpState : PlayerAbilityState
 
         player.Anim.SetFloat("yVelocity", player.CurrentVelocity.y);
         player.Anim.SetFloat("xVelocity", Mathf.Abs(player.CurrentVelocity.x));
+        dashInput = player.InputHandler.DashInput;
+
+        if (dashInput && player.DashState.CheckIfCanDash())
+        {
+            stateMachine.ChangeState(player.DashState);
+        }
 
         if (Time.time >= startTime + playerData.wallJumpTime)
         {
