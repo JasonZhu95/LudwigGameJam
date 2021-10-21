@@ -19,7 +19,7 @@ public class SoundManagerScript : MonoBehaviour
         switch (clip)
         {
             case "playerDeath":
-                audioSrc.PlayOneShot(playerDeath);
+                audioSrc.PlayOneShot(playerDeath); 
                 break;
         }
     }
