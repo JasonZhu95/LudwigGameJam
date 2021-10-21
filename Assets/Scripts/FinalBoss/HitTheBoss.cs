@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class HitTheBoss : MonoBehaviour
 {
@@ -24,7 +25,11 @@ public class HitTheBoss : MonoBehaviour
     public GameObject[] destroyPlatforms;
 
     public GameObject[] activeRooms;
-    private int amountOfTimesHit;
+    public static int amountOfTimesHit;
+
+    public static int stockCount = 4;
+    public int currentStocks;
+    public Image[] stocks;
 
     private void Start()
     {
@@ -32,10 +37,23 @@ public class HitTheBoss : MonoBehaviour
         gunScript = GetComponent<GunScript>();
         playerController = player.GetComponent<Player>();
         playerTargetSelector = playerTargetPosition[0];
+        currentStocks = stockCount;
     }
 
     private void Update()
     {
+        for (int i = 0; i < stocks.Length; i++)
+        {
+            for
+            if (i < currentStocks)
+            {
+                stocks[i].enabled = true;
+            }
+            else
+            {
+                stocks[i].enabled = false;
+            }
+        }
         if (startTimer)
         {
             playerT += Time.deltaTime / timeToReachTarget;
@@ -59,6 +77,7 @@ public class HitTheBoss : MonoBehaviour
     {
         if (coll.gameObject.CompareTag("Player"))
         {
+            stockCount--;
             startPosition = player.transform.position;
             bossStartPosition = transform.position;
             Destroy(destroyPlatforms[amountOfTimesHit]);
