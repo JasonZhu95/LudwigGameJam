@@ -12,6 +12,7 @@ TagManager:
   - Interactable
   - Collectible
   - Obstacle
+  - Boss
   layers:
   - Default
   - TransparentFX
