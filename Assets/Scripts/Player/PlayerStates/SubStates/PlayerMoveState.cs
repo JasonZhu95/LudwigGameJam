@@ -11,6 +11,7 @@ public class PlayerMoveState : PlayerGroundedState
     public override void Enter()
     {
         base.Enter();
+        SoundManagerScript.PlaySound("playerMove");
     }
 
     public override void Exit()
