@@ -10,9 +10,7 @@ public class DontDestroy : MonoBehaviour
     private void Awake()
     {
 
-        objectID++;
-
-        
+        objectID++;  
 
     }
     void Start()

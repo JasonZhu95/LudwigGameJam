@@ -5,6 +5,8 @@ using UnityEngine;
 public class TextActivator : MonoBehaviour, IInteractable
 {
     [SerializeField] public TextObject textObject;
+    public bool show = true;
+    
     
     public void Interact(PlayerInputHandler player)
     {
@@ -13,15 +15,20 @@ public class TextActivator : MonoBehaviour, IInteractable
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.CompareTag("Player") && other.TryGetComponent(out PlayerInputHandler player) && !other.isTrigger)
-        {
-            player.Interactable = this;
 
-            if(player.Interactable != null)
+        if (this.show)
+        {
+            if (other.CompareTag("Player") && other.TryGetComponent(out PlayerInputHandler player) && !other.isTrigger)
             {
-                Interact(player); 
+               
+                player.Interactable = this;
+                if (player.Interactable != null)
+                {
+                    Interact(player);
+                    this.show = false;
+                }
             }
-        }
+        }   
         
     }
 

@@ -12,11 +12,15 @@ public class DontDestroyTimer : MonoBehaviour
     }
     public void Start()
     {
-        DontDestroyOnLoad(gameObject);
 
+        
         if (FindObjectsOfType(typeof(DontDestroyTimer)).Length > 1)
         {
             DestroyImmediate(gameObject);
+        }
+        else
+        {
+            DontDestroyOnLoad(gameObject);
         }
         
     }

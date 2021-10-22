@@ -24,11 +24,13 @@ public class TextUI : MonoBehaviour
 
     public void ShowDialogue(TextObject textObject)
     {
-        isOpen = true;
-        boxTransform.anchoredPosition = new Vector2(textObject.posX, textObject.posY);
-        textBox.SetActive(true);
-        StartCoroutine(routine: StepThroughText(textObject));
-        DestroyImmediate(textObject, true);
+       
+            isOpen = true;
+            boxTransform.anchoredPosition = new Vector2(textObject.posX, textObject.posY);
+            textBox.SetActive(true);
+            StartCoroutine(routine: StepThroughText(textObject));
+        
+        
     }
 
     private IEnumerator StepThroughText(TextObject textObject)
