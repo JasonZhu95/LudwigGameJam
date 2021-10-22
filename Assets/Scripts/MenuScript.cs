@@ -13,6 +13,7 @@ public class MenuScript : MonoBehaviour
 
 
     public bool isPaused = false;
+    public static bool stopPlayerStates;
     public static int staticSmashBallNum = 0;
     //public static MenuScript instance;
 
@@ -58,6 +59,7 @@ public class MenuScript : MonoBehaviour
     public void PauseGame()
     {
         isPaused = true;
+        stopPlayerStates = true;
         Time.timeScale = 0f;
         pauseMenu.SetActive(true);
 
@@ -66,6 +68,7 @@ public class MenuScript : MonoBehaviour
     public void ResumeGame()
     {
         isPaused = false;
+        stopPlayerStates = false;
         Time.timeScale = 1f;
         pauseMenu.SetActive(false);
 
