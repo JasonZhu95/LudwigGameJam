@@ -7,6 +7,7 @@ public class TextObject : ScriptableObject
 {
     public int posX = 0;
     public int posY = 0;
+    public bool show = true;
 
     [SerializeField] [TextArea] private string[] dialogue;
 

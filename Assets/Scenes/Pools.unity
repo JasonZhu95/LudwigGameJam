@@ -36590,6 +36590,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textObject: {fileID: 11400000, guid: 018d27ce33552a740bd6f4270f039d2a, type: 2}
+  show: 1
 --- !u!1 &548057882
 GameObject:
   m_ObjectHideFlags: 3
@@ -36847,7 +36848,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d12d1558bc937164ea5e8d22f1536de9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textObject: {fileID: 11400000, guid: b52af388da8f225478c5f47d09291dfd, type: 2}
+  textObject: {fileID: 0}
+  show: 1
 --- !u!1 &573937529
 GameObject:
   m_ObjectHideFlags: 0
@@ -39201,6 +39203,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textObject: {fileID: 11400000, guid: 68fc67c13a2e9b14398cd1b5803cfbc2, type: 2}
+  show: 1
 --- !u!1 &733817790
 GameObject:
   m_ObjectHideFlags: 3
@@ -42350,6 +42353,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textObject: {fileID: 11400000, guid: 70349e7dd2b140245bbcc4c7c2c2ee1c, type: 2}
+  show: 1
 --- !u!1 &992243149
 GameObject:
   m_ObjectHideFlags: 0
@@ -123854,6 +123858,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textObject: {fileID: 11400000, guid: 503df08de7e3bcc46ae24871cd2d3ed0, type: 2}
+  show: 1
 --- !u!1 &1494984554
 GameObject:
   m_ObjectHideFlags: 0
@@ -125128,6 +125133,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textObject: {fileID: 11400000, guid: 5d5a70bc5f485b5498447e9c12bf534f, type: 2}
+  show: 1
 --- !u!1 &1656061730
 GameObject:
   m_ObjectHideFlags: 0
@@ -137382,6 +137388,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5605155402688396624}
+  - component: {fileID: 5605155402688396626}
   m_Layer: 0
   m_Name: Rooms
   m_TagString: Untagged
@@ -137389,6 +137396,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &5605155402688396626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5605155402688396625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2aa8c1d113a80540b23259501855683, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &5605155403145984256
 Transform:
   m_ObjectHideFlags: 0
@@ -137435,7 +137454,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d12d1558bc937164ea5e8d22f1536de9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textObject: {fileID: 11400000, guid: 9f7049ede9049de409d4869ea4af7b12, type: 2}
+  textObject: {fileID: 11400000, guid: 66ecd301ef971b64ab463572ef0fc7fa, type: 2}
+  show: 1
 --- !u!60 &5605155403145984319
 PolygonCollider2D:
   m_ObjectHideFlags: 0

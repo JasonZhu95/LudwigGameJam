@@ -6,6 +6,7 @@ public class DisplayConversation : MonoBehaviour
 {
     private PlayerInputHandler playerInput;
     private TypeWriterEffect typeWriterEffect;
+    private Player player;
 
     public Conversation conversation;
 
@@ -27,6 +28,7 @@ public class DisplayConversation : MonoBehaviour
         speakerUIRight.Speaker = conversation.speakerRight;
 
         playerInput = GameObject.Find("Player").GetComponent<PlayerInputHandler>();
+        player = GameObject.Find("Player").GetComponent<Player>();
         typeWriterEffect = GetComponent<TypeWriterEffect>();
 
         speakerUILeft.Hide();
@@ -43,6 +45,7 @@ public class DisplayConversation : MonoBehaviour
         {
             DisplayLine();
             activeLineIndex += 1;
+            player.canMove = false;
         }
         else
         {
@@ -50,7 +53,7 @@ public class DisplayConversation : MonoBehaviour
             speakerUIRight.Hide();
             activeLineIndex = 0;
             gameObject.SetActive(false);
-
+            player.canMove = true;
         }
     }
 

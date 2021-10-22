@@ -34,10 +34,8 @@ public class PlayerInputHandler : MonoBehaviour
     private float jumpInputStartTime;
     private float dashInputStartTime;
 
-    private float UITimer = 0.0f;
-    public float UITimeBuffer = 0.5f;
-    public bool canPause = false;
-    public bool canInteract = false;
+    
+    
 
 
     public bool disableInputs;
