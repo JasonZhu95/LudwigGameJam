@@ -12,11 +12,13 @@ public class PlayerWallSlideState : PlayerTouchingWallState
     public override void Enter()
     {
         base.Enter();
+        player.slideDust.Play();
     }
 
     public override void Exit()
     {
         base.Exit();
+        player.slideDust.Stop();
     }
 
     public override void LogicUpdate()

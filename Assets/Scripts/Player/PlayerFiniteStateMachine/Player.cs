@@ -28,7 +28,7 @@ public class Player : MonoBehaviour
     public Vector2 CurrentVelocity { get; private set; }
     public int FacingDirection { get; private set; }
     public bool canMove;
-    public bool disableVelocitySet;
+    [HideInInspector] public bool disableVelocitySet;
 
     [SerializeField] private Transform groundCheck;
     [SerializeField] private Transform wallCheck;
@@ -36,9 +36,15 @@ public class Player : MonoBehaviour
 
     [SerializeField] private PlayerData playerData;
 
+    public ParticleSystem jumpDust;
+    public ParticleSystem dashDust;
+    public ParticleSystem slideDust;
+    public ParticleSystem wallJumpDust;
+    public ParticleSystem turnDust;
+
     private Vector2 temporaryWorkspace;
-    public bool hasHat;
-    public bool trampolineHatCheck;
+    [HideInInspector] public bool hasHat;
+    [HideInInspector]public bool trampolineHatCheck;
 
     private void Awake()
     {
@@ -172,6 +178,10 @@ public class Player : MonoBehaviour
 
     private void Flip()
     {
+        if (CheckIfGrounded())
+        {
+            turnDust.Play();
+        }
         FacingDirection *= -1;
         transform.Rotate(0.0f, 180.0f, 0.0f);
     }

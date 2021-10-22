@@ -14642,17 +14642,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1794803901 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7005955142802262170, guid: 18ded3bf4f49b7d4883755d51e4ba100, type: 3}
-  m_PrefabInstance: {fileID: 7005955142917133716}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0599a7e04878aa14abbd85103c5c67ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1936156375
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15516,46 +15505,6 @@ PrefabInstance:
       propertyPath: m_UIInputModule
       value: 
       objectReference: {fileID: 1649271982}
-    - target: {fileID: 7005955142802262174, guid: 18ded3bf4f49b7d4883755d51e4ba100, type: 3}
-      propertyPath: m_ActionEvents.Array.size
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 7005955142802262174, guid: 18ded3bf4f49b7d4883755d51e4ba100, type: 3}
-      propertyPath: m_ActionEvents.Array.data[6].m_ActionId
-      value: d0c5f8b3-e40f-4f9f-b96d-637ce7033044
-      objectReference: {fileID: 0}
-    - target: {fileID: 7005955142802262174, guid: 18ded3bf4f49b7d4883755d51e4ba100, type: 3}
-      propertyPath: m_ActionEvents.Array.data[6].m_ActionName
-      value: Gameplay/Pause[/Keyboard/escape]
-      objectReference: {fileID: 0}
-    - target: {fileID: 7005955142802262174, guid: 18ded3bf4f49b7d4883755d51e4ba100, type: 3}
-      propertyPath: m_ActionEvents.Array.data[6].m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7005955142802262174, guid: 18ded3bf4f49b7d4883755d51e4ba100, type: 3}
-      propertyPath: m_ActionEvents.Array.data[6].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7005955142802262174, guid: 18ded3bf4f49b7d4883755d51e4ba100, type: 3}
-      propertyPath: m_ActionEvents.Array.data[6].m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1794803901}
-    - target: {fileID: 7005955142802262174, guid: 18ded3bf4f49b7d4883755d51e4ba100, type: 3}
-      propertyPath: m_ActionEvents.Array.data[6].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7005955142802262174, guid: 18ded3bf4f49b7d4883755d51e4ba100, type: 3}
-      propertyPath: m_ActionEvents.Array.data[6].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OnPauseInput
-      objectReference: {fileID: 0}
-    - target: {fileID: 7005955142802262174, guid: 18ded3bf4f49b7d4883755d51e4ba100, type: 3}
-      propertyPath: m_ActionEvents.Array.data[6].m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: PlayerInputHandler, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 7005955142802262174, guid: 18ded3bf4f49b7d4883755d51e4ba100, type: 3}
-      propertyPath: m_ActionEvents.Array.data[6].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18ded3bf4f49b7d4883755d51e4ba100, type: 3}
 --- !u!4 &8412480581724427764
