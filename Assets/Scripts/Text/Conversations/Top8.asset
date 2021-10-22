@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c2fc45cd493436428a19cbc90a9ea5f, type: 3}
+  m_Name: Top8
+  m_EditorClassIdentifier: 
+  speakerLeft: {fileID: 11400000, guid: 80530266e4346f645bdd5e15404448f7, type: 2}
+  speakerRight: {fileID: 11400000, guid: fe11ccae5bc18d64a917031d4984511b, type: 2}
+  lines:
+  - character: {fileID: 11400000, guid: fe11ccae5bc18d64a917031d4984511b, type: 2}
+    text: "Chu12ch: Bro. You don\u2019t look too good. You alright?"
+  - character: {fileID: 11400000, guid: 80530266e4346f645bdd5e15404448f7, type: 2}
+    text: "Player: Yea I\u2019m just really feeling the pressure."
+  - character: {fileID: 11400000, guid: fe11ccae5bc18d64a917031d4984511b, type: 2}
+    text: "Chu12ch:  I mean I don\u2019t really know exactly what you\u2019re going
+      through, but maybe I can cheer you up."
+  - character: {fileID: 11400000, guid: fe11ccae5bc18d64a917031d4984511b, type: 2}
+    text: 'Chu12ch:  Want to see my cat, Claire Saffitz @BA_TestKitchen?
+
+'
+  - character: {fileID: 11400000, guid: 80530266e4346f645bdd5e15404448f7, type: 2}
+    text: 'Player: Thanks man I needed to chill out I think.
+
+'
+  - character: {fileID: 11400000, guid: fe11ccae5bc18d64a917031d4984511b, type: 2}
+    text: 'Chu12ch:  Hey before you go take this.
+
+'
+  - character: {fileID: 11400000, guid: 80530266e4346f645bdd5e15404448f7, type: 2}
+    text: "Player: FREE HAT? LET\u2019S GOOO\r\n"
