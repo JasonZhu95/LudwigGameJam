@@ -25,19 +25,41 @@ public class PlayerInputHandler : MonoBehaviour
     public IInteractable Interactable { get; set; }
     [SerializeField] private TextUI textUI;
     public TextUI TextUI => textUI;
+    private MenuScript ms;
+    private GameObject canvas;
+    private GameObject dialogueCanvas;
+    private DisplayConversation ds;
 
     [SerializeField] private float inputBufferTime = 0.2f;
     private float jumpInputStartTime;
     private float dashInputStartTime;
 
+    private float UITimer = 0.0f;
+    public float UITimeBuffer = 0.5f;
+    public bool canPause = false;
+    public bool canInteract = false;
+
+
     public bool disableInputs;
 
+    void Start()
+    {
+        canvas = GameObject.FindGameObjectWithTag("Canvas");
+        ms = canvas.GetComponent<MenuScript>();
+
+        if(GameObject.FindGameObjectsWithTag("Dialogue Canvas").Length > 0)
+        {
+            dialogueCanvas = GameObject.FindGameObjectWithTag("Dialogue Canvas");
+            ds = dialogueCanvas.GetComponent<DisplayConversation>();
+        }
+        
+    }
     private void Update()
     {
         CheckJumpInputBufferTime();
         CheckDashInputHoldTime();
-        CheckInteractInputTime();
-        CheckPauseInputTime();
+        
+
     }
 
     public void OnMoveInput(InputAction.CallbackContext context)
@@ -138,44 +160,15 @@ public class PlayerInputHandler : MonoBehaviour
         }
     }
 
-    public void OnInteractInput(InputAction.CallbackContext context)
-    {
-        if (!disableInputs)
-        {
-            if (context.started)
-            {
-                InteractInput = true;
-            }
+    
 
-            if (context.canceled)
-            {
-                InteractInput = false;
-            }
-        }
-        else
-        {
-            InteractInput = false;
-        }
-    }
-    public void OnPauseInput(InputAction.CallbackContext context)
-    {
-        if (context.started)
-        {
-            PauseInput = true;
-        }
-
-        if (context.canceled)
-        {
-            PauseInput = false;
-        }
-  
-    }
 
     public void UseDashInput() => DashInput = false;
     public void UseJumpInput() => JumpInput = false;
 
     private void CheckJumpInputBufferTime()
     {
+        
         if (Time.time >= jumpInputStartTime + inputBufferTime)
         {
             JumpInput = false;
@@ -190,19 +183,61 @@ public class PlayerInputHandler : MonoBehaviour
         }
     }
 
-    private void CheckInteractInputTime()
+
+    public void OnInteractInput(InputAction.CallbackContext context)
     {
-        if (Time.time >= inputBufferTime)
+        if (!disableInputs)
         {
-            InteractInput = false;
+            if (context.started) 
+            { 
+                if (GameObject.FindGameObjectsWithTag("Dialogue Canvas").Length == 1)
+                {
+                    ds.AdvanceConversation();
+                }
+                InteractInput = true;
+            }
+            if (context.canceled)
+            {
+                InteractInput = false;
+            }
         }
+    }
+    public void OnPauseInput(InputAction.CallbackContext context)
+    {
+        if (context.started)
+        {
+            if(ms.isPaused)
+            {
+                ms.ResumeGame();
+            }
+            else if (!ms.isPaused)
+            {
+                ms.PauseGame();
+            }
+        }
+       
+        
     }
 
-    private void CheckPauseInputTime()
-    {
-        if (Time.time >= inputBufferTime)
-        {
-            PauseInput = false;
-        }
-    }
+    //private void CheckPauseInputTime()
+    //{
+    //    UITimer += Time.deltaTime;
+    //    if (UITimer >= UITimeBuffer)
+    //    {
+    //        PauseInput = false;
+    //    }
+    //    else
+    //    {
+    //        canPause = false;
+    //    }
+    //}
+
+    //private void CheckInteractInputTime()
+    //{
+    //    if (Time.time >= UITimer + UITimeBuffer)
+    //    {
+    //        InteractInput = false;
+    //    }
+    //}
+
 }

@@ -13,6 +13,8 @@ TagManager:
   - Collectible
   - Obstacle
   - Boss
+  - Canvas
+  - Dialogue Canvas
   layers:
   - Default
   - TransparentFX

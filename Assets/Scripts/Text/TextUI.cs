@@ -28,6 +28,7 @@ public class TextUI : MonoBehaviour
         boxTransform.anchoredPosition = new Vector2(textObject.posX, textObject.posY);
         textBox.SetActive(true);
         StartCoroutine(routine: StepThroughText(textObject));
+        DestroyImmediate(textObject, true);
     }
 
     private IEnumerator StepThroughText(TextObject textObject)

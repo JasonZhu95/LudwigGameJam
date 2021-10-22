@@ -115846,6 +115846,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 7381506253184081990, guid: 981b4cfc381075947b9c3c263c87fd4a, type: 3}
+      propertyPath: m_TagString
+      value: Canvas
+      objectReference: {fileID: 0}
     - target: {fileID: 7381506253184081997, guid: 981b4cfc381075947b9c3c263c87fd4a, type: 3}
       propertyPath: smashBallNum
       value: 

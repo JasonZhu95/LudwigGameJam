@@ -12,9 +12,9 @@ public class MenuScript : MonoBehaviour
     [SerializeField] int numSmashBalls;
 
 
-    public static bool isPaused = false;
+    public bool isPaused = false;
     public static int staticSmashBallNum = 0;
-    public static MenuScript instance;
+    //public static MenuScript instance;
 
     private PlayerInputHandler pc;
     private GameObject player;
@@ -26,7 +26,7 @@ public class MenuScript : MonoBehaviour
     }
     public void Start()
     {
-        transform.GetChild(0).gameObject.SetActive(true);
+        //transform.GetChild(0).gameObject.SetActive(true);
         player = GameObject.FindGameObjectWithTag("Player");
         pc = player.GetComponent<PlayerInputHandler>();
         
