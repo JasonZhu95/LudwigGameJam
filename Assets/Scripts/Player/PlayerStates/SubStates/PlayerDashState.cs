@@ -23,6 +23,7 @@ public class PlayerDashState : PlayerAbilityState
     public override void Enter()
     {
         base.Enter();
+        player.dashDust.Play();
         dashCount++;
         CanDash = false;
         player.InputHandler.UseDashInput();
@@ -34,6 +35,7 @@ public class PlayerDashState : PlayerAbilityState
     public override void Exit()
     {
         base.Exit();
+        player.dashDust.Stop();
         stopDashTime = false;
 
         if (player.CurrentVelocity.y > 0)

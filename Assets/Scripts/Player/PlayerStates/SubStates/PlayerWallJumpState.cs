@@ -17,6 +17,7 @@ public class PlayerWallJumpState : PlayerAbilityState
     public override void Enter()
     {
         base.Enter();
+        player.wallJumpDust.Play();
         isWallJumping = true;
 
         player.InputHandler.UseJumpInput();
