@@ -56,6 +56,19 @@ public class GameManager : MonoBehaviour
         reload = true;
         playerPosX = spawnLocations[roomTracker].transform.position.x;
         playerPosY = spawnLocations[roomTracker].transform.position.y;
+        if (PlayerStats.stockCount == 0)
+        {
+            if (PlayerStats.totalLossCount == 2)
+            {
+                PlayerStats.totalLossCount = 0;
+                SceneManager.LoadScene(2);
+            }
+            playerPosX = spawnLocations[0].transform.position.x;
+            playerPosY = spawnLocations[0].transform.position.y;
+            HitTheBoss.amountOfTimesHit = 0;
+            HitTheBoss.destroyedPlatformsCount = 0;
+            PlayerStats.stockCount = 4;
+        }
         ReloadScene();
         
        

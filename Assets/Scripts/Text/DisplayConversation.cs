@@ -45,7 +45,7 @@ public class DisplayConversation : MonoBehaviour
         {
             DisplayLine();
             activeLineIndex += 1;
-            player.canMove = false;
+            MenuScript.stopPlayerStates = true;
         }
         else
         {
@@ -53,7 +53,7 @@ public class DisplayConversation : MonoBehaviour
             speakerUIRight.Hide();
             activeLineIndex = 0;
             gameObject.SetActive(false);
-            player.canMove = true;
+            MenuScript.stopPlayerStates = false;
         }
     }
 

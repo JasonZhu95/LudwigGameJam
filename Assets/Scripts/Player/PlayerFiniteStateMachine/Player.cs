@@ -1,3 +1,4 @@
+using UnityEditor;
 using UnityEngine;
 using Vector2 = UnityEngine.Vector2;
 using Vector3 = UnityEngine.Vector3;
@@ -82,11 +83,14 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-        CurrentVelocity = RB.velocity;
-        StateMachine.CurrentState.LogicUpdate();
-        if (InputHandler.disableInputs)
+        if (!MenuScript.stopPlayerStates)
         {
-            SetVelocityX(-5f);
+            CurrentVelocity = RB.velocity;
+            StateMachine.CurrentState.LogicUpdate();
+            if (InputHandler.disableInputs)
+            {
+                SetVelocityX(-5f);
+            }
         }
     }
 

@@ -14,6 +14,7 @@ public class PlayerStats : MonoBehaviour
 
     private bool isCollidingWithSpike;
 
+    public static int totalLossCount = 0;
     public static int stockCount = 4;
     public int currentStocks;
     public Image[] stocks;
@@ -80,7 +81,7 @@ public class PlayerStats : MonoBehaviour
         stockCount--;
         if (stockCount == 0)
         {
-            stockCount = 4;
+            totalLossCount++;
         }
         GM.Respawn();
     }
