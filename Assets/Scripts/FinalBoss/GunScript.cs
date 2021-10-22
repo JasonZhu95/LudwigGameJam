@@ -17,8 +17,8 @@ public class GunScript : MonoBehaviour
     private float detectRadius = 100f;
     public LayerMask whatIsPlayer;
 
-    private float nextTimetoFire = 2;
-    private float nextTimetoShine = 2;
+    public float nextTimetoFire = 2;
+    public float nextTimetoShine = 2;
 
     private SpriteRenderer BossSprite;
 

@@ -28,7 +28,7 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        Timer.instance.BeginTimer();
+        //Timer.instance.BeginTimer();
         player = GameObject.FindWithTag("Player");
         if (reload && !loadNextLevel)
         {

@@ -18,14 +18,23 @@ EditorBuildSettings:
     path: Assets/Scenes/Pools.unity
     guid: 2824a3bd48549104ba6efe14f796e72d
   - enabled: 1
+    path: Assets/Scenes/PoolsCutscene.unity
+    guid: 50a0fa89e846c0a499baae161c7fea6e
+  - enabled: 1
     path: Assets/Scenes/Top64.unity
     guid: bba8d42741117cc44b94cf3fa8719ab7
+  - enabled: 1
+    path: Assets/Scenes/Top64Cutscene 1.unity
+    guid: 4a117148a58c7b447b4186a0d32c6cbb
   - enabled: 1
     path: Assets/Scenes/Top8Wall.unity
     guid: 7788afb37c254674c87e651950decd74
   - enabled: 1
     path: Assets/Scenes/Top8.unity
     guid: 1c770ac2ad0888d40b66b9ee39169de4
+  - enabled: 1
+    path: Assets/Scenes/PreGrandsCutscene.unity
+    guid: 2d70130d893854b468ef2523b1652f2f
   - enabled: 1
     path: Assets/Scenes/Grands.unity
     guid: abf8473625513594085645cecbcdf666
