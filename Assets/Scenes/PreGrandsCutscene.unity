@@ -2992,7 +2992,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7381506253184081986, guid: 981b4cfc381075947b9c3c263c87fd4a, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 7381506253184081986, guid: 981b4cfc381075947b9c3c263c87fd4a, type: 3}
       propertyPath: m_AnchorMax.x
@@ -3752,7 +3752,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1698542547
 SpriteRenderer:
@@ -4045,7 +4045,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3091119336821829793, guid: c3a148f48f0e3f24c9d44c6de5e01f1e, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 3091119336821829793, guid: c3a148f48f0e3f24c9d44c6de5e01f1e, type: 3}
       propertyPath: m_AnchorMax.x
@@ -4119,6 +4119,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3091119336821829795, guid: c3a148f48f0e3f24c9d44c6de5e01f1e, type: 3}
+      propertyPath: conversation
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f64d7f81c425964da939ba6c95d57ad, type: 2}
     - target: {fileID: 3091119336821829821, guid: c3a148f48f0e3f24c9d44c6de5e01f1e, type: 3}
       propertyPath: m_Name
       value: DialogueCanvas
