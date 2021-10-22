@@ -20,6 +20,7 @@ public class HitTheBoss : MonoBehaviour
     private GameObject bossTargetSelector;
     private GameObject playerTargetSelector;
     public GameObject deathEffect;
+    public GameObject trophy;
 
     public GameObject[] destroyPlatforms;
 
@@ -55,6 +56,7 @@ public class HitTheBoss : MonoBehaviour
 
     private void Update()
     {
+        currentStocks = bossStockCount;
         for (int i = 0; i < stocks.Length; i++)
         {
             if (i < currentStocks)
@@ -82,6 +84,8 @@ public class HitTheBoss : MonoBehaviour
         if (!activeRooms[amountOfTimesHit].activeSelf)
         {
             gunScript.waitingTime = 0;
+            gunScript.nextTimetoFire = 2;
+            gunScript.nextTimetoShine = 2;
         }
     }
 
@@ -101,6 +105,8 @@ public class HitTheBoss : MonoBehaviour
             if (amountOfTimesHit == 4)
             {
                 Instantiate(deathEffect, transform.position, Quaternion.identity);
+                Instantiate(deathEffect, trophy.transform.position, Quaternion.identity);
+                trophy.SetActive(true);
                 Destroy(gameObject);
             }
 
