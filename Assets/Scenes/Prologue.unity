@@ -4044,7 +4044,6 @@ GameObject:
   - component: {fileID: 247844624}
   - component: {fileID: 247844625}
   - component: {fileID: 247844626}
-  - component: {fileID: 247844627}
   m_Layer: 2
   m_Name: Room2
   m_TagString: Level
@@ -4109,19 +4108,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   virtualCam: {fileID: 1098207093}
---- !u!114 &247844627
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 247844623}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d12d1558bc937164ea5e8d22f1536de9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textObject: {fileID: 11400000, guid: 3dca0c2d726634741be63675f77cadb4, type: 2}
 --- !u!1 &306500609
 GameObject:
   m_ObjectHideFlags: 0
@@ -4255,7 +4241,6 @@ GameObject:
   - component: {fileID: 340420400}
   - component: {fileID: 340420401}
   - component: {fileID: 340420402}
-  - component: {fileID: 340420403}
   m_Layer: 2
   m_Name: Room3
   m_TagString: Level
@@ -4320,19 +4305,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   virtualCam: {fileID: 1434234047}
---- !u!114 &340420403
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 340420399}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d12d1558bc937164ea5e8d22f1536de9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textObject: {fileID: 11400000, guid: e30d1f07f3fe64a4098d0badde4cc7ca, type: 2}
 --- !u!1 &374482568
 GameObject:
   m_ObjectHideFlags: 0
@@ -5751,7 +5723,6 @@ GameObject:
   - component: {fileID: 969862093}
   - component: {fileID: 969862094}
   - component: {fileID: 969862095}
-  - component: {fileID: 969862096}
   m_Layer: 2
   m_Name: Room4
   m_TagString: Level
@@ -5816,19 +5787,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   virtualCam: {fileID: 1235650010}
---- !u!114 &969862096
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 969862092}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d12d1558bc937164ea5e8d22f1536de9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textObject: {fileID: 11400000, guid: 9c4dd38e4a94925409f9ec193862baa5, type: 2}
 --- !u!1 &1054712902
 GameObject:
   m_ObjectHideFlags: 0
@@ -13615,7 +13573,6 @@ GameObject:
   - component: {fileID: 1373178697}
   - component: {fileID: 1373178698}
   - component: {fileID: 1373178699}
-  - component: {fileID: 1373178700}
   m_Layer: 2
   m_Name: Room5
   m_TagString: Level
@@ -13680,19 +13637,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   virtualCam: {fileID: 127923996}
---- !u!114 &1373178700
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1373178696}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d12d1558bc937164ea5e8d22f1536de9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textObject: {fileID: 11400000, guid: db1a576a4ab5d7b478a4bc0ad21abd86, type: 2}
 --- !u!1 &1417347540
 GameObject:
   m_ObjectHideFlags: 3
@@ -15280,7 +15224,6 @@ GameObject:
   - component: {fileID: 5605155403145984256}
   - component: {fileID: 5605155403145984319}
   - component: {fileID: 5942721494242369576}
-  - component: {fileID: 5605155403145984258}
   m_Layer: 2
   m_Name: Room1
   m_TagString: Level
@@ -15288,19 +15231,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &5605155403145984258
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5605155403145984257}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d12d1558bc937164ea5e8d22f1536de9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textObject: {fileID: 11400000, guid: ff71f44b912c998459861d52d9b7f63a, type: 2}
 --- !u!60 &5605155403145984319
 PolygonCollider2D:
   m_ObjectHideFlags: 0

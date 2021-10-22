@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e258d969818eb924b877b0212879b534, type: 3}
   m_Name: Room 7
   m_EditorClassIdentifier: 
-  posX: 50
-  posY: -150
+  posX: 0
+  posY: 0
+  show: 1
   dialogue:
-  - "I don\u2019t want to lose."
+  - 

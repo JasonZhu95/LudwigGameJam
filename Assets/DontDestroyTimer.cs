@@ -16,7 +16,7 @@ public class DontDestroyTimer : MonoBehaviour
         
         if (FindObjectsOfType(typeof(DontDestroyTimer)).Length > 1)
         {
-            DestroyImmediate(gameObject);
+            Destroy(gameObject);
         }
         else
         {

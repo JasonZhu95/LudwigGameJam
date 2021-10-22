@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e258d969818eb924b877b0212879b534, type: 3}
-  m_Name: Room 6
+  m_Name: Part
   m_EditorClassIdentifier: 
-  posX: 180
-  posY: -230
+  posX: 50
+  posY: -150
   show: 1
   dialogue:
-  - I dont want to lose.
+  - "I\u2019ve been stuck losing to the same guys for years.\r\n"
