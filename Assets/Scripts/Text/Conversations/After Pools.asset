@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c2fc45cd493436428a19cbc90a9ea5f, type: 3}
+  m_Name: After Pools
+  m_EditorClassIdentifier: 
+  speakerLeft: {fileID: 11400000, guid: 80530266e4346f645bdd5e15404448f7, type: 2}
+  speakerRight: {fileID: 11400000, guid: 44e11433c954a1847ac5c705586b577d, type: 2}
+  lines:
+  - character: {fileID: 11400000, guid: 44e11433c954a1847ac5c705586b577d, type: 2}
+    text: "How\u2019d pools go?\r\n"
+  - character: {fileID: 11400000, guid: 80530266e4346f645bdd5e15404448f7, type: 2}
+    text: 'Easy.
+
+'
+  - character: {fileID: 11400000, guid: 80530266e4346f645bdd5e15404448f7, type: 2}
+    text: You know me, no shot I lose this early.
+  - character: {fileID: 11400000, guid: 44e11433c954a1847ac5c705586b577d, type: 2}
+    text: "True.  I didn\u2019t do so hot on my end.  I just don\u2019t have what
+      it takes.\r\n"
+  - character: {fileID: 11400000, guid: 44e11433c954a1847ac5c705586b577d, type: 2}
+    text: "I love the game, but man it\u2019s rough.  Think I\u2019m just going to
+      go hop on commentary instead.\r\n"
+  - character: {fileID: 11400000, guid: 80530266e4346f645bdd5e15404448f7, type: 2}
+    text: "Fuck it\u2019s alright man.  I\u2019ll be honest I might be joining you
+      soon.\r\n"
+  - character: {fileID: 11400000, guid: 44e11433c954a1847ac5c705586b577d, type: 2}
+    text: 'Wait alright man?  ALRIGHT MAN.
+
+'

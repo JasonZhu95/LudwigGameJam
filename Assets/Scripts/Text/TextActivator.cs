@@ -5,7 +5,7 @@ using UnityEngine;
 public class TextActivator : MonoBehaviour, IInteractable
 {
     [SerializeField] public TextObject textObject;
-
+    
     public void Interact(PlayerInputHandler player)
     {
         player.TextUI.ShowDialogue(textObject);

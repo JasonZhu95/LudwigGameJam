@@ -173,7 +173,6 @@ public class PlayerInputHandler : MonoBehaviour
 
     public void UseDashInput() => DashInput = false;
     public void UseJumpInput() => JumpInput = false;
-    public void UseInteractInput() => InteractInput = false;
 
     private void CheckJumpInputBufferTime()
     {

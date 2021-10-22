@@ -11,12 +11,14 @@ public class MenuScript : MonoBehaviour
     [SerializeField] Text smashBallNum;
     [SerializeField] int numSmashBalls;
 
+
     public static bool isPaused = false;
     public static int staticSmashBallNum = 0;
     public static MenuScript instance;
 
     private PlayerInputHandler pc;
     private GameObject player;
+    private Rigidbody2D playerBody;
 
     public void Awake()
     {
@@ -26,6 +28,7 @@ public class MenuScript : MonoBehaviour
     {
         player = GameObject.FindGameObjectWithTag("Player");
         pc = player.GetComponent<PlayerInputHandler>();
+        playerBody = player.GetComponent<Rigidbody2D>();
         pauseMenu.SetActive(false);
 
     }
@@ -53,7 +56,7 @@ public class MenuScript : MonoBehaviour
 
     public void PauseGame()
     {
-        pc.disableInputs = true;
+        //playerBody.velocity = Vector2.zero;
         isPaused = true;
         Time.timeScale = 0f;
         pauseMenu.SetActive(true);
@@ -62,6 +65,7 @@ public class MenuScript : MonoBehaviour
 
     public void ResumeGame()
     {
+        //playerBody.velocity = new Vector3(0, 0, 0);
         pc.disableInputs = false;
         isPaused = false;
         Time.timeScale = 1f;
