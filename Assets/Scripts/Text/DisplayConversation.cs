@@ -35,10 +35,6 @@ public class DisplayConversation : MonoBehaviour
 
     private void Update()
     {
-        if (playerInput.InteractInput)
-        {
-            AdvanceConversation();
-        }
     }
 
     public void AdvanceConversation()
