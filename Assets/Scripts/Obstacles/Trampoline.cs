@@ -40,24 +40,28 @@ public class Trampoline : MonoBehaviour
                 player.transform.position = new Vector3(transform.position.x + playerOffsetX,
                     transform.position.y + playerOffestY, transform.position.z);
                 player.GetComponent<Rigidbody2D>().velocity = -Vector2.right * bounce;
+                SoundManagerScript.PlaySound("trampoline");
             }
             else if (transform.rotation.eulerAngles.z == 180)
             {
                 player.transform.position = new Vector3(transform.position.x + playerOffsetX,
                     transform.position.y + playerOffestY, transform.position.z);
                 player.GetComponent<Rigidbody2D>().velocity = -Vector2.up * bounce;
+                SoundManagerScript.PlaySound("trampoline");
             }
             else if (transform.rotation.eulerAngles.z == 270)
             {
                 player.transform.position = new Vector3(transform.position.x + playerOffsetX,
                     transform.position.y + playerOffestY, transform.position.z);
                 player.GetComponent<Rigidbody2D>().velocity = Vector2.right * bounce;
+                SoundManagerScript.PlaySound("trampoline");
             }
             else
             {
                 player.transform.position = new Vector3(transform.position.x + playerOffsetX,
                     transform.position.y + playerOffestY, transform.position.z);
                 player.GetComponent<Rigidbody2D>().velocity = Vector2.up * bounce;
+                SoundManagerScript.PlaySound("trampoline");
             }
         }
         anim.SetBool("isPushing", CheckIfPlayer());

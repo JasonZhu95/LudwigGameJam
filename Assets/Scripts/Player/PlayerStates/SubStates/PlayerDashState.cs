@@ -23,6 +23,7 @@ public class PlayerDashState : PlayerAbilityState
     public override void Enter()
     {
         base.Enter();
+        SoundManagerScript.PlaySound("playerDash");
         player.dashDust.Play();
         dashCount++;
         CanDash = false;
