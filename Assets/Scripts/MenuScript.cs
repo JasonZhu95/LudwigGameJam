@@ -18,7 +18,7 @@ public class MenuScript : MonoBehaviour
 
     private PlayerInputHandler pc;
     private GameObject player;
-    private Rigidbody2D playerBody;
+    
 
     public void Awake()
     {
@@ -26,9 +26,10 @@ public class MenuScript : MonoBehaviour
     }
     public void Start()
     {
+        transform.GetChild(0).gameObject.SetActive(true);
         player = GameObject.FindGameObjectWithTag("Player");
         pc = player.GetComponent<PlayerInputHandler>();
-        playerBody = player.GetComponent<Rigidbody2D>();
+        
         pauseMenu.SetActive(false);
 
     }
@@ -56,7 +57,6 @@ public class MenuScript : MonoBehaviour
 
     public void PauseGame()
     {
-        //playerBody.velocity = Vector2.zero;
         isPaused = true;
         Time.timeScale = 0f;
         pauseMenu.SetActive(true);
@@ -65,8 +65,6 @@ public class MenuScript : MonoBehaviour
 
     public void ResumeGame()
     {
-        //playerBody.velocity = new Vector3(0, 0, 0);
-        pc.disableInputs = false;
         isPaused = false;
         Time.timeScale = 1f;
         pauseMenu.SetActive(false);
