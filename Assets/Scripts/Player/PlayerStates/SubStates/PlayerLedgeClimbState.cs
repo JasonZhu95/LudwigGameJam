@@ -12,6 +12,7 @@ public class PlayerLedgeClimbState : PlayerState
     private bool isHanging;
     private bool isClimbing;
     private bool jumpInput;
+    private bool grabInput;
 
     private int xInput;
     private int yInput;
@@ -59,6 +60,7 @@ public class PlayerLedgeClimbState : PlayerState
             xInput = player.InputHandler.NormInputX;
             yInput = player.InputHandler.NormInputY;
             jumpInput = player.InputHandler.JumpInput;
+            grabInput = player.InputHandler.GrabInput;
 
             player.SetVelocityZero();
             player.transform.position = startPosition;
