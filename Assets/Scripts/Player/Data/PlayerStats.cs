@@ -19,6 +19,7 @@ public class PlayerStats : MonoBehaviour
     public int currentStocks;
     public Image[] stocks;
     private bool disableDie;
+    public float halfGravThreshold;
 
     private void Start()
     {
@@ -30,6 +31,14 @@ public class PlayerStats : MonoBehaviour
 
     private void Update()
     {
+        if (!player.InputHandler.JumpInputStop && Mathf.Abs(player.RB.velocity.y) < halfGravThreshold)
+        {
+            player.RB.gravityScale = 2.5f;
+        }
+        else
+        {
+            player.RB.gravityScale = 5f;
+        }
         for (int i = 0; i < stocks.Length; i++)
         {
             if (i < currentStocks)
