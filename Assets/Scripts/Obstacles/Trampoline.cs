@@ -26,6 +26,7 @@ public class Trampoline : MonoBehaviour
         {
             StartCoroutine(DisableVelocitySet());
             player.GetComponent<Player>().DashState.ResetCanDash();
+            player.GetComponent<Player>().DashState.dashCount = 0;
             if (player.GetComponent<Player>().hasHat)
             {
                 player.GetComponent<Player>().DashState.dashCount = 0;
