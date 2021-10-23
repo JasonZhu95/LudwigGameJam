@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
+
 
 public class SpeakerUI : MonoBehaviour
 {
     public Image portrait;
-    public TMP_Text dialogue;
+    public Text dialogue;
 
     private Character speaker;
     public Character Speaker
