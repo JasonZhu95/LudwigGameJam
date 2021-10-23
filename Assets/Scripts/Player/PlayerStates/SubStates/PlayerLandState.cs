@@ -11,6 +11,9 @@ public class PlayerLandState : PlayerGroundedState
     public override void Enter()
     {
         base.Enter();
+
+        player.landDust.Play();
+        SoundManagerScript.PlaySound("playerLand");
     }
 
     public override void Exit()

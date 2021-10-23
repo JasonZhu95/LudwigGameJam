@@ -11,11 +11,14 @@ public class PlayerWallClimbState : PlayerTouchingWallState
     public override void Enter()
     {
         base.Enter();
+        player.audioSources[2].Play();
+        player.audioSources[2].UnPause();
     }
 
     public override void Exit()
     {
         base.Exit();
+        player.audioSources[2].Pause();
     }
 
     public override void LogicUpdate()

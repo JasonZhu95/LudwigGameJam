@@ -15,6 +15,7 @@ public class PlayerJumpState : PlayerAbilityState
     public override void Enter()
     {
         base.Enter();
+        SoundManagerScript.PlaySound("playerJump");
         player.jumpDust.Play();
         isJumping = true;
         player.InputHandler.UseJumpInput();
