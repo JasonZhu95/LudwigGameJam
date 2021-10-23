@@ -36,3 +36,7 @@ MonoBehaviour:
 '
   - character: {fileID: 11400000, guid: 80530266e4346f645bdd5e15404448f7, type: 2}
     text: "Player: FREE HAT? LET\u2019S GOOO\r\n"
+  - character: {fileID: 11400000, guid: fe11ccae5bc18d64a917031d4984511b, type: 2}
+    text: 'You can now dash twice in the air!
+
+'
