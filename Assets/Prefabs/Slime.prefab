@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 396109985557204219}
   - component: {fileID: 396109985557204218}
+  - component: {fileID: 8689027065969230385}
+  - component: {fileID: 6205713544107085611}
   m_Layer: 0
   m_Name: Slime
   m_TagString: Untagged
@@ -26,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 396109985557204197}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -22.45, y: -1.16, z: 0}
-  m_LocalScale: {x: 1.563265, y: 1.5632, z: 1}
+  m_LocalScale: {x: -2.2, y: 2.2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -71,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 1326468893
   m_SortingLayer: 8
   m_SortingOrder: 0
-  m_Sprite: {fileID: 4594367619249021343, guid: 64f570dd7cf792346be151efa08fcd1e, type: 3}
+  m_Sprite: {fileID: 8032762084183160025, guid: e36c828bac81aaf45a6a35208a73d7d1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -82,3 +84,35 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &8689027065969230385
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 396109985557204197}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f86f59ad2caf0d547b35b5e37f6c61db, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &6205713544107085611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 396109985557204197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9fdb8b0134a13b47b04cab6494152b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xPos: 0
