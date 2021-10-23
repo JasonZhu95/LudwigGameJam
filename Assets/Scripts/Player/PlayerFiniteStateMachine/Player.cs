@@ -95,7 +95,6 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-
         if (!MenuScript.stopPlayerStates)
         {
             CurrentVelocity = RB.velocity;

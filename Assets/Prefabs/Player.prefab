@@ -5436,6 +5436,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  halfGravThreshold: 2
 --- !u!114 &7005955142802262171
 MonoBehaviour:
   m_ObjectHideFlags: 0
