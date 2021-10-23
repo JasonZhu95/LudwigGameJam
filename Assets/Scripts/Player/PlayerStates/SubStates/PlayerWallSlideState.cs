@@ -22,7 +22,6 @@ public class PlayerWallSlideState : PlayerTouchingWallState
     {
         base.Exit();
         player.slideDust.Stop();
-        player.audioSources[1].Stop();
         player.audioSources[1].Pause();
     }
 

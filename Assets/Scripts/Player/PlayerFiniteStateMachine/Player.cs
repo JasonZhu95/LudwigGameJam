@@ -42,6 +42,7 @@ public class Player : MonoBehaviour
     public ParticleSystem slideDust;
     public ParticleSystem wallJumpDust;
     public ParticleSystem turnDust;
+    public ParticleSystem landDust;
 
     private Vector2 temporaryWorkspace;
     [HideInInspector] public bool hasHat;
@@ -84,6 +85,7 @@ public class Player : MonoBehaviour
         audioSources = GetComponents<AudioSource>();
         audioSources[0].Pause();
         audioSources[1].Pause();
+        audioSources[2].Pause();
     }
 
     private void Update()
