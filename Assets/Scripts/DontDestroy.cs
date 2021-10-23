@@ -16,9 +16,9 @@ public class DontDestroy : MonoBehaviour
     void Start()
     {
         DontDestroyOnLoad(gameObject);
-        if (objectID > MenuScript.staticSmashBallNum + 1) 
+        if (objectID > MenuScript.staticSmashBallNum)
         {
-            DestroyImmediate(gameObject);
+            Destroy(gameObject);
         }
         
     }
