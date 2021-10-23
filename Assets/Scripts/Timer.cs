@@ -7,6 +7,7 @@ using System;
 public class Timer : MonoBehaviour
 {
     public static Timer instance;
+    public static string timeString;
 
     public Text timerText;
 
@@ -48,8 +49,10 @@ public class Timer : MonoBehaviour
             timePlaying = TimeSpan.FromSeconds(elapsedTime);
             string timePlayingStr = timePlaying.ToString("mm':'ss'.'ff");
             timerText.text = timePlayingStr;
-
+            
             yield return null;
+            timeString = timePlayingStr;
         }
+        
     }
 }
