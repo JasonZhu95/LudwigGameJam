@@ -44,5 +44,7 @@ public class PlayerData : ScriptableObject
     public LayerMask whatIsGround;
     public LayerMask whatIsNotGrabbable;
     public float wallCheckDistance = 0.5f;
+    public float cornerFixXOffset1 = 0f;
+    public float cornerFixYOffset1 = 0f;
 
 }

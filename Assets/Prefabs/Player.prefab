@@ -504,6 +504,36 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &2799385917888731603
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 689996563585781424}
+  m_Layer: 7
+  m_Name: CornerCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &689996563585781424
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2799385917888731603}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.81, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7005955142802262173}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5922479590810192544
 GameObject:
   m_ObjectHideFlags: 0
@@ -5414,6 +5444,7 @@ Transform:
   - {fileID: 5013031655817639501}
   - {fileID: 4629415516677691598}
   - {fileID: 333887399}
+  - {fileID: 689996563585781424}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5454,6 +5485,7 @@ MonoBehaviour:
   groundCheck: {fileID: 7005955142967516711}
   wallCheck: {fileID: 7005955143195719421}
   ledgeCheck: {fileID: 740887119}
+  cornerCheck: {fileID: 689996563585781424}
   playerData: {fileID: 11400000, guid: cfed3f5831c37634486133686d96ac11, type: 2}
   jumpDust: {fileID: 7658036222685048533}
   dashDust: {fileID: 7971063503305936398}
