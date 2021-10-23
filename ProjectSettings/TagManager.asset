@@ -15,6 +15,7 @@ TagManager:
   - Boss
   - Canvas
   - Dialogue Canvas
+  - Bird
   layers:
   - Default
   - TransparentFX

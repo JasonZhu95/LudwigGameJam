@@ -122425,7 +122425,6 @@ MonoBehaviour:
   speedBack: 5
   velocityDampener: 0.75
   platformVelocityTracker: {x: 0, y: 0, z: 0}
-  isHangingOnPlatform: 0
 --- !u!212 &7533552666203138185
 SpriteRenderer:
   m_ObjectHideFlags: 0
