@@ -46,7 +46,7 @@ public class SoundManagerScript : MonoBehaviour
                 audioSrc.PlayOneShot(playerJump,1f);
                 break;
             case "creditSound":
-                audioSrc.PlayOneShot(creditSound, 2f);
+                audioSrc.PlayOneShot(creditSound, .05f);
                 break;
             default:
                 break;
