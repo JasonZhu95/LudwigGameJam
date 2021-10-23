@@ -13,12 +13,17 @@ public class PlayerWallSlideState : PlayerTouchingWallState
     {
         base.Enter();
         player.slideDust.Play();
+
+        player.audioSources[1].Play();
+        player.audioSources[1].UnPause();
     }
 
     public override void Exit()
     {
         base.Exit();
         player.slideDust.Stop();
+        player.audioSources[1].Stop();
+        player.audioSources[1].Pause();
     }
 
     public override void LogicUpdate()

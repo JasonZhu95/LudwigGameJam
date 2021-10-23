@@ -47,6 +47,8 @@ public class Player : MonoBehaviour
     [HideInInspector] public bool hasHat;
     [HideInInspector]public bool trampolineHatCheck;
 
+    public AudioSource[] audioSources;
+
     private void Awake()
     {
         StateMachine = new PlayerStateMachine();
@@ -79,6 +81,9 @@ public class Player : MonoBehaviour
         FacingDirection = 1;
 
         StateMachine.Initialize(IdleState);
+        audioSources = GetComponents<AudioSource>();
+        audioSources[0].Pause();
+        audioSources[1].Pause();
     }
 
     private void Update()

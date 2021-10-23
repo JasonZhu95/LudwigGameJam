@@ -6,7 +6,6 @@ public class SoundManagerScript : MonoBehaviour
 {
     public static AudioClip playerDeath;
     public static AudioClip playerDash;
-    public static AudioClip playerMove;
     public static AudioClip trampoline;
     private static AudioSource audioSrc;
 
@@ -14,7 +13,6 @@ public class SoundManagerScript : MonoBehaviour
     {
         playerDeath = Resources.Load<AudioClip>("playerDeath");
         playerDash = Resources.Load<AudioClip>("playerDash");
-        playerMove = Resources.Load<AudioClip>("playerMove");
         trampoline = Resources.Load<AudioClip>("trampoline");
 
         audioSrc = GetComponent<AudioSource>();
