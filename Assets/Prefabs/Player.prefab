@@ -210,7 +210,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1210842513}
   m_Layer: 7
-  m_Name: HatCheck
+  m_Name: NoHatCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
