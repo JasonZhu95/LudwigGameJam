@@ -2703,7 +2703,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2848576605134855950, guid: 86517ff0f34247447af4c522253648e9, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2848576605134855950, guid: 86517ff0f34247447af4c522253648e9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3148,7 +3148,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3805352611494464444, guid: 214f8788863592148a879211f2694caa, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3805352611494464444, guid: 214f8788863592148a879211f2694caa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4119,6 +4119,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3091119336821829795, guid: c3a148f48f0e3f24c9d44c6de5e01f1e, type: 3}
+      propertyPath: conversation
+      value: 
+      objectReference: {fileID: 11400000, guid: 69fbd19e2612ce64395d2ec93a785412, type: 2}
     - target: {fileID: 3091119336821829821, guid: c3a148f48f0e3f24c9d44c6de5e01f1e, type: 3}
       propertyPath: m_Name
       value: DialogueCanvas
@@ -4466,7 +4470,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3048220252835130211, guid: ed60e7e67d5ede9479d109e3e901357b, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3048220252835130211, guid: ed60e7e67d5ede9479d109e3e901357b, type: 3}
       propertyPath: m_LocalPosition.x
