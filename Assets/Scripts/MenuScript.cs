@@ -8,14 +8,12 @@ public class MenuScript : MonoBehaviour
 {
  
     [SerializeField] GameObject pauseMenu;
-    [SerializeField] Text smashBallNum;
-    [SerializeField] int numSmashBalls = 3;
+    
 
 
     public bool isPaused = false;
     public static bool stopPlayerStates;
-    public static int staticSmashBallNum = 0;
-    //public static MenuScript instance;
+   
 
     private PlayerInputHandler pc;
     private GameObject player;
@@ -23,7 +21,7 @@ public class MenuScript : MonoBehaviour
 
     public void Awake()
     {
-        staticSmashBallNum = numSmashBalls;
+        //staticSmashBallNum = numSmashBalls;
     }
     public void Start()
     {
@@ -39,9 +37,21 @@ public class MenuScript : MonoBehaviour
     
 
     public void Update()
-    {
+    { 
 
-        smashBallNum.text = PlayerInputHandler.smashBalls.ToString();
+        if (pc.PauseInput)
+        {
+            if (isPaused)
+            {
+                ResumeGame();
+            }
+            else if(isPaused == false)
+            {
+                PauseGame();
+            }
+        }
+
+        //smashBallNum.text = PlayerInputHandler.smashBalls.ToString();
     }
 
 

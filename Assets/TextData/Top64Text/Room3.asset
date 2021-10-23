@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Room3
   m_EditorClassIdentifier: 
   posX: 50
-  posY: -100
+  posY: -180
+  show: 1
   dialogue:
   - "I\u2019m not having fun."

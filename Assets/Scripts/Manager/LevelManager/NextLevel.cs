@@ -15,6 +15,7 @@ public class NextLevel : MonoBehaviour
     {
         if (coll.gameObject.CompareTag("Player"))
         {
+            SmashBall.objectID = 0;
             GM.LoadNextLevel();
         }
     }

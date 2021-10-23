@@ -246,6 +246,7 @@ GameObject:
   - component: {fileID: 7381506253184081996}
   - component: {fileID: 7381506253184081987}
   - component: {fileID: 7381506253184081997}
+  - component: {fileID: 4281263960499151210}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -379,8 +380,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 7381506254250528645}
-  smashBallNum: {fileID: 0}
-  numSmashBalls: 0
+  isPaused: 0
+--- !u!114 &4281263960499151210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7381506253184081990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1af1dcfc76e965444b888f45baaa87d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numSmashBallsText: {fileID: 1216375849445844829}
+  smashBallsInStage: 0
 --- !u!1 &7381506253317123531
 GameObject:
   m_ObjectHideFlags: 0
@@ -605,7 +619,7 @@ Animator:
   m_GameObject: {fileID: 7381506253372648425}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7ab5dba2f2273334588500cfda0aa1c5, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
