@@ -3349,6 +3349,10 @@ PrefabInstance:
       value: Slime
       objectReference: {fileID: 0}
     - target: {fileID: 396109985557204218, guid: 0331eb69959e99e438a6f28c02deb04c, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 8032762084183160025, guid: e36c828bac81aaf45a6a35208a73d7d1, type: 3}
+    - target: {fileID: 396109985557204218, guid: 0331eb69959e99e438a6f28c02deb04c, type: 3}
       propertyPath: m_SortingLayer
       value: 6
       objectReference: {fileID: 0}
@@ -3361,12 +3365,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 396109985557204219, guid: 0331eb69959e99e438a6f28c02deb04c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: -2.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 396109985557204219, guid: 0331eb69959e99e438a6f28c02deb04c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 396109985557204219, guid: 0331eb69959e99e438a6f28c02deb04c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -22.674932
+      value: -22.75
       objectReference: {fileID: 0}
     - target: {fileID: 396109985557204219, guid: 0331eb69959e99e438a6f28c02deb04c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1208072
+      value: -0.93
       objectReference: {fileID: 0}
     - target: {fileID: 396109985557204219, guid: 0331eb69959e99e438a6f28c02deb04c, type: 3}
       propertyPath: m_LocalPosition.z

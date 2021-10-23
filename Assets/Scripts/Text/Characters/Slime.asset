@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b56cedffaf557874b96c819fb43c473a, type: 3}
   m_Name: Slime
   m_EditorClassIdentifier: 
-  portrait: {fileID: -478638135564614379, guid: 64f570dd7cf792346be151efa08fcd1e, type: 3}
+  portrait: {fileID: 8032762084183160025, guid: e36c828bac81aaf45a6a35208a73d7d1, type: 3}
