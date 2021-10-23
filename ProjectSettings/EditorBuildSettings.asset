@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Prologue.unity
     guid: af446b8ec7c8dc34bbc935b03095ecb4
   - enabled: 1
+    path: Assets/Scenes/StageNum.unity
+    guid: f155d13c21ee3e14f819374cdbd16439
+  - enabled: 1
     path: Assets/Scenes/Arena.unity
     guid: ac76a03afdc266446aed06ca7edc4d4a
   - enabled: 1
@@ -43,5 +46,5 @@ EditorBuildSettings:
     guid: c136d48b402f7a6499d98d9ac0d22e6b
   - enabled: 1
     path: Assets/Scenes/Credit Scene.unity
-    guid: 64f3870838ede4a4fafac747b14bc3b6
+    guid: 3ad6083094718d448816887eb5f56574
   m_configObjects: {}

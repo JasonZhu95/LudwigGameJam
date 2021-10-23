@@ -39,19 +39,7 @@ public class MenuScript : MonoBehaviour
     
 
     public void Update()
-    { 
-
-        if (pc.PauseInput)
-        {
-            if (isPaused)
-            {
-                ResumeGame();
-            }
-            else if(isPaused == false)
-            {
-                PauseGame();
-            }
-        }
+    {
 
         smashBallNum.text = PlayerInputHandler.smashBalls.ToString();
     }
