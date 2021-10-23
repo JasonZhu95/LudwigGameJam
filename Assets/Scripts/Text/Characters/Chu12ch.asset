@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b56cedffaf557874b96c819fb43c473a, type: 3}
   m_Name: Chu12ch
   m_EditorClassIdentifier: 
-  portrait: {fileID: -5294917743463928368, guid: 64f570dd7cf792346be151efa08fcd1e, type: 3}
+  portrait: {fileID: 2684024779287647459, guid: 338870863676944479cb2bd5c5df276b, type: 3}
