@@ -34416,10 +34416,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1210842512, guid: 18ded3bf4f49b7d4883755d51e4ba100, type: 3}
-      propertyPath: m_Name
-      value: HatCheck
-      objectReference: {fileID: 0}
     - target: {fileID: 2003975077141271092, guid: 18ded3bf4f49b7d4883755d51e4ba100, type: 3}
       propertyPath: stocks.Array.data[0]
       value: 
@@ -122425,7 +122421,6 @@ MonoBehaviour:
   speedBack: 5
   velocityDampener: 0.75
   platformVelocityTracker: {x: 0, y: 0, z: 0}
-  isHangingOnPlatform: 0
 --- !u!212 &7533552666203138185
 SpriteRenderer:
   m_ObjectHideFlags: 0

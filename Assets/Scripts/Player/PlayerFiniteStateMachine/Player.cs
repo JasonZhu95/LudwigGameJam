@@ -1,3 +1,4 @@
+using System;
 using UnityEditor;
 using UnityEngine;
 using Vector2 = UnityEngine.Vector2;
@@ -48,7 +49,10 @@ public class Player : MonoBehaviour
     [HideInInspector] public bool hasHat;
     [HideInInspector]public bool trampolineHatCheck;
 
+    public GameObject[] birds;
+
     public AudioSource[] audioSources;
+    private Color colorTemp;
 
     private void Awake()
     {
@@ -86,10 +90,12 @@ public class Player : MonoBehaviour
         audioSources[0].Pause();
         audioSources[1].Pause();
         audioSources[2].Pause();
+
     }
 
     private void Update()
     {
+
         if (!MenuScript.stopPlayerStates)
         {
             CurrentVelocity = RB.velocity;
@@ -98,6 +104,36 @@ public class Player : MonoBehaviour
             {
                 SetVelocityX(-5f);
             }
+        }
+        if (hasHat && DashState.dashCount == 0)
+        {
+            birds[0].GetComponent<SpriteRenderer>().color = new Color(1f,1f,1f,0f);
+            birds[1].GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0f);
+            birds[2].GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
+        }
+        else if (hasHat && DashState.dashCount == 1)
+        {
+            birds[0].GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
+            birds[1].GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0f);
+            birds[2].GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0f);
+        }
+        else if (hasHat && DashState.dashCount == 2)
+        {
+            birds[0].GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0f);
+            birds[1].GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
+            birds[2].GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0f);
+        }
+        else if (!hasHat && DashState.dashCount == 0)
+        {
+            birds[0].GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
+            birds[1].GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0f);
+            birds[2].GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0f);
+        }
+        else if (!hasHat && DashState.dashCount == 1)
+        {
+            birds[0].GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0f);
+            birds[1].GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
+            birds[2].GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0f);
         }
     }
 
