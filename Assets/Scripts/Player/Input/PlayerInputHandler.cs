@@ -6,8 +6,8 @@ using UnityEngine.InputSystem;
 
 public class PlayerInputHandler : MonoBehaviour
 {
+    
 
-    public static int smashBalls = 0;
     public Vector2 RawMovementInput { get; private set; }
     public Vector2 RawDashDirectionInput { get; private set; }
     public Vector2Int DashDirectionInput { get; private set; }
@@ -42,6 +42,7 @@ public class PlayerInputHandler : MonoBehaviour
 
     void Start()
     {
+        
         canvas = GameObject.FindGameObjectWithTag("Canvas");
         ms = canvas.GetComponent<MenuScript>();
 
@@ -54,11 +55,14 @@ public class PlayerInputHandler : MonoBehaviour
     }
     private void Update()
     {
+        
         CheckJumpInputBufferTime();
         CheckDashInputHoldTime();
-        
 
     }
+
+    
+
 
     public void OnMoveInput(InputAction.CallbackContext context)
     {

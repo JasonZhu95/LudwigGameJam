@@ -9,7 +9,7 @@ public class Credts : MonoBehaviour
     [SerializeField] Text time;
     void Start()
     {
-        smashBalls.text = PlayerInputHandler.smashBalls.ToString();
+        smashBalls.text = CollectibleManager.smashBalls.ToString();
         time.text = Timer.timeString.ToString();
     }
    void displayTime()

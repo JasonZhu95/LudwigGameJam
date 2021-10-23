@@ -1,20 +1,24 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
-using UnityEngine.SocialPlatforms.Impl;
+using UnityEngine.UI;
 
 public class CollectibleManager : MonoBehaviour
 {
-    public static CollectibleManager instance;
-
-    private void Start()
+    public Text numSmashBallsText;
+    public int smashBallsInStage;
+    public static int smashBalls = 0;
+    public void Add()
     {
-        if (instance == null)
-        {
-            instance = this;
-        }
+        smashBalls++;
     }
 
-    
+
+
+
+    public void Update()
+    {
+        numSmashBallsText.text = smashBalls.ToString();
+    }
+
 }

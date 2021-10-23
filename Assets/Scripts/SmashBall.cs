@@ -5,26 +5,42 @@ using UnityEngine.SceneManagement;
 
 public class SmashBall : MonoBehaviour
 {
-    private GameObject player;
-    private PlayerInputHandler pc;
-    public static SmashBall instance;
+    private GameObject canvas;
+    private CollectibleManager cm;
+    public static int objectID = 0;
+    public int id = 0;
     
+
 
     private void Awake()
     {
-       
+        objectID++;
+        id = objectID;
+        canvas = GameObject.FindGameObjectWithTag("Canvas");
+        cm = canvas.GetComponent<CollectibleManager>();
     }
-   
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        player = GameObject.FindGameObjectWithTag("Player");
-        pc = player.GetComponent<PlayerInputHandler>();
 
-        if (collision.CompareTag("Player"))
+    void Start()
+    {
+
+        if (objectID > cm.smashBallsInStage)
         {
-            PlayerInputHandler.smashBalls++;
+            Destroy(gameObject);
+        }
+        else
+        {
+            DontDestroyOnLoad(gameObject);
+        }
+    }
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            cm.Add();
             gameObject.SetActive(false);
         }
     }
+
+
 
 }
