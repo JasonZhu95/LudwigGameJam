@@ -15,6 +15,7 @@ public class PlayerDashState : PlayerAbilityState
     private Vector2 lastAfterImagePosition;
     public bool stopDashTime;
     public int dashCount;
+    public bool isDashing;
 
     public PlayerDashState(Player player, PlayerStateMachine stateMachine, PlayerData playerData, string animBoolName) : base(player, stateMachine, playerData, animBoolName)
     {
@@ -23,6 +24,7 @@ public class PlayerDashState : PlayerAbilityState
     public override void Enter()
     {
         base.Enter();
+        isDashing = true;
         SoundManagerScript.PlaySound("playerDash");
         player.dashDust.Play();
         dashCount++;
@@ -36,6 +38,7 @@ public class PlayerDashState : PlayerAbilityState
     public override void Exit()
     {
         base.Exit();
+        isDashing = false;
         player.dashDust.Stop();
         stopDashTime = false;
 

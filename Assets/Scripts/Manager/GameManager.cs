@@ -77,13 +77,13 @@ public class GameManager : MonoBehaviour
     public void ReloadScene()
     {  
         StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex));
-        
     }
 
 
     public void LoadNextLevel()
     {
         loadNextLevel = true;
+        PlayerStats.stockCount = 4;
         StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
     }
 
