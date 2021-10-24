@@ -1304,6 +1304,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7067710642566700711, guid: ac83c150b0b5bfe4db654434df72a0c9, type: 3}
+      propertyPath: m_SortingOrder
+      value: -69
+      objectReference: {fileID: 0}
     - target: {fileID: 7067710642566700715, guid: ac83c150b0b5bfe4db654434df72a0c9, type: 3}
       propertyPath: m_Name
       value: TimerCanvas
