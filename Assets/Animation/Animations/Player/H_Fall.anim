@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: CrouchIdle
+  m_Name: H_Fall
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,16 +20,12 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 1221216068662974698, guid: d66370f167bb66e4aaa0945aab14a647, type: 3}
-    - time: 0.33333334
-      value: {fileID: -414445035469035489, guid: d66370f167bb66e4aaa0945aab14a647, type: 3}
-    - time: 0.6666667
-      value: {fileID: 1221216068662974698, guid: d66370f167bb66e4aaa0945aab14a647, type: 3}
+      value: {fileID: -7877809686663761227, guid: 3c956e376d4a7134fa46bc145aa2d7ae, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
-  m_SampleRate: 3
+  m_SampleRate: 60
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -44,15 +40,13 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 1221216068662974698, guid: d66370f167bb66e4aaa0945aab14a647, type: 3}
-    - {fileID: -414445035469035489, guid: d66370f167bb66e4aaa0945aab14a647, type: 3}
-    - {fileID: 1221216068662974698, guid: d66370f167bb66e4aaa0945aab14a647, type: 3}
+    - {fileID: -7877809686663761227, guid: 3c956e376d4a7134fa46bc145aa2d7ae, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1
+    m_StopTime: 0.016666668
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
