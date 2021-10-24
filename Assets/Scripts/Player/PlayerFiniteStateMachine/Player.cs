@@ -35,6 +35,7 @@ public class Player : MonoBehaviour
     [SerializeField] private Transform groundCheck;
     [SerializeField] private Transform wallCheck;
     [SerializeField] private Transform ledgeCheck;
+    [SerializeField] private Transform cornerCheck;
 
     [SerializeField] private PlayerData playerData;
 
@@ -53,6 +54,12 @@ public class Player : MonoBehaviour
 
     public AudioSource[] audioSources;
     private Color colorTemp;
+
+    //Corner Dash Correction
+    private bool cornerDetected;
+    private Vector2 cornerPosBot;
+    private Vector2 cornerPos1;
+    private bool fixCornerDash;
 
     private void Awake()
     {
@@ -95,7 +102,7 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-
+        //Stop player movements and inputs
         if (!MenuScript.stopPlayerStates)
         {
             CurrentVelocity = RB.velocity;
@@ -105,6 +112,7 @@ public class Player : MonoBehaviour
                 SetVelocityX(-5f);
             }
         }
+        //Bird Color
         if (hasHat && DashState.dashCount == 0)
         {
             birds[0].GetComponent<SpriteRenderer>().color = new Color(1f,1f,1f,0f);
@@ -135,6 +143,19 @@ public class Player : MonoBehaviour
             birds[1].GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
             birds[2].GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0f);
         }
+
+        //Corner Dash Correction
+        if (!CheckIfTouchingWall() && CheckIfTouchingCorner() && !cornerDetected)
+        {
+            cornerDetected = true;
+            cornerPosBot = cornerCheck.position;
+        }
+        else
+        {
+            cornerDetected = false;
+        }
+
+        CheckCornerFix();
     }
 
     private void FixedUpdate()
@@ -213,6 +234,31 @@ public class Player : MonoBehaviour
     {
         return Physics2D.Raycast(ledgeCheck.position, Vector2.right * FacingDirection, playerData.wallCheckDistance,
             playerData.whatIsGround);
+    }
+
+    public bool CheckIfTouchingCorner()
+    {
+        return Physics2D.Raycast(cornerCheck.position, Vector2.right * FacingDirection, playerData.wallCheckDistance,
+            playerData.whatIsGround);
+    }
+
+    private void CheckCornerFix()
+    {
+        if (cornerDetected && DashState.isDashing)
+        {
+            fixCornerDash = true;
+            if (FacingDirection == 1)
+            {
+                cornerPos1 = new Vector2(Mathf.Floor(cornerPosBot.x + playerData.wallCheckDistance) + playerData.cornerFixXOffset1,
+                    Mathf.Floor(cornerPosBot.y) + playerData.cornerFixYOffset1);
+            }
+        }
+
+        if (fixCornerDash)
+        {
+            transform.position = cornerPos1;
+            fixCornerDash = false;
+        }
     }
 
     public void CheckIfShouldFlip(int xInput)

@@ -18,6 +18,8 @@ public class PlayerStats : MonoBehaviour
     public static int stockCount = 4;
     public int currentStocks;
     public Image[] stocks;
+    private bool disableDie;
+    public float halfGravThreshold;
 
     private void Start()
     {
@@ -29,6 +31,14 @@ public class PlayerStats : MonoBehaviour
 
     private void Update()
     {
+        if (!player.InputHandler.JumpInputStop && Mathf.Abs(player.RB.velocity.y) < halfGravThreshold)
+        {
+            player.RB.gravityScale = 2.5f;
+        }
+        else
+        {
+            player.RB.gravityScale = 5f;
+        }
         for (int i = 0; i < stocks.Length; i++)
         {
             if (i < currentStocks)
@@ -75,15 +85,28 @@ public class PlayerStats : MonoBehaviour
 
     public void Die()
     {
-        SoundManagerScript.PlaySound("playerDeath");
-        Destroy(gameObject);
-        Instantiate(deathEffect, transform.position, Quaternion.identity);
-        stockCount--;
-        if (stockCount == 0)
+        if (!disableDie)
         {
-            totalLossCount++;
+            disableDie = true;
+            SoundManagerScript.PlaySound("playerDeath");
+            Destroy(gameObject);
+            Instantiate(deathEffect, transform.position, Quaternion.identity);
+            stockCount--;
+            if (stockCount == 0)
+            {
+                totalLossCount++;
+            }
+            StartCoroutine(ReEnableDie());
+            GM.Respawn();
         }
-        GM.Respawn();
+
+    }
+
+    IEnumerator ReEnableDie()
+    {
+        yield return new WaitForSeconds(.1f);
+        disableDie = false;
+
     }
 
     private void CheckSpikeCollision()

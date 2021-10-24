@@ -37,6 +37,10 @@ public class PlayerWallSlideState : PlayerTouchingWallState
             {
                 stateMachine.ChangeState(player.WallGrabState);
             }
+            else if (grabInput && (yInput == 1 || yInput == -1))
+            {
+                stateMachine.ChangeState(player.WallClimbState);
+            }
         }
     }
 
