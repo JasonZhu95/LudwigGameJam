@@ -33,6 +33,7 @@ public class PlayerDashState : PlayerAbilityState
         isHolding = true;
         dashDirection = Vector2.right * player.FacingDirection;
         startTime = Time.time;
+        player.JumpState.DecreaseAmountOfJumpsLeft();
     }
 
     public override void Exit()
