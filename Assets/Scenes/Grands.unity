@@ -41683,6 +41683,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textObject: {fileID: 11400000, guid: 95d9fa12ca5603844bbe9f724389d249, type: 2}
   show: 1
+  played: 0
 --- !u!114 &718261874
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41697,6 +41698,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textObject: {fileID: 11400000, guid: 95d9fa12ca5603844bbe9f724389d249, type: 2}
   show: 1
+  played: 0
 --- !u!1 &746201194
 GameObject:
   m_ObjectHideFlags: 0
@@ -105720,8 +105722,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddab261905ba5aa4fa41a6d4929c592a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToReachTarget: 0.5
-  bossTimeToReachTarget: 0.4
+  timeToReachTarget: 0.75
+  bossTimeToReachTarget: 0.5
   playerTargetPosition:
   - {fileID: 92054794}
   - {fileID: 1034090181}
@@ -106874,6 +106876,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textObject: {fileID: 11400000, guid: 8d0b55b2197bf714b91cd069b9813f95, type: 2}
   show: 1
+  played: 0
 --- !u!1 &1255351075
 GameObject:
   m_ObjectHideFlags: 0
@@ -112119,6 +112122,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textObject: {fileID: 11400000, guid: 51692e08e9e0b6f46b9f5c0771ab9b6b, type: 2}
   show: 1
+  played: 0
 --- !u!1 &1656851806
 GameObject:
   m_ObjectHideFlags: 0
@@ -115346,6 +115350,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textObject: {fileID: 11400000, guid: 5d9f210efeb5e2f4e953130dcad2d3a4, type: 2}
   show: 1
+  played: 0
 --- !u!1 &1895284504
 GameObject:
   m_ObjectHideFlags: 0
@@ -122142,6 +122147,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textObject: {fileID: 11400000, guid: ead128523951f374d8366cba4d1096ef, type: 2}
   show: 1
+  played: 0
 --- !u!60 &6648109920892346427
 PolygonCollider2D:
   m_ObjectHideFlags: 0
