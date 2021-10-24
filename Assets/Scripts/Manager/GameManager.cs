@@ -24,11 +24,12 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
+        
     }
 
     private void Start()
     {
-        Timer.instance.BeginTimer();
+        
         player = GameObject.FindWithTag("Player");
         if (reload && !loadNextLevel)
         {
