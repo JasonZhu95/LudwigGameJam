@@ -78,7 +78,6 @@ public class Player : MonoBehaviour
         CrouchIdleState = new PlayerCrouchIdleState(this, StateMachine, playerData, "crouchIdle");
         LookUpState = new PlayerLookUpState(this, StateMachine, playerData, "lookUp");
         LedgeClimbState = new PlayerLedgeClimbState(this, StateMachine, playerData, "ledgeClimbState");
-
         if (gameObject.transform.GetChild(3).gameObject.name == "HatCheck")
         {
             hasHat = true;
@@ -156,6 +155,11 @@ public class Player : MonoBehaviour
         }
 
         CheckCornerFix();
+        //Hat Check
+        if (gameObject.transform.GetChild(3).gameObject.name == "HatCheck")
+        {
+            hasHat = true;
+        }
     }
 
     private void FixedUpdate()
@@ -250,6 +254,10 @@ public class Player : MonoBehaviour
             if (FacingDirection == 1)
             {
                 cornerPos1 = new Vector2(Mathf.Floor(cornerPosBot.x + playerData.wallCheckDistance) + playerData.cornerFixXOffset1,
+                    Mathf.Floor(cornerPosBot.y) + playerData.cornerFixYOffset1);
+            }
+            else {
+                cornerPos1 = new Vector2(Mathf.Ceil(cornerPosBot.x - playerData.wallCheckDistance) - playerData.cornerFixXOffset1,
                     Mathf.Floor(cornerPosBot.y) + playerData.cornerFixYOffset1);
             }
         }

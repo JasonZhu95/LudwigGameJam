@@ -21,7 +21,7 @@ public class MovingPlatform : MonoBehaviour
     {
         startPosition = platformPathStart.transform.position;
         endPosition = platformPathEnd.transform.position;
-        player = GameObject.Find("Player").GetComponent<Player>();
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
     }
 
     private void Update()

@@ -60,8 +60,9 @@ public class GameManager : MonoBehaviour
         {
             if (PlayerStats.totalLossCount == 2)
             {
+                reload = false;
                 PlayerStats.totalLossCount = 0;
-                SceneManager.LoadScene(2);
+                SceneManager.LoadScene(13);
             }
             playerPosX = spawnLocations[0].transform.position.x;
             playerPosY = spawnLocations[0].transform.position.y;
@@ -95,5 +96,12 @@ public class GameManager : MonoBehaviour
 
         SceneManager.LoadScene(levelIndex);
  
+    }
+
+    public void LoadArenaLevel()
+    {
+        loadNextLevel = true;
+        PlayerStats.stockCount = 4; 
+        StartCoroutine(LoadLevel(2));
     }
 }

@@ -20,15 +20,15 @@ public class DisplayConversation : MonoBehaviour
 
     private void Start()
     {
-        
+        MenuScript.stopPlayerStates = true;
         speakerUILeft = speakerLeft.GetComponent<SpeakerUI>();
         speakerUIRight = speakerRight.GetComponent<SpeakerUI>();
 
         speakerUILeft.Speaker = conversation.speakerLeft;
         speakerUIRight.Speaker = conversation.speakerRight;
 
-        playerInput = GameObject.Find("Player").GetComponent<PlayerInputHandler>();
-        player = GameObject.Find("Player").GetComponent<Player>();
+        playerInput = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerInputHandler>();
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
         typeWriterEffect = GetComponent<TypeWriterEffect>();
 
         speakerUILeft.Hide();
