@@ -3136,6 +3136,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &679858877 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7381506253184081990, guid: 981b4cfc381075947b9c3c263c87fd4a, type: 3}
+  m_PrefabInstance: {fileID: 679858871}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &679858878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 679858877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1af1dcfc76e965444b888f45baaa87d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numSmashBallsText: {fileID: 679858872}
+  smashBallsInStage: 0
 --- !u!1001 &696389972
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4409,7 +4428,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7381506253184081996, guid: 981b4cfc381075947b9c3c263c87fd4a, type: 3}
   m_PrefabInstance: {fileID: 679858871}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 679858877}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5383eebe18413af49a4f90bf6cd33ca7, type: 3}

@@ -13,6 +13,7 @@ public class NextLevelActivator : MonoBehaviour
 
     private void Update()
     {
+        
         timer += Time.deltaTime;
         if (timer > 2f)
         {

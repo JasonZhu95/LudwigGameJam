@@ -16,6 +16,9 @@ TagManager:
   - Canvas
   - Dialogue Canvas
   - Bird
+  - Timer
+  - Sound
+  - Music Manager
   layers:
   - Default
   - TransparentFX

@@ -6,8 +6,12 @@ public class TextActivator : MonoBehaviour, IInteractable
 {
     [SerializeField] public TextObject textObject;
     public bool show = true;
+    public bool played = false;
     
-    
+    void Start()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
     public void Interact(PlayerInputHandler player)
     {
         player.TextUI.ShowDialogue(textObject);
@@ -16,7 +20,7 @@ public class TextActivator : MonoBehaviour, IInteractable
     private void OnTriggerEnter2D(Collider2D other)
     {
 
-        if (this.show)
+        if (this.show || !this.played)
         {
             if (other.CompareTag("Player") && other.TryGetComponent(out PlayerInputHandler player) && !other.isTrigger)
             {
@@ -26,6 +30,7 @@ public class TextActivator : MonoBehaviour, IInteractable
                 {
                     Interact(player);
                     this.show = false;
+                    played = true;
                 }
             }
         }   
