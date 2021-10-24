@@ -39,18 +39,22 @@ public class PlayerStats : MonoBehaviour
         {
             player.RB.gravityScale = 5f;
         }
-        for (int i = 0; i < stocks.Length; i++)
+
+        if (SceneManager.GetActiveScene().buildIndex != 1)
         {
-            if (i < currentStocks)
+            for (int i = 0; i < stocks.Length; i++)
             {
-                stocks[i].enabled = true;
+                if (i < currentStocks)
+                {
+                    stocks[i].enabled = true;
+                }
+                else
+                {
+                    stocks[i].enabled = false;
+                }
             }
-            else
-            {
-                stocks[i].enabled = false;
-            }
+            CheckSpikeCollision();
         }
-        CheckSpikeCollision();
     }
 
     private void OnCollisionEnter2D(Collision2D coll)
@@ -91,7 +95,10 @@ public class PlayerStats : MonoBehaviour
             SoundManagerScript.PlaySound("playerDeath");
             Destroy(gameObject);
             Instantiate(deathEffect, transform.position, Quaternion.identity);
-            stockCount--;
+            if (SceneManager.GetActiveScene().buildIndex != 1)
+            {
+                stockCount--;
+            }
             if (stockCount == 0)
             {
                 totalLossCount++;
@@ -99,14 +106,12 @@ public class PlayerStats : MonoBehaviour
             StartCoroutine(ReEnableDie());
             GM.Respawn();
         }
-
     }
 
     IEnumerator ReEnableDie()
     {
-        yield return new WaitForSeconds(.1f);
+        yield return new WaitForSeconds(.15f);
         disableDie = false;
-
     }
 
     private void CheckSpikeCollision()
