@@ -63,7 +63,7 @@ public class GameManager : MonoBehaviour
             {
                 reload = false;
                 PlayerStats.totalLossCount = 0;
-                SceneManager.LoadScene(13);
+                SceneManager.LoadScene(17);
             }
             playerPosX = spawnLocations[0].transform.position.x;
             playerPosY = spawnLocations[0].transform.position.y;

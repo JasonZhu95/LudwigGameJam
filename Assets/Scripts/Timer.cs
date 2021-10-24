@@ -49,7 +49,7 @@ public class Timer : MonoBehaviour
         {
             elapsedTime += Time.deltaTime;
             timePlaying = TimeSpan.FromSeconds(elapsedTime);
-            string timePlayingStr = timePlaying.ToString("mm':'ss'.'ff");
+            string timePlayingStr = timePlaying.ToString("hh':'mm':'ss");
             timerText.text = timePlayingStr;
             
             yield return null;

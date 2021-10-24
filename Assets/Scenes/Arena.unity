@@ -3604,19 +3604,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8361570141617163921, guid: c3a148f48f0e3f24c9d44c6de5e01f1e, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 670.9647
+      value: 680.7452
       objectReference: {fileID: 0}
     - target: {fileID: 8361570141617163921, guid: c3a148f48f0e3f24c9d44c6de5e01f1e, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 197.6532
+      value: 195.4798
       objectReference: {fileID: 0}
     - target: {fileID: 8361570141617163921, guid: c3a148f48f0e3f24c9d44c6de5e01f1e, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 63.716423
+      value: 58.8262
       objectReference: {fileID: 0}
     - target: {fileID: 8361570141617163921, guid: c3a148f48f0e3f24c9d44c6de5e01f1e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -7.6972046
+      value: -8.7839
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3a148f48f0e3f24c9d44c6de5e01f1e, type: 3}
@@ -4609,6 +4609,7 @@ GameObject:
   - component: {fileID: 5605155403145984319}
   - component: {fileID: 5942721494242369576}
   - component: {fileID: 5605155403145984258}
+  - component: {fileID: 5605155403145984259}
   m_Layer: 2
   m_Name: Room1
   m_TagString: Level
@@ -4629,6 +4630,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DialogueCanvas: {fileID: 1942820791}
+--- !u!114 &5605155403145984259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5605155403145984257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f38734cebcf3c840a174db630e97a5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicToStop: opSound
 --- !u!60 &5605155403145984319
 PolygonCollider2D:
   m_ObjectHideFlags: 0

@@ -249,7 +249,7 @@ GameObject:
   - component: {fileID: 4281263960499151210}
   m_Layer: 5
   m_Name: Canvas
-  m_TagString: Untagged
+  m_TagString: Canvas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -395,6 +395,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   numSmashBallsText: {fileID: 1216375849445844829}
   smashBallsInStage: 0
+  smashBallsInArray: []
 --- !u!1 &7381506253317123531
 GameObject:
   m_ObjectHideFlags: 0

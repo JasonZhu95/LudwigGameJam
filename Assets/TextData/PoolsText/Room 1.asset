@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   posX: -10
   posY: -169
+  show: 1
   dialogue:
-  - 'First game, my hands are freezing.
+  - 'I''m gonna win this tournament.
 
 
 '
