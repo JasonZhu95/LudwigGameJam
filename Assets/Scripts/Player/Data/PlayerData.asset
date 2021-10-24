@@ -39,4 +39,4 @@ MonoBehaviour:
     m_Bits: 512
   wallCheckDistance: 0.7
   cornerFixXOffset1: 0
-  cornerFixYOffset1: 1.8
+  cornerFixYOffset1: 1.7

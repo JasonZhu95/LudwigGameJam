@@ -14,9 +14,9 @@ public class NextLevelActivator : MonoBehaviour
     private void Update()
     {
         timer += Time.deltaTime;
-        if (timer > 3f)
+        if (timer > 2f)
         {
-            GM.LoadNextLevel();
+            GM.LoadArenaLevel();
             timer = 0f;
         }
     }

@@ -11,8 +11,10 @@ public class TurnSprites : MonoBehaviour
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
-        
-        
+        if (player == null)
+        {
+            player= GameObject.FindGameObjectWithTag("Player");
+        }
     }
 
     void Update()

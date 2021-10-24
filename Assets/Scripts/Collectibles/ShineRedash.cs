@@ -8,7 +8,7 @@ public class ShineRedash : MonoBehaviour
 
     public void Start()
     {
-        player = GameObject.Find("Player").GetComponent<Player>();
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
     }
 
     private void OnTriggerEnter2D(Collider2D coll)

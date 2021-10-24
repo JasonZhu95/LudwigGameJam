@@ -6,16 +6,13 @@ using UnityEngine;
 public class FollowPlayer : MonoBehaviour
 {
     private GameObject player;
-    private Vector2 movement;
     private Vector2 targetPosition;
-    private bool stopBird;
-    private Vector3 direction;
     private bool shouldFlip;
 
 
     private void Start()
     {
-        player = GameObject.Find("Player");
+        player = GameObject.FindGameObjectWithTag("Player");
     }
 
     private void Update()
