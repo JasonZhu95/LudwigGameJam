@@ -21,11 +21,13 @@ public class Timer : MonoBehaviour
     {
         instance = this;
         
+
     }
 
     private void Start()
     {
         timerGoing = false;
+        BeginTimer();
     }
 
     public void BeginTimer()
