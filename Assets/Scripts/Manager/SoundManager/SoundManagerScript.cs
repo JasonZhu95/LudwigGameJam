@@ -9,6 +9,8 @@ public class SoundManagerScript : MonoBehaviour
     public static AudioClip playerLand;
     public static AudioClip playerJump;
     public static AudioClip trampoline;
+    public static AudioClip bossShine;
+    public static AudioClip bossLaser;
     private static AudioSource audioSrc;
     private static AudioClip creditSound;
 
@@ -20,6 +22,8 @@ public class SoundManagerScript : MonoBehaviour
         playerJump = Resources.Load<AudioClip>("playerJump");
         trampoline = Resources.Load<AudioClip>("trampoline");
         creditSound = Resources.Load<AudioClip>("creditSound");
+        bossShine = Resources.Load<AudioClip>("bossShine");
+        bossLaser = Resources.Load<AudioClip>("bossLaser");
 
         audioSrc = GetComponent<AudioSource>();
         
@@ -44,6 +48,12 @@ public class SoundManagerScript : MonoBehaviour
                 break;
             case "playerJump":
                 audioSrc.PlayOneShot(playerJump,1f);
+                break;
+            case "bossShine":
+                audioSrc.PlayOneShot(bossShine, .1f);
+                break;
+            case "bossLaser":
+                audioSrc.PlayOneShot(bossLaser, .1f);
                 break;
             case "creditSound":
                 audioSrc.PlayOneShot(creditSound, .05f);

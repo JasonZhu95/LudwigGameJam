@@ -80,8 +80,18 @@ public class GunScript : MonoBehaviour
     IEnumerator StartShine()
     {
         shine.SetActive(true);
+        StartCoroutine(PlayShineSound());
         yield return new WaitForSeconds(1f);
         shine.SetActive(false);
+    }
+
+    IEnumerator PlayShineSound()
+    {
+        SoundManagerScript.PlaySound("bossShine");
+        yield return new WaitForSeconds(.2f);
+        SoundManagerScript.PlaySound("bossShine");
+        yield return new WaitForSeconds(.2f);
+        SoundManagerScript.PlaySound("bossShine");
     }
 
     IEnumerator ShootLaser()
@@ -90,12 +100,15 @@ public class GunScript : MonoBehaviour
         yield return new WaitForSeconds(1.5f);
         GameObject LaserIns = Instantiate(laser, laserFirePoint.position, Quaternion.identity);
         LaserIns.GetComponent<Rigidbody2D>().AddForce(direction * laserForce);
+        SoundManagerScript.PlaySound("bossLaser");
         yield return new WaitForSeconds(.3f);
         GameObject LaserIns2 = Instantiate(laser, laserFirePoint.position, Quaternion.identity);
         LaserIns2.GetComponent<Rigidbody2D>().AddForce(direction * laserForce);
+        SoundManagerScript.PlaySound("bossLaser");
         yield return new WaitForSeconds(.3f);
         GameObject LaserIns3 = Instantiate(laser, laserFirePoint.position, Quaternion.identity);
         LaserIns3.GetComponent<Rigidbody2D>().AddForce(direction * laserForce);
+        SoundManagerScript.PlaySound("bossLaser");
         BossSprite.color = new Color(1, 1, 1);
     }
 
