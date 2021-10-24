@@ -10,6 +10,6 @@ public class StageText : MonoBehaviour
     
     void Update()
     {
-        stageText.text = currentStage.ToString();
+        stageText.text = currentStage.ToString() + "-2";
     }
 }
