@@ -16,24 +16,21 @@ MonoBehaviour:
   speakerRight: {fileID: 11400000, guid: fe11ccae5bc18d64a917031d4984511b, type: 2}
   lines:
   - character: {fileID: 11400000, guid: fe11ccae5bc18d64a917031d4984511b, type: 2}
-    text: "Bro. You don\u2019t look too good. You alright?"
+    text: Hey, you alright?  You aren't looking great.
   - character: {fileID: 11400000, guid: 80530266e4346f645bdd5e15404448f7, type: 2}
-    text: 'Dude I just fell off a cliff '
+    text: Yea, sorry I'm just really feeling the pressure.
   - character: {fileID: 11400000, guid: fe11ccae5bc18d64a917031d4984511b, type: 2}
-    text: Damn. Life is hard
+    text: I don't know exactly what you're going through, but if you need a friend
+      I'm here.
   - character: {fileID: 11400000, guid: fe11ccae5bc18d64a917031d4984511b, type: 2}
-    text: ' Wanna to see my cat, Claire Saffitz @BA_TestKitchen?
+    text: 'You know I would DIE for my friends.
 
 '
   - character: {fileID: 11400000, guid: 80530266e4346f645bdd5e15404448f7, type: 2}
-    text: Cool cat bro
+    text: Chu12ch you are such a homie.
   - character: {fileID: 11400000, guid: fe11ccae5bc18d64a917031d4984511b, type: 2}
-    text: 'Thanks. Hey before you go, take this.
-
-'
+    text: 'Good luck out there.  Before you run it, here take this Hat.  '
   - character: {fileID: 11400000, guid: 80530266e4346f645bdd5e15404448f7, type: 2}
-    text: "FREE HAT? LET\u2019S GOOO\r\n"
+    text: "FREE HAT? LET\u2019S GOOO\r"
   - character: {fileID: 11400000, guid: fe11ccae5bc18d64a917031d4984511b, type: 2}
-    text: 'You can dash twice now!
-
-'
+    text: With the power of friendship and frog hats, anything is possible.

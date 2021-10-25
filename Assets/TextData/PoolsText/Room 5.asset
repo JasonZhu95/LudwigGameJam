@@ -16,4 +16,11 @@ MonoBehaviour:
   posY: 0
   show: 1
   dialogue:
-  - 0
+  - 'Secret tunnel!
+
+    Secret tunnel!
+
+    Through the mountain!
+
+    Secret secret
+    secret secret tunnel!'
