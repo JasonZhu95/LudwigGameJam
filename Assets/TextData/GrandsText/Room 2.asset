@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e258d969818eb924b877b0212879b534, type: 3}
   m_Name: Room 2
   m_EditorClassIdentifier: 
-  posX: -175
-  posY: -10
+  posX: -150
+  posY: -30
+  show: 1
   dialogue:
-  - "He\u2019s not just another fox, he\u2019s the goat."
+  - These devs boutta get sued

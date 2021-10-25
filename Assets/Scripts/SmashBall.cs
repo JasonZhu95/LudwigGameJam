@@ -7,35 +7,40 @@ public class SmashBall : MonoBehaviour
 {
     private GameObject canvas;
     private CollectibleManager cm;
-    public bool isCollected;
+    public bool isCollected = false;
+    //public bool loaded = false;
+    public int id;
+    public int id2;
     public static int objectID = 0;
-    public int id = 0;
-    
+
+
 
 
     private void Awake()
-    {
-        isCollected = false;
-        objectID++;
+    {   
         
-        canvas = GameObject.FindGameObjectWithTag("Canvas");
-        cm = canvas.GetComponent<CollectibleManager>();
     }
 
     void Start()
     {
-        id = objectID;
-        if (id > cm.smashBallsInStage) 
+        canvas = GameObject.FindGameObjectWithTag("Canvas");
+        cm = canvas.GetComponent<CollectibleManager>();
+        DontDestroyOnLoad(gameObject);
+        if (objectID >= CollectibleManager.allowedNumOfSmashBalls)
         {
             Destroy(gameObject);
-            //gameObject.SetActive(false);
-
         }
         else
         {
-            DontDestroyOnLoad(gameObject);
-            cm.updateTotal(gameObject);
+            objectID++;
+            id = objectID;
+            CollectibleManager.smashBallList.Add(gameObject);
         }
+        
+            Debug.Log(objectID);
+        
+        
+
     }
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -45,7 +50,6 @@ public class SmashBall : MonoBehaviour
             cm.Add();
             SoundManagerScript.PlaySound("smashBall");
             gameObject.SetActive(false);
-            //cm.updateTotal(gameObject);
         }
     }
 

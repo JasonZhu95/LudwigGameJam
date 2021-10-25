@@ -3154,7 +3154,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   numSmashBallsText: {fileID: 679858872}
-  smashBallsInStage: 0
+  balls: 0
+  scene: 
 --- !u!1001 &696389972
 PrefabInstance:
   m_ObjectHideFlags: 0

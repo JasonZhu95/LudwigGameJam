@@ -339,6 +339,17 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &125730019 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4992847838779913767, guid: 73c9911d7d04ee54eae14306e86a5c15, type: 3}
+  m_PrefabInstance: {fileID: 2106942619}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5383eebe18413af49a4f90bf6cd33ca7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &135896919 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4992847837232833711, guid: 73c9911d7d04ee54eae14306e86a5c15, type: 3}
@@ -425,6 +436,77 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 2848576603519116361, guid: 86517ff0f34247447af4c522253648e9, type: 3}
   m_PrefabInstance: {fileID: 1502899419}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &598160970
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 598160972}
+  - component: {fileID: 598160971}
+  - component: {fileID: 598160973}
+  m_Layer: 0
+  m_Name: smashBallUpdater
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &598160971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598160970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a476cff05b015e147bf0fff309eec750, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextLevelNum: 1
+--- !u!4 &598160972
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598160970}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.51, y: -6.48, z: -95.7012}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &598160973
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598160970}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.63832283, y: 2.025022}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 19.973568, y: 5.050042}
+  m_EdgeRadius: 0
 --- !u!1 &617797802
 GameObject:
   m_ObjectHideFlags: 0
@@ -5171,6 +5253,10 @@ PrefabInstance:
       propertyPath: stocks.Array.data[3]
       value: 
       objectReference: {fileID: 135896919}
+    - target: {fileID: 7005955142802262170, guid: 18ded3bf4f49b7d4883755d51e4ba100, type: 3}
+      propertyPath: textUI
+      value: 
+      objectReference: {fileID: 125730019}
     - target: {fileID: 7005955142802262172, guid: 18ded3bf4f49b7d4883755d51e4ba100, type: 3}
       propertyPath: m_Name
       value: Player

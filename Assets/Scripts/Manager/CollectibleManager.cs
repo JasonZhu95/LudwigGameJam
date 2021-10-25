@@ -7,75 +7,206 @@ using UnityEngine.SceneManagement;
 public class CollectibleManager : MonoBehaviour
 {
     public Text numSmashBallsText;
-    public int smashBallsInStage;
-    public GameObject[] smashBallsInStageArr;
-    public List<GameObject> smashBallsInTotal;
-    public static int numSmashBallsInList;
-    
-    
-    private GameManager GM;
+    public static int allowedNumOfSmashBalls = 0;
 
-    public static int smashBalls = 0;
+    public static List<GameObject> smashBallList = new List<GameObject>(0);
+    public int balls;
+    public static int smashBalls;
+
+    public static string currentScene;
+    public string scene;
 
     void Awake()
     {
-        smashBallsInStage = smashBallsInStageArr.Length + smashBallsInTotal.Count;
+        currentScene = SceneManager.GetActiveScene().name;
+        scene = currentScene;
     }
 
     void Start()
     {
-        GM = GameObject.Find("GameManager").GetComponent<GameManager>();
-        
-    }
+        balls = allowedNumOfSmashBalls;
 
-    public void updateTotal(GameObject sb)
-    {
-        smashBallsInTotal.Add(sb);
-    }
-    public void Update()
-    {
-        numSmashBallsInList = smashBallsInTotal.Count;
-        numSmashBallsText.text = smashBalls.ToString();
-
-        if(smashBallsInStage != 0)
+        if (scene == "Prologue")
         {
-            foreach (GameObject sb in smashBallsInStageArr)
+            for (int i = 0; i < smashBallList.Count; i++)
             {
-                //int currentID = sb.GetComponent<SmashBall>().id;
-                foreach (GameObject sb2 in smashBallsInTotal)
+                int k = smashBallList[i].GetComponent<SmashBall>().id;
+
+                if (k != 1)
                 {
-                    //int currentID2 = sb2.GetComponent<SmashBall>().id;
-                    if (sb.GetInstanceID() != sb2.GetInstanceID())
+                    smashBallList[i].SetActive(false);
+                }
+                if (k == 1)
+                {
+                    bool c = smashBallList[i].GetComponent<SmashBall>().isCollected;
+                    if (c)
                     {
-                        sb2.SetActive(false);
-                           
+                        smashBallList[i].SetActive(false);
                     }
-                }
-
-            }
-
-            foreach (GameObject sb in smashBallsInStageArr)
-            {
-                if (sb.GetComponent<SmashBall>().isCollected)
-                {
-                    sb.SetActive(false);
-                }
-                else if (sb.GetComponent<SmashBall>().isCollected == false)
-                {
-                    sb.SetActive(true);
+                    else if (!c)
+                    {
+                        smashBallList[i].SetActive(true);
+                    }
                 }
             }
         }
-        
+
+        if (scene == "Pools")
+        {
+            for (int i = 0; i < smashBallList.Count; i++)
+            {
+                int k = smashBallList[i].GetComponent<SmashBall>().id;
+
+                if (k != 2 || k != 3 || k != 4)
+                {
+                    smashBallList[i].SetActive(false);
+                }
+                if (k == 2)
+                {
+                    bool c = smashBallList[i].GetComponent<SmashBall>().isCollected;
+                    if (c)
+                    {
+                        smashBallList[i].SetActive(false);
+                    }
+                    else
+                    {
+                        smashBallList[i].SetActive(true);
+                    }
+                }
+                if (k == 3)
+                {
+                    bool c = smashBallList[i].GetComponent<SmashBall>().isCollected;
+                    if (c)
+                    {
+                        smashBallList[i].SetActive(false);
+                    }
+                    else
+                    {
+                        smashBallList[i].SetActive(true);
+                    }
+                }
+                if (k == 4)
+                {
+                    bool c = smashBallList[i].GetComponent<SmashBall>().isCollected;
+                    if (c)
+                    {
+                        smashBallList[i].SetActive(false);
+                    }
+                    else
+                    {
+                        smashBallList[i].SetActive(true);
+                    }
+                }
+            }
+        }
+        if (scene == "Top64")
+        {
+            for (int i = 0; i < smashBallList.Count; i++)
+            {
+                int k = smashBallList[i].GetComponent<SmashBall>().id;
+
+                if (k != 5 || k != 6 || k != 7)
+                {
+                    smashBallList[i].SetActive(false);
+                }
+                if (k == 5)
+                {
+                    bool c = smashBallList[i].GetComponent<SmashBall>().isCollected;
+                    if (c)
+                    {
+                        smashBallList[i].SetActive(false);
+                    }
+                    else
+                    {
+                        smashBallList[i].SetActive(true);
+                    }
+                }
+                if (k == 6)
+                {
+                    bool c = smashBallList[i].GetComponent<SmashBall>().isCollected;
+                    if (c)
+                    {
+                        smashBallList[i].SetActive(false);
+                    }
+                    else
+                    {
+                        smashBallList[i].SetActive(true);
+                    }
+                }
+                if (k == 7)
+                {
+                    bool c = smashBallList[i].GetComponent<SmashBall>().isCollected;
+                    if (c)
+                    {
+                        smashBallList[i].SetActive(false);
+                    }
+                    else
+                    {
+                        smashBallList[i].SetActive(true);
+                    }
+                }
+            }
+        }
+
+
+        if (scene == "Top8")
+        {
+            for (int i = 0; i < smashBallList.Count; i++)
+            {
+                int k = smashBallList[i].GetComponent<SmashBall>().id;
+
+                if (k != 8 || k != 9 || k != 10)
+                {
+                    smashBallList[i].SetActive(false);
+                }
+                if (k == 8)
+                {
+                    bool c = smashBallList[i].GetComponent<SmashBall>().isCollected;
+                    if (c)
+                    {
+                        smashBallList[i].SetActive(false);
+                    }
+                    else
+                    {
+                        smashBallList[i].SetActive(true);
+                    }
+                }
+                if (k == 9)
+                {
+                    bool c = smashBallList[i].GetComponent<SmashBall>().isCollected;
+                    if (c)
+                    {
+                        smashBallList[i].SetActive(false);
+                    }
+                    else
+                    {
+                        smashBallList[i].SetActive(true);
+                    }
+                }
+                if (k == 10)
+                {
+                    bool c = smashBallList[i].GetComponent<SmashBall>().isCollected;
+                    if (c)
+                    {
+                        smashBallList[i].SetActive(false);
+                    }
+                    else
+                    {
+                        smashBallList[i].SetActive(true);
+                    }
+                }
+            }
+        }
+    }
+
+    void Update()
+    {
+        numSmashBallsText.text = smashBalls.ToString();
     }
     public void Add()
     {
         smashBalls++;
     }
 
-
-
-
-   
 
 }
