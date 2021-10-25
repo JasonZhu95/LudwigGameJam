@@ -16,24 +16,27 @@ MonoBehaviour:
   speakerRight: {fileID: 11400000, guid: fe11ccae5bc18d64a917031d4984511b, type: 2}
   lines:
   - character: {fileID: 11400000, guid: fe11ccae5bc18d64a917031d4984511b, type: 2}
-    text: "Bro. You don\u2019t look too good. You alright?"
+    text: "Chu12ch: Bro. You don\u2019t look too good. You alright?"
   - character: {fileID: 11400000, guid: 80530266e4346f645bdd5e15404448f7, type: 2}
-    text: 'Dude I just fell off a cliff '
+    text: "Player: Yea I\u2019m just really feeling the pressure."
   - character: {fileID: 11400000, guid: fe11ccae5bc18d64a917031d4984511b, type: 2}
-    text: Damn. Life is hard
+    text: "Chu12ch:  I mean I don\u2019t really know exactly what you\u2019re going
+      through, but maybe I can cheer you up."
   - character: {fileID: 11400000, guid: fe11ccae5bc18d64a917031d4984511b, type: 2}
-    text: ' Wanna to see my cat, Claire Saffitz @BA_TestKitchen?
+    text: 'Chu12ch:  Want to see my cat, Claire Saffitz @BA_TestKitchen?
 
 '
   - character: {fileID: 11400000, guid: 80530266e4346f645bdd5e15404448f7, type: 2}
-    text: Cool cat bro
+    text: 'Player: Thanks man I needed to chill out I think.
+
+'
   - character: {fileID: 11400000, guid: fe11ccae5bc18d64a917031d4984511b, type: 2}
-    text: 'Thanks. Hey before you go, take this.
+    text: 'Chu12ch:  Hey before you go take this.
 
 '
   - character: {fileID: 11400000, guid: 80530266e4346f645bdd5e15404448f7, type: 2}
-    text: "FREE HAT? LET\u2019S GOOO\r\n"
+    text: "Player: FREE HAT? LET\u2019S GOOO\r\n"
   - character: {fileID: 11400000, guid: fe11ccae5bc18d64a917031d4984511b, type: 2}
-    text: 'You can dash twice now!
+    text: 'You can now dash twice in the air!
 
 '

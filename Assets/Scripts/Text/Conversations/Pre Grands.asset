@@ -16,22 +16,17 @@ MonoBehaviour:
   speakerRight: {fileID: 11400000, guid: 44e11433c954a1847ac5c705586b577d, type: 2}
   lines:
   - character: {fileID: 11400000, guid: 80530266e4346f645bdd5e15404448f7, type: 2}
-    text: This game too ezzzzz
+    text: 'Player: Yo.'
   - character: {fileID: 11400000, guid: 44e11433c954a1847ac5c705586b577d, type: 2}
-    text: 'Holy shit you actually made it here?
+    text: 'Slime: Yo! Holy shit you made it to grands?
 
 '
   - character: {fileID: 11400000, guid: 44e11433c954a1847ac5c705586b577d, type: 2}
-    text: 'Damn didnt think you would make it
-
-'
+    text: "Slime: I hope you\u2019re ready though. Mango\u2019s been playing hot.\r\n"
   - character: {fileID: 11400000, guid: 80530266e4346f645bdd5e15404448f7, type: 2}
-    text: 'Bro why you talking trash when you cant even move
-
-'
+    text: "Player: It\u2019s crazy.  I\u2019ve been his biggest fan for years.  I
+      don\u2019t know man it\u2019s unreal.\r\n"
   - character: {fileID: 11400000, guid: 80530266e4346f645bdd5e15404448f7, type: 2}
-    text: 'Watch me beat this shit game
-
-'
+    text: "Player: I don\u2019t know If I can beat \u201CThe GOAT\u201D\r\n"
   - character: {fileID: 11400000, guid: 44e11433c954a1847ac5c705586b577d, type: 2}
-    text: Alright good luck man
+    text: "Slime: Good luck alright man\u2026\n"

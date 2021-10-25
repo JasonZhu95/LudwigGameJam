@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e258d969818eb924b877b0212879b534, type: 3}
   m_Name: Room 3
   m_EditorClassIdentifier: 
-  posX: -250
+  posX: -130
   posY: -10
-  show: 1
   dialogue:
-  - I swear if I die rn
+  - Wait am I actually winning?

@@ -16,4 +16,4 @@ MonoBehaviour:
   posY: -180
   show: 1
   dialogue:
-  - The water is nice
+  - "I\u2019m not having fun."

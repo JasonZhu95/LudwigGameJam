@@ -16,6 +16,4 @@ MonoBehaviour:
   posY: -150
   show: 1
   dialogue:
-  - 'This is a big ass wall
-
-'
+  - "I\u2019ve put so much time into practicing, but here I am again.\r\n"

@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e258d969818eb924b877b0212879b534, type: 3}
   m_Name: Room 1
   m_EditorClassIdentifier: 
-  posX: -230
-  posY: -120
+  posX: 0
+  posY: -75
   show: 1
   dialogue:
-  - ?????!!!!
+  - Holy Shit It's Him!

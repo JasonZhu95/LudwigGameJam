@@ -17,14 +17,14 @@ public class CollectibleManager : MonoBehaviour
 
     void Awake()
     {
-        currentScene = SceneManager.GetActiveScene().name;
-        scene = currentScene;
+        balls = allowedNumOfSmashBalls;
     }
 
     void Start()
     {
-        balls = allowedNumOfSmashBalls;
-        
+
+        currentScene = SceneManager.GetActiveScene().name;
+        scene = currentScene;
 
 
         if (scene == "Prologue")

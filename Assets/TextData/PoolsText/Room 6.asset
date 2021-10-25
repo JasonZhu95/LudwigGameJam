@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e258d969818eb924b877b0212879b534, type: 3}
   m_Name: Room 6
   m_EditorClassIdentifier: 
-  posX: -260
-  posY: -320
+  posX: 180
+  posY: -230
   show: 1
   dialogue:
-  - What the
+  - I dont want to lose.

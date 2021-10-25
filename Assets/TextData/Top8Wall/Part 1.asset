@@ -16,7 +16,4 @@ MonoBehaviour:
   posY: -150
   show: 1
   dialogue:
-  - 'Im boutta fall asleep
-
-
-'
+  - "I\u2019m not getting any better.\r\n\n"

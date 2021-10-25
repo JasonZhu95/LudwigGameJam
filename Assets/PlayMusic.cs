@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PlayMusic : MonoBehaviour
 {
-    MusicManager mm;
     public string musicToPlay;
+    MusicManager mm;
     void Start()
     {
         mm = GameObject.FindGameObjectWithTag("Music Manager").GetComponent<MusicManager>();
