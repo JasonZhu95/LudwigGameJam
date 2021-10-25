@@ -55,6 +55,7 @@ public class SmashBall : MonoBehaviour
         {
             isCollected = true;
             cm.Add();
+            SoundManagerScript.PlaySound("smashBall");
             gameObject.SetActive(false);
         }
     }
