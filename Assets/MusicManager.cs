@@ -5,10 +5,10 @@ using UnityEngine;
 public class MusicManager : MonoBehaviour
 {
 
-    public AudioSource music;
-    public AudioClip opSound;
-    public AudioClip poolsSound;
-    [SerializeField] public string musicToPlay;
+    public  AudioSource music;
+    public  AudioClip opSound;
+    public  AudioClip poolsSound;
+    [SerializeField] public static string musicToPlay;
     private int current = -1;
     
 
@@ -35,16 +35,7 @@ public class MusicManager : MonoBehaviour
 
     public void ChangeMusic()
     {
-        //if(musicToPlay == "opSound")
-        //{
-        //    music.clip = opSound;
-        //    music.Play();
-        //}
-        //else if(musicToPlay == "poolsSound")
-        //{
-        //    music.clip = poolsSound;
-        //    music.Play();
-        //}
+        
         
     }
     void Update()
@@ -67,29 +58,10 @@ public class MusicManager : MonoBehaviour
                 music.Play();
             }
         }
-       // ChangeMusic();
-        //if (playOpSound)
-        //{
-        //    playPoolsSound = false;
-        //    music.clip = opSound;
-
-        //}
-        //else if (playPoolsSound)
-        //{
-        //    playOpSound = false;
-        //    music.clip = poolsSound;
-        //}
+       
     }
     public void PlayMusic(string clip)
-    {
-        //if (clip == "opSound")
-        //{
-        //    playOpSound = true;
-        //}
-        //else if (clip == "poolsSound")
-        //{
-        //    playPoolsSound = true;
-        //}
+    { 
         musicToPlay = clip;
     }
     public void StopMusic()
