@@ -29,18 +29,11 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        
         player = GameObject.FindWithTag("Player");
         if (reload && !loadNextLevel)
         {
             player = GameObject.FindWithTag("Player");
             player.transform.position = new Vector3(playerPosX, playerPosY, 0);
-        }
-
-        if (PlayerStats.playerDied)
-        {
-            SoundManagerScript.PlaySound("playerRevive");
-            PlayerStats.playerDied = false;
         }
 
         loadNextLevel = false;
@@ -55,7 +48,7 @@ public class GameManager : MonoBehaviour
                 roomTracker = i;
             }
         }
-        
+
     }
 
     public void Respawn()

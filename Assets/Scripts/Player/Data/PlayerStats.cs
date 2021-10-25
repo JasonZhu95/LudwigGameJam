@@ -28,6 +28,11 @@ public class PlayerStats : MonoBehaviour
         player = GetComponent<Player>();
         RB = GetComponent<Rigidbody2D>();
         GM = GameObject.Find("GameManager").GetComponent<GameManager>();
+        if (playerDied)
+        {
+            SoundManagerScript.PlaySound("playerRevive");
+            playerDied = false;
+        }
     }
 
     private void Update()
@@ -93,8 +98,8 @@ public class PlayerStats : MonoBehaviour
         if (!disableDie)
         {
             playerDied = true;
-            disableDie = true;
             SoundManagerScript.PlaySound("playerDeath");
+            disableDie = true;
             Destroy(gameObject);
             Instantiate(deathEffect, transform.position, Quaternion.identity);
             if (SceneManager.GetActiveScene().buildIndex != 1)
