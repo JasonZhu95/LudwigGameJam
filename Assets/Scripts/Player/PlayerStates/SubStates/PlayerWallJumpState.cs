@@ -18,6 +18,7 @@ public class PlayerWallJumpState : PlayerAbilityState
     {
         base.Enter();
         player.wallJumpDust.Play();
+        SoundManagerScript.PlaySound("playerWallJump");
         isWallJumping = true;
 
         player.InputHandler.UseJumpInput();
