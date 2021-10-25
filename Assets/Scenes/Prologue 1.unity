@@ -7978,7 +7978,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_LightType: 4
-  m_BlendStyleIndex: 0
+  m_BlendStyleIndex: 1
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
@@ -8329,7 +8329,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d12d1558bc937164ea5e8d22f1536de9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textObject: {fileID: 11400000, guid: 3dca0c2d726634741be63675f77cadb4, type: 2}
+  textObject: {fileID: 0}
+  show: 1
+  played: 0
 --- !u!1 &340420399
 GameObject:
   m_ObjectHideFlags: 0
@@ -8419,6 +8421,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textObject: {fileID: 11400000, guid: e30d1f07f3fe64a4098d0badde4cc7ca, type: 2}
+  show: 1
+  played: 0
 --- !u!1001 &364876956
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10115,7 +10119,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d12d1558bc937164ea5e8d22f1536de9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textObject: {fileID: 11400000, guid: 9c4dd38e4a94925409f9ec193862baa5, type: 2}
+  textObject: {fileID: 0}
+  show: 1
+  played: 0
 --- !u!1001 &1018384063
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -70708,6 +70714,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textObject: {fileID: 11400000, guid: db1a576a4ab5d7b478a4bc0ad21abd86, type: 2}
+  show: 1
+  played: 0
 --- !u!1 &1417347540
 GameObject:
   m_ObjectHideFlags: 3
@@ -72135,7 +72143,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d12d1558bc937164ea5e8d22f1536de9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textObject: {fileID: 11400000, guid: ff71f44b912c998459861d52d9b7f63a, type: 2}
+  textObject: {fileID: 0}
+  show: 1
+  played: 0
 --- !u!1001 &3048220251025797028
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -72384,7 +72394,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d12d1558bc937164ea5e8d22f1536de9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textObject: {fileID: 11400000, guid: ff71f44b912c998459861d52d9b7f63a, type: 2}
+  textObject: {fileID: 0}
+  show: 1
+  played: 0
 --- !u!60 &5605155403145984319
 PolygonCollider2D:
   m_ObjectHideFlags: 0
