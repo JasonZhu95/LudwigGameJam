@@ -20,6 +20,7 @@ public class PlayerStats : MonoBehaviour
     public Image[] stocks;
     private bool disableDie;
     public float halfGravThreshold;
+    public static bool playerDied;
 
     private void Start()
     {
@@ -91,6 +92,7 @@ public class PlayerStats : MonoBehaviour
     {
         if (!disableDie)
         {
+            playerDied = true;
             disableDie = true;
             SoundManagerScript.PlaySound("playerDeath");
             Destroy(gameObject);

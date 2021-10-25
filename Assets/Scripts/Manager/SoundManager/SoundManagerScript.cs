@@ -5,6 +5,7 @@ using UnityEngine;
 public class SoundManagerScript : MonoBehaviour
 {
     public static AudioClip playerDeath;
+    public static AudioClip playerRevive;
     public static AudioClip playerDash;
     public static AudioClip playerLand;
     public static AudioClip playerJump;
@@ -17,6 +18,7 @@ public class SoundManagerScript : MonoBehaviour
     private void Start()
     {
         playerDeath = Resources.Load<AudioClip>("playerDeath");
+        playerRevive = Resources.Load<AudioClip>("playerRevive");
         playerDash = Resources.Load<AudioClip>("playerDash");
         playerLand = Resources.Load<AudioClip>("playerLand");
         playerJump = Resources.Load<AudioClip>("playerJump");
@@ -36,6 +38,9 @@ public class SoundManagerScript : MonoBehaviour
             
             case "playerDeath":
                 audioSrc.PlayOneShot(playerDeath, 0.2f); 
+                break;
+            case "playerRevive":
+                audioSrc.PlayOneShot(playerRevive, 0.2f);
                 break;
             case "trampoline":
                 audioSrc.PlayOneShot(trampoline);
