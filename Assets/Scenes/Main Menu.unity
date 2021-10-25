@@ -3654,6 +3654,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1309378219}
   m_CullTransparentMesh: 1
+--- !u!82 &1393900337 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 6399781429344626056, guid: 11dceacb8f00c524a9a9981cc02895a6, type: 3}
+  m_PrefabInstance: {fileID: 6399781429315583255}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1448166823
 GameObject:
   m_ObjectHideFlags: 0
@@ -5959,13 +5964,25 @@ PrefabInstance:
       value: MusicManager
       objectReference: {fileID: 0}
     - target: {fileID: 6399781429344626102, guid: 11dceacb8f00c524a9a9981cc02895a6, type: 3}
+      propertyPath: music
+      value: 
+      objectReference: {fileID: 1393900337}
+    - target: {fileID: 6399781429344626102, guid: 11dceacb8f00c524a9a9981cc02895a6, type: 3}
       propertyPath: opSound
       value: 
       objectReference: {fileID: 8300000, guid: 622c68eb29d216a479bb66afabdc9b9e, type: 3}
     - target: {fileID: 6399781429344626102, guid: 11dceacb8f00c524a9a9981cc02895a6, type: 3}
+      propertyPath: breakSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 67d22be5ceacf7c4c99e877d789eef1f, type: 3}
+    - target: {fileID: 6399781429344626102, guid: 11dceacb8f00c524a9a9981cc02895a6, type: 3}
       propertyPath: poolsSound
       value: 
       objectReference: {fileID: 8300000, guid: c7f9aff395aaf3e4f96be7e263a94573, type: 3}
+    - target: {fileID: 6399781429344626102, guid: 11dceacb8f00c524a9a9981cc02895a6, type: 3}
+      propertyPath: top64Sound
+      value: 
+      objectReference: {fileID: 8300000, guid: 32e1d7f9bd0522e4abeab7e2439bf36a, type: 3}
     - target: {fileID: 6399781429344626102, guid: 11dceacb8f00c524a9a9981cc02895a6, type: 3}
       propertyPath: musicToPlay
       value: opSound
