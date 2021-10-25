@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
 
     public Animator transitionAnim;
     public float transitionTime = 1f;
+    public static int levelTracker;
 
     private GameObject player;
     public GameObject[] spawnLocations;
@@ -29,18 +30,11 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        
         player = GameObject.FindWithTag("Player");
         if (reload && !loadNextLevel)
         {
             player = GameObject.FindWithTag("Player");
             player.transform.position = new Vector3(playerPosX, playerPosY, 0);
-        }
-
-        if (PlayerStats.playerDied)
-        {
-            SoundManagerScript.PlaySound("playerRevive");
-            PlayerStats.playerDied = false;
         }
 
         loadNextLevel = false;
@@ -55,7 +49,7 @@ public class GameManager : MonoBehaviour
                 roomTracker = i;
             }
         }
-        
+
     }
 
     public void Respawn()
@@ -65,12 +59,22 @@ public class GameManager : MonoBehaviour
         playerPosY = spawnLocations[roomTracker].transform.position.y;
         if (PlayerStats.stockCount == 0)
         {
+            if (PlayerStats.totalLossCount == 1)
+            {
+                reload = false;
+                levelTracker = SceneManager.GetActiveScene().buildIndex;
+                SceneManager.LoadScene(18);
+            }
+
             if (PlayerStats.totalLossCount == 2)
             {
                 reload = false;
+                StageText.currentStage = 0;
                 PlayerStats.totalLossCount = 0;
                 SceneManager.LoadScene(17);
             }
+
+
             playerPosX = spawnLocations[0].transform.position.x;
             playerPosY = spawnLocations[0].transform.position.y;
             HitTheBoss.amountOfTimesHit = 0;
@@ -110,5 +114,12 @@ public class GameManager : MonoBehaviour
         loadNextLevel = true;
         PlayerStats.stockCount = 4; 
         StartCoroutine(LoadLevel(2));
+    }
+
+    public void LoadSavedLevel()
+    {
+        loadNextLevel = true;
+        PlayerStats.stockCount = 4;
+        StartCoroutine(LoadLevel(levelTracker));
     }
 }

@@ -14,6 +14,10 @@ public class Trampoline : MonoBehaviour
     [SerializeField] private float playerCheckRadius = 0.75f;
     public LayerMask whatIsPlayer;
 
+    private float audioPlayPeriod = .2f;
+    private bool playAudio;
+
+
     private void Start()
     {
         anim = GetComponent<Animator>();
@@ -22,8 +26,20 @@ public class Trampoline : MonoBehaviour
     
     private void Update()
     {
+        audioPlayPeriod -= Time.deltaTime;
+        if (audioPlayPeriod < 0)
+        {
+            playAudio = true;
+            audioPlayPeriod = .2f;
+        }
+
         if (CheckIfPlayer())
         {
+            if (playAudio)
+            {
+                SoundManagerScript.PlaySound("trampoline");
+                playAudio = false;
+            }
             StartCoroutine(DisableVelocitySet());
             player.GetComponent<Player>().DashState.ResetCanDash();
             player.GetComponent<Player>().DashState.dashCount = 0;
@@ -41,31 +57,35 @@ public class Trampoline : MonoBehaviour
                 player.transform.position = new Vector3(transform.position.x + playerOffsetX,
                     transform.position.y + playerOffestY, transform.position.z);
                 player.GetComponent<Rigidbody2D>().velocity = -Vector2.right * bounce;
-                SoundManagerScript.PlaySound("trampoline");
             }
             else if (transform.rotation.eulerAngles.z == 180)
             {
                 player.transform.position = new Vector3(transform.position.x + playerOffsetX,
                     transform.position.y + playerOffestY, transform.position.z);
                 player.GetComponent<Rigidbody2D>().velocity = -Vector2.up * bounce;
-                SoundManagerScript.PlaySound("trampoline");
             }
             else if (transform.rotation.eulerAngles.z == 270)
             {
                 player.transform.position = new Vector3(transform.position.x + playerOffsetX,
                     transform.position.y + playerOffestY, transform.position.z);
                 player.GetComponent<Rigidbody2D>().velocity = Vector2.right * bounce;
-                SoundManagerScript.PlaySound("trampoline");
             }
             else
             {
                 player.transform.position = new Vector3(transform.position.x + playerOffsetX,
                     transform.position.y + playerOffestY, transform.position.z);
                 player.GetComponent<Rigidbody2D>().velocity = Vector2.up * bounce;
-                SoundManagerScript.PlaySound("trampoline");
             }
+            StartCoroutine(SetAnimationBool());
         }
-        anim.SetBool("isPushing", CheckIfPlayer());
+
+    }
+
+    IEnumerator SetAnimationBool()
+    {
+        anim.SetBool("isPushing", true);
+        yield return new WaitForSeconds(.3f);
+        anim.SetBool("isPushing", false);
     }
 
     IEnumerator DisableVelocitySet()

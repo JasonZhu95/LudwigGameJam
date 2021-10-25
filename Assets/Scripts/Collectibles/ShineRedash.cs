@@ -17,6 +17,7 @@ public class ShineRedash : MonoBehaviour
         {
             if (transform.GetChild(0).gameObject.activeSelf)
             {
+                SoundManagerScript.PlaySound("shineRedash");
                 player.DashState.ResetCanDash();
                 player.GetComponent<Player>().DashState.dashCount = 0;
             }

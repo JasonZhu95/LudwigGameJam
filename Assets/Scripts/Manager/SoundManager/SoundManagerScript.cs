@@ -9,6 +9,9 @@ public class SoundManagerScript : MonoBehaviour
     public static AudioClip playerDash;
     public static AudioClip playerLand;
     public static AudioClip playerJump;
+    public static AudioClip playerWallJump;
+    public static AudioClip shineRedash;
+    public static AudioClip smashBall;
     public static AudioClip trampoline;
     public static AudioClip bossShine;
     public static AudioClip bossLaser;
@@ -22,6 +25,9 @@ public class SoundManagerScript : MonoBehaviour
         playerDash = Resources.Load<AudioClip>("playerDash");
         playerLand = Resources.Load<AudioClip>("playerLand");
         playerJump = Resources.Load<AudioClip>("playerJump");
+        playerWallJump = Resources.Load<AudioClip>("playerWallJump");
+        shineRedash = Resources.Load<AudioClip>("shineRedash");
+        smashBall = Resources.Load<AudioClip>("smashBall");
         trampoline = Resources.Load<AudioClip>("trampoline");
         creditSound = Resources.Load<AudioClip>("creditSound");
         bossShine = Resources.Load<AudioClip>("bossShine");
@@ -37,10 +43,10 @@ public class SoundManagerScript : MonoBehaviour
         {
             
             case "playerDeath":
-                audioSrc.PlayOneShot(playerDeath, 0.2f); 
+                audioSrc.PlayOneShot(playerDeath, 0.1f); 
                 break;
             case "playerRevive":
-                audioSrc.PlayOneShot(playerRevive, 0.2f);
+                audioSrc.PlayOneShot(playerRevive, 0.5f);
                 break;
             case "trampoline":
                 audioSrc.PlayOneShot(trampoline);
@@ -53,6 +59,15 @@ public class SoundManagerScript : MonoBehaviour
                 break;
             case "playerJump":
                 audioSrc.PlayOneShot(playerJump,1f);
+                break;
+            case "playerWallJump":
+                audioSrc.PlayOneShot(playerWallJump, .1f);
+                break;
+            case "shineRedash":
+                audioSrc.PlayOneShot(shineRedash, .1f);
+                break;
+            case "smashBall":
+                audioSrc.PlayOneShot(smashBall, .1f);
                 break;
             case "bossShine":
                 audioSrc.PlayOneShot(bossShine, .1f);
