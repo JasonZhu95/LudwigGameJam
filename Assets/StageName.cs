@@ -7,8 +7,14 @@ public class StageName : MonoBehaviour
 {
         public string currentStage;
         [SerializeField] Text stageText;
-
-        void Update()
+    MusicManager mm;
+    private void Start()
+    {
+        mm = GameObject.FindGameObjectWithTag("Music Manager").GetComponent<MusicManager>();
+        mm.StopMusic();
+        
+    }
+    void Update()
         {
             stageText.text = currentStage.ToString();
         }
