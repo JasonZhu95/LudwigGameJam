@@ -745,6 +745,7 @@ GameObject:
   - component: {fileID: 4992847838779913768}
   - component: {fileID: 4992847838779913766}
   - component: {fileID: 1751991035546498817}
+  - component: {fileID: 4014215672422210550}
   m_Layer: 5
   m_Name: Canvas 1
   m_TagString: Canvas
@@ -892,7 +893,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   numSmashBallsText: {fileID: 3736623265972777270}
-  smashBallsInStage: 3
+  balls: 0
+  scene: 
+--- !u!114 &4014215672422210550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4992847838779913773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b88218828d5e13f4b8014a16c9b6a6b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5260476226976668106
 GameObject:
   m_ObjectHideFlags: 0

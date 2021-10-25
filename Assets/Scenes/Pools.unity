@@ -19693,7 +19693,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2036301981037374448, guid: 54367d504871be441b506fcccd4a80dc, type: 3}
       propertyPath: m_Name
-      value: Collectible
+      value: Collectible (2)
       objectReference: {fileID: 0}
     - target: {fileID: 2036301981037374462, guid: 54367d504871be441b506fcccd4a80dc, type: 3}
       propertyPath: m_RootOrder

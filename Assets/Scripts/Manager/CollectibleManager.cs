@@ -8,11 +8,12 @@ public class CollectibleManager : MonoBehaviour
 {
     public Text numSmashBallsText;
     public static int allowedNumOfSmashBalls = 0;
-    //public GameObject[] smashBallArr;
+
     public static List<GameObject> smashBallList = new List<GameObject>(0);
     public int balls;
-    public static string currentScene;
     public static int smashBalls;
+
+    public static string currentScene;
     public string scene;
 
     void Awake()
@@ -24,8 +25,6 @@ public class CollectibleManager : MonoBehaviour
     void Start()
     {
         balls = allowedNumOfSmashBalls;
-        
-
 
         if (scene == "Prologue")
         {

@@ -10,43 +10,36 @@ public class SmashBall : MonoBehaviour
     public bool isCollected = false;
     //public bool loaded = false;
     public int id;
+    public int id2;
     public static int objectID = 0;
 
 
 
 
     private void Awake()
-    {
-        Debug.Log(FindObjectsOfType(typeof(SmashBall)).Length);
-        objectID++;
-        id = objectID;
-
+    {   
         
-        if (objectID > CollectibleManager.allowedNumOfSmashBalls)
-        {
-            Destroy(gameObject);
-        }
-        else
-        {
-            DontDestroyOnLoad(gameObject);
-            CollectibleManager.smashBallList.Add(gameObject);
-        }
-
     }
 
     void Start()
     {
         canvas = GameObject.FindGameObjectWithTag("Canvas");
         cm = canvas.GetComponent<CollectibleManager>();
-        if (objectID > CollectibleManager.allowedNumOfSmashBalls)
+        DontDestroyOnLoad(gameObject);
+        if (objectID >= CollectibleManager.allowedNumOfSmashBalls)
         {
             Destroy(gameObject);
         }
         else
         {
-            DontDestroyOnLoad(gameObject);
+            objectID++;
+            id = objectID;
             CollectibleManager.smashBallList.Add(gameObject);
         }
+        
+            Debug.Log(objectID);
+        
+        
 
     }
     void OnTriggerEnter2D(Collider2D other)
