@@ -76,8 +76,16 @@ public class Trampoline : MonoBehaviour
                     transform.position.y + playerOffestY, transform.position.z);
                 player.GetComponent<Rigidbody2D>().velocity = Vector2.up * bounce;
             }
+            StartCoroutine(SetAnimationBool());
         }
-        anim.SetBool("isPushing", CheckIfPlayer());
+
+    }
+
+    IEnumerator SetAnimationBool()
+    {
+        anim.SetBool("isPushing", true);
+        yield return new WaitForSeconds(.3f);
+        anim.SetBool("isPushing", false);
     }
 
     IEnumerator DisableVelocitySet()
