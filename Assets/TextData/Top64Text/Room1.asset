@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   posX: 50
   posY: -160
+  show: 1
   dialogue:
-  - This guy is laming me.
+  - Alright round 2

@@ -16,23 +16,26 @@ MonoBehaviour:
   speakerRight: {fileID: 11400000, guid: 44e11433c954a1847ac5c705586b577d, type: 2}
   lines:
   - character: {fileID: 11400000, guid: 44e11433c954a1847ac5c705586b577d, type: 2}
-    text: "How\u2019d pools go?\r\n"
+    text: Congrats on beating stage 1!
   - character: {fileID: 11400000, guid: 80530266e4346f645bdd5e15404448f7, type: 2}
-    text: 'Easy.
+    text: 'Thanks wasn''t too bad
 
 '
   - character: {fileID: 11400000, guid: 80530266e4346f645bdd5e15404448f7, type: 2}
-    text: You know me, no shot I lose this early.
+    text: This is gonna be THE run
   - character: {fileID: 11400000, guid: 44e11433c954a1847ac5c705586b577d, type: 2}
-    text: "True.  I didn\u2019t do so hot on my end.  I just don\u2019t have what
-      it takes.\r\n"
+    text: 'Alright don''t choke my guy
+
+'
   - character: {fileID: 11400000, guid: 44e11433c954a1847ac5c705586b577d, type: 2}
-    text: "I love the game, but man it\u2019s rough.  Think I\u2019m just going to
-      go hop on commentary instead.\r\n"
+    text: 'Just saying it gets much harder from here
+
+'
   - character: {fileID: 11400000, guid: 80530266e4346f645bdd5e15404448f7, type: 2}
-    text: "Fuck it\u2019s alright man.  I\u2019ll be honest I might be joining you
-      soon.\r\n"
+    text: 'Alright but gimme my seconds back
+
+'
   - character: {fileID: 11400000, guid: 44e11433c954a1847ac5c705586b577d, type: 2}
-    text: 'Wait alright man?  ALRIGHT MAN.
+    text: 'nah
 
 '

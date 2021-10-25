@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e258d969818eb924b877b0212879b534, type: 3}
   m_Name: Room 4
   m_EditorClassIdentifier: 
-  posX: 30
-  posY: -180
+  posX: 0
+  posY: -280
+  show: 1
   dialogue:
-  - "My hands are too tense.\r"
+  - 

@@ -16,7 +16,4 @@ MonoBehaviour:
   posY: -150
   show: 1
   dialogue:
-  - 'I''m tired
-
-
-'
+  - "wtf \n\n"
