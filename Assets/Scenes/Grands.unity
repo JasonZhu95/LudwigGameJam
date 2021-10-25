@@ -7086,7 +7086,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 11
-      m_TileSpriteIndex: 6
+      m_TileSpriteIndex: 24
       m_TileMatrixIndex: 3
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -12017,8 +12017,8 @@ Tilemap:
     m_Data: {fileID: -4689036416838276420, guid: 5a6b03f14e8009949a6de502424e9c00, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: 1688902425720724638, guid: 5a6b03f14e8009949a6de502424e9c00, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 7562716900497062, guid: 5a6b03f14e8009949a6de502424e9c00, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 6
     m_Data: {fileID: 3666506009430748457, guid: 1419c81b0e9f0284aa759f9c4e9a362e, type: 3}
   - m_RefCount: 6
@@ -12053,8 +12053,8 @@ Tilemap:
     m_Data: {fileID: -979931886528107223, guid: 5a6b03f14e8009949a6de502424e9c00, type: 3}
   - m_RefCount: 30
     m_Data: {fileID: -4344611882063969491, guid: 5a6b03f14e8009949a6de502424e9c00, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 7562716900497062, guid: 5a6b03f14e8009949a6de502424e9c00, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 6940373114547736769, guid: 1419c81b0e9f0284aa759f9c4e9a362e, type: 3}
   - m_RefCount: 2
@@ -13201,7 +13201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_LightType: 4
-  m_BlendStyleIndex: 0
+  m_BlendStyleIndex: 1
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1

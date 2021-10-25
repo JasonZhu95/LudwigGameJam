@@ -8,8 +8,8 @@ public class MusicManager : MonoBehaviour
     public  AudioSource music;
     public  AudioClip opSound;
     public  AudioClip poolsSound;
-    [SerializeField] public static string musicToPlay;
-    private int current = -1;
+    public static string musicToPlay;
+    private static int current = -3;
     
 
     public static bool playOpSound;
@@ -40,32 +40,50 @@ public class MusicManager : MonoBehaviour
     }
     void Update()
     {
-        if(musicToPlay == "opSound")
+        if(current != -2)
         {
-            if (current != 0)
+            if (musicToPlay == "opSound")
             {
-                current = 0;
-                music.clip = opSound;
-                music.Play();
+                if (current == 0)
+                {
+                    current = -1;
+                    music.clip = opSound;
+                    music.Play();
+                }
+            }
+            else if (musicToPlay == "poolsSound")
+            {
+                if (current == 1)
+                {
+                    current = -1;
+                    music.clip = poolsSound;
+                    music.Play();
+                }
             }
         }
-        else if(musicToPlay == "poolsSound")
-        {
-            if(current != 1)
-            {
-                current = 1;
-                music.clip = poolsSound;
-                music.Play();
-            }
-        }
+        
        
     }
     public void PlayMusic(string clip)
-    { 
+    {
+        if(current != -1)
+        {
+            if (clip == "opSound")
+            {
+                current = 0;
+            }
+            else if (clip == "poolsSound")
+            {
+                current = 1;
+            }
+        }
+        
         musicToPlay = clip;
     }
     public void StopMusic()
     {
+        current = -2;
         music.Stop();
+        
     }
 }
