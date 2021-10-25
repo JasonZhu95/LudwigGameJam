@@ -12,4 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e258d969818eb924b877b0212879b534, type: 3}
   m_Name: Room 9
   m_EditorClassIdentifier: 
-  dialogue: []
+  posX: -100
+  posY: -250
+  show: 1
+  dialogue:
+  - eZZZzzzzzzzz

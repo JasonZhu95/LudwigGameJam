@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e258d969818eb924b877b0212879b534, type: 3}
   m_Name: Room 3
   m_EditorClassIdentifier: 
-  posX: -20
-  posY: -169
+  posX: -60
+  posY: -260
+  show: 1
   dialogue:
-  - "I\u2019ve made it out of pools before I should be playing better than this.\r\n"
+  - This isn't too bad

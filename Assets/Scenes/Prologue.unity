@@ -5761,6 +5761,7 @@ GameObject:
   - component: {fileID: 969862093}
   - component: {fileID: 969862094}
   - component: {fileID: 969862095}
+  - component: {fileID: 969862096}
   m_Layer: 2
   m_Name: Room4
   m_TagString: Level
@@ -5825,6 +5826,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   virtualCam: {fileID: 1235650010}
+--- !u!114 &969862096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 969862092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d12d1558bc937164ea5e8d22f1536de9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textObject: {fileID: 11400000, guid: 9051a88bdb9fdd843a5fe448e7d7a629, type: 2}
+  show: 1
+  played: 0
 --- !u!1 &1054712902
 GameObject:
   m_ObjectHideFlags: 0
@@ -15266,6 +15282,7 @@ GameObject:
   - component: {fileID: 5605155403145984256}
   - component: {fileID: 5605155403145984319}
   - component: {fileID: 5942721494242369576}
+  - component: {fileID: 5605155403145984258}
   m_Layer: 2
   m_Name: Room1
   m_TagString: Level
@@ -15273,6 +15290,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &5605155403145984258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5605155403145984257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d12d1558bc937164ea5e8d22f1536de9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textObject: {fileID: 11400000, guid: e3af3d9b8f14cb0408cb71bf6e08be18, type: 2}
+  show: 1
+  played: 0
 --- !u!60 &5605155403145984319
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -15439,11 +15471,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7005955142802262173, guid: 18ded3bf4f49b7d4883755d51e4ba100, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -24.8
+      value: -25.41
       objectReference: {fileID: 0}
     - target: {fileID: 7005955142802262173, guid: 18ded3bf4f49b7d4883755d51e4ba100, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.48
+      value: -2.44
       objectReference: {fileID: 0}
     - target: {fileID: 7005955142802262173, guid: 18ded3bf4f49b7d4883755d51e4ba100, type: 3}
       propertyPath: m_LocalPosition.z

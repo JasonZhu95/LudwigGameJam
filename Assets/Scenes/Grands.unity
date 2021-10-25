@@ -7086,7 +7086,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 11
-      m_TileSpriteIndex: 6
+      m_TileSpriteIndex: 24
       m_TileMatrixIndex: 3
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -12017,8 +12017,8 @@ Tilemap:
     m_Data: {fileID: -4689036416838276420, guid: 5a6b03f14e8009949a6de502424e9c00, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: 1688902425720724638, guid: 5a6b03f14e8009949a6de502424e9c00, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 7562716900497062, guid: 5a6b03f14e8009949a6de502424e9c00, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 6
     m_Data: {fileID: 3666506009430748457, guid: 1419c81b0e9f0284aa759f9c4e9a362e, type: 3}
   - m_RefCount: 6
@@ -12053,8 +12053,8 @@ Tilemap:
     m_Data: {fileID: -979931886528107223, guid: 5a6b03f14e8009949a6de502424e9c00, type: 3}
   - m_RefCount: 30
     m_Data: {fileID: -4344611882063969491, guid: 5a6b03f14e8009949a6de502424e9c00, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 7562716900497062, guid: 5a6b03f14e8009949a6de502424e9c00, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 6940373114547736769, guid: 1419c81b0e9f0284aa759f9c4e9a362e, type: 3}
   - m_RefCount: 2
@@ -21845,11 +21845,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6896036107834634087, guid: 8d3fae7365503bd4d899f3851d9f05ef, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -25.25
+      value: -25.2
       objectReference: {fileID: 0}
     - target: {fileID: 6896036107834634087, guid: 8d3fae7365503bd4d899f3851d9f05ef, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.1
+      value: 6.6
       objectReference: {fileID: 0}
     - target: {fileID: 6896036107834634087, guid: 8d3fae7365503bd4d899f3851d9f05ef, type: 3}
       propertyPath: m_LocalPosition.z
@@ -22615,6 +22615,63 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &758682157
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 758682158}
+  - component: {fileID: 758682159}
+  m_Layer: 2
+  m_Name: beatBoss
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &758682158
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 758682157}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.07, y: 7.21, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1656790777}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &758682159
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 758682157}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -2.0538483, y: 0.75140953}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.1076965, y: 3.2041283}
+  m_EdgeRadius: 0
 --- !u!1 &764890837
 GameObject:
   m_ObjectHideFlags: 0
@@ -92109,6 +92166,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1031230831}
+  - {fileID: 758682158}
   m_Father: {fileID: 5605155402688396624}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -96250,7 +96308,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7381506253184081987, guid: 981b4cfc381075947b9c3c263c87fd4a, type: 3}
       propertyPath: speed
-      value: 20
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 7381506253184081990, guid: 981b4cfc381075947b9c3c263c87fd4a, type: 3}
       propertyPath: m_Name
