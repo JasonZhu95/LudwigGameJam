@@ -16,14 +16,13 @@ MonoBehaviour:
   speakerRight: {fileID: 11400000, guid: 44e11433c954a1847ac5c705586b577d, type: 2}
   lines:
   - character: {fileID: 11400000, guid: 44e11433c954a1847ac5c705586b577d, type: 2}
-    text: 'Slime: Holy shit you were sick out there.'
+    text: Holy shit you are so nice on the sticks.
   - character: {fileID: 11400000, guid: 80530266e4346f645bdd5e15404448f7, type: 2}
-    text: 'Player: Yea hopefully I can keep it rolling.  I always lose here.
-
-'
+    text: Yea hopefully I can keep it rolling.  I've never beaten the top 8 guys
+      before.
   - character: {fileID: 11400000, guid: 44e11433c954a1847ac5c705586b577d, type: 2}
-    text: 'Slime: Hey better than me man.'
-  - character: {fileID: 11400000, guid: 44e11433c954a1847ac5c705586b577d, type: 2}
-    text: "Slime: I\u2019m rooting for you.\r\n"
+    text: "Hey better than me man.  I'm rooting for you.\r"
   - character: {fileID: 11400000, guid: 80530266e4346f645bdd5e15404448f7, type: 2}
-    text: "Player: \u2026 alright man.\r\n"
+    text: Thanks you always got me.  Time to focus up.
+  - character: {fileID: 11400000, guid: 44e11433c954a1847ac5c705586b577d, type: 2}
+    text: YESSIR!  Good luck, you're gonna need it.

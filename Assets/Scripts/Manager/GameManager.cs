@@ -63,6 +63,7 @@ public class GameManager : MonoBehaviour
             {
                 reload = false;
                 levelTracker = SceneManager.GetActiveScene().buildIndex;
+                HitTheBoss.bossStockCount = 4;
                 SceneManager.LoadScene(18);
             }
 

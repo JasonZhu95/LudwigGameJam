@@ -16,22 +16,14 @@ MonoBehaviour:
   speakerRight: {fileID: 11400000, guid: 44e11433c954a1847ac5c705586b577d, type: 2}
   lines:
   - character: {fileID: 11400000, guid: 80530266e4346f645bdd5e15404448f7, type: 2}
-    text: This game too ezzzzz
+    text: Yo.
   - character: {fileID: 11400000, guid: 44e11433c954a1847ac5c705586b577d, type: 2}
-    text: 'Holy shit you actually made it here?
-
-'
+    text: Holy shit you made it to grands?!?!
   - character: {fileID: 11400000, guid: 44e11433c954a1847ac5c705586b577d, type: 2}
-    text: 'Damn didnt think you would make it
-
-'
+    text: You're on fire.  Hope you're ready though.  Mango's been playing hot.
   - character: {fileID: 11400000, guid: 80530266e4346f645bdd5e15404448f7, type: 2}
-    text: 'Bro why you talking trash when you cant even move
-
-'
-  - character: {fileID: 11400000, guid: 80530266e4346f645bdd5e15404448f7, type: 2}
-    text: 'Watch me beat this shit game
-
-'
+    text: Playing against Mango.  That's surreal.  Man is a legend.
   - character: {fileID: 11400000, guid: 44e11433c954a1847ac5c705586b577d, type: 2}
-    text: Alright good luck man
+    text: Hey man once you hit him, he's just another fox.  Good luck.
+  - character: {fileID: 11400000, guid: 44e11433c954a1847ac5c705586b577d, type: 2}
+    text: alright man..
