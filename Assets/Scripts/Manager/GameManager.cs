@@ -37,6 +37,12 @@ public class GameManager : MonoBehaviour
             player.transform.position = new Vector3(playerPosX, playerPosY, 0);
         }
 
+        if (PlayerStats.playerDied)
+        {
+            SoundManagerScript.PlaySound("playerRevive");
+            PlayerStats.playerDied = false;
+        }
+
         loadNextLevel = false;
     }
 
