@@ -5,11 +5,19 @@ using UnityEngine;
 public class HiddenRoom : MonoBehaviour
 {
     private SpriteRenderer sprite;
-    public GameObject smashBall;
+    private GameObject smashBall;
 
     private void Start()
     {
         sprite = GetComponent<SpriteRenderer>();
+        StartCoroutine(DelaySmashBallSetActive());
+
+    }
+
+    IEnumerator DelaySmashBallSetActive()
+    {
+        yield return new WaitForSeconds(2f);
+        smashBall = GameObject.FindGameObjectWithTag("CollectibleHidden");
         smashBall.SetActive(false);
     }
 
