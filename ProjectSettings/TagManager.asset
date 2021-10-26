@@ -19,6 +19,7 @@ TagManager:
   - Timer
   - Sound
   - Music Manager
+  - CollectibleHidden
   layers:
   - Default
   - TransparentFX
