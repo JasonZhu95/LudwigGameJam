@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
+using UnityEditor;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-
     public Animator transitionAnim;
     public float transitionTime = 1f;
     public static int levelTracker;
@@ -14,7 +14,6 @@ public class GameManager : MonoBehaviour
     private GameObject player;
     public GameObject[] spawnLocations;
     public GameObject[] activeRooms;
-
 
     public static float playerPosX = 0;
     public static float playerPosY = 0;
@@ -37,11 +36,22 @@ public class GameManager : MonoBehaviour
             player.transform.position = new Vector3(playerPosX, playerPosY, 0);
         }
 
+        if (PlayerStats.totalLossCount == 2)
+        {
+            StartCoroutine(ResetCurrentStageCount());
+        }
+
         loadNextLevel = false;
     }
 
+    IEnumerator ResetCurrentStageCount()
+    {
+        yield return new WaitForSeconds(1f);
+        StageText.currentStage = 0;
+    }
     private void Update()
     {
+        Debug.Log(StageText.currentStage);
         for (int i = 0; i < activeRooms.Length; i++)
         {
             if (activeRooms[i].activeSelf == true)
@@ -49,7 +59,6 @@ public class GameManager : MonoBehaviour
                 roomTracker = i;
             }
         }
-
     }
 
     public void Respawn()
@@ -70,11 +79,9 @@ public class GameManager : MonoBehaviour
             if (PlayerStats.totalLossCount == 2)
             {
                 reload = false;
-                StageText.currentStage = 0;
                 PlayerStats.totalLossCount = 0;
                 SceneManager.LoadScene(17);
             }
-
 
             playerPosX = spawnLocations[0].transform.position.x;
             playerPosY = spawnLocations[0].transform.position.y;
@@ -83,8 +90,6 @@ public class GameManager : MonoBehaviour
             PlayerStats.stockCount = 4;
         }
         ReloadScene();
-        
-       
     }
 
     public void ReloadScene()
@@ -113,7 +118,7 @@ public class GameManager : MonoBehaviour
     public void LoadArenaLevel()
     {
         loadNextLevel = true;
-        PlayerStats.stockCount = 4; 
+        PlayerStats.stockCount = 4;
         StartCoroutine(LoadLevel(2));
     }
 

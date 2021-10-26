@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class StageText1 : MonoBehaviour
 {
-    public static int currentStage;
     [SerializeField] Text stageText1;
     //MusicManager mm;
     private void Start()
@@ -15,6 +14,6 @@ public class StageText1 : MonoBehaviour
     void Update()
     {
         
-        stageText1.text = currentStage.ToString() + "-1";
+        stageText1.text = StageText.currentStage.ToString() + "-1";
     }
 }
