@@ -133,13 +133,13 @@ public class MusicManager : MonoBehaviour
             }
             else if (clip == "poolsSound")
             {
-                music.volume = 0.23f;
+                music.volume = 0.1f;
                 current = 1;
             }
             else if(clip == "breakSound")
             {
                 current = 2;
-                music.volume = 0.33f;
+                music.volume = 0.07f;
             }
             else if (clip == "top64Sound")
             {
