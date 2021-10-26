@@ -30,7 +30,7 @@ MonoBehaviour:
   distBetweenAfterImages: 0.5
   startOffset: {x: 0.4, y: 0.3}
   stopOffset: {x: 0.5, y: 1.1}
-  groundCheckRadius: 0.3
+  groundCheckRadius: 0.35
   whatIsGround:
     serializedVersion: 2
     m_Bits: 64
