@@ -13,29 +13,20 @@ public class stopMusicDestroy : MonoBehaviour
     {
         
         mm = GameObject.FindGameObjectWithTag("Music Manager").GetComponent<MusicManager>();
-        if (id > 1)
-        {
-            Destroy(gameObject);
-        }
-        else
-        {
-            id++;
-            DontDestroyOnLoad(gameObject);
-        }
+        
 
     }
 
-    private void OnTriggerEnter2D(Collider2D coll)
+    void OnTriggerEnter2D(Collider2D other)
     {
-        if (coll.gameObject.CompareTag("Player"))
+        if (other.CompareTag("Player"))
         {
-            mm.StopMusic();
-            isTriggered = true;
-            if (isTriggered == true)
+            if (isTriggered == false)
             {
+                mm.StopMusic();
+                isTriggered = true;
                 gameObject.SetActive(false);
             }
         }
-
     }
 }

@@ -14,25 +14,18 @@ public class top64Updater : MonoBehaviour
     }
     public void Start()
     {
-        if (id > 1)
-        {
-            Destroy(gameObject);
-        }
-        else
-        {
-            id++;
-            DontDestroyOnLoad(gameObject);
-        }
+       
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            isTriggered = true;
-            CollectibleManager.allowedNumOfSmashBalls += nextLevelNum;
-            if (isTriggered == true)
+            if (isTriggered == false)
             {
+                isTriggered = true;
+                CollectibleManager.allowedNumOfSmashBalls += nextLevelNum;
+
                 gameObject.SetActive(false);
             }
         }
