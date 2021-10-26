@@ -13,6 +13,7 @@ public class MusicManager : MonoBehaviour
     public AudioClip wallClimbSound;
     public AudioClip top8Sound;
     public AudioClip bossSound;
+    public AudioClip creditMusic;
     public static string musicToPlay;
     private static int current = -3;
     
@@ -29,6 +30,8 @@ public class MusicManager : MonoBehaviour
         top8Sound = Resources.Load<AudioClip>("top8Sound");
         bossSound = Resources.Load<AudioClip>("bossSound");
         wallClimbSound = Resources.Load<AudioClip>("wallClimbSound");
+        creditMusic = Resources.Load<AudioClip>("creditMusic");
+
         if (FindObjectsOfType(typeof(MusicManager)).Length > 1)
         {
             Destroy(gameObject);
@@ -118,6 +121,16 @@ public class MusicManager : MonoBehaviour
                     music.Play();
                 }
             }
+            else if (musicToPlay == "creditMusic")
+            {
+                if (current == 7)
+                {
+                    current = -1;
+                    music.clip = creditMusic;
+
+                    music.Play();
+                }
+            }
 
         }
         
@@ -162,6 +175,11 @@ public class MusicManager : MonoBehaviour
             {
                 current = 6;
 
+            }
+            else if (clip == "creditMusic")
+            {
+                current = 7;
+                music.volume = 0.084f;
             }
         }
         

@@ -5,12 +5,12 @@ using UnityEngine;
 public class poolsUpdater : MonoBehaviour
 {
     public int nextLevelNum = 3;
-    public static bool acquired = false;
+    public static bool isTriggered = false;
     public static int id = 0;
 
     private void Awake()
     {
-        id++;
+        
     }
     public void Start()
     {
@@ -20,6 +20,7 @@ public class poolsUpdater : MonoBehaviour
         }
         else
         {
+            id++;
             DontDestroyOnLoad(gameObject);
         }
     }
@@ -28,12 +29,12 @@ public class poolsUpdater : MonoBehaviour
          {
             if (other.CompareTag("Player"))
             {
-                acquired = true;
+                isTriggered = true;
                 CollectibleManager.allowedNumOfSmashBalls += nextLevelNum;
-                if (acquired == true)
+                if (isTriggered == true)
                 {
-                    Destroy(gameObject);
+                    gameObject.SetActive(false);
                 }
-            }
+             }
         }
 }
