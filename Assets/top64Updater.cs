@@ -5,11 +5,12 @@ using UnityEngine;
 public class top64Updater : MonoBehaviour
 {
     public int nextLevelNum = 3;
-    public static bool acquired = false;
+    public static bool isTriggered = false;
     public static int id = 0;
 
     private void Awake()
-    {    
+    {
+
     }
     public void Start()
     {
@@ -28,11 +29,11 @@ public class top64Updater : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            acquired = true;
+            isTriggered = true;
             CollectibleManager.allowedNumOfSmashBalls += nextLevelNum;
-            if (acquired == true)
+            if (isTriggered == true)
             {
-                Destroy(gameObject);
+                gameObject.SetActive(false);
             }
         }
     }
