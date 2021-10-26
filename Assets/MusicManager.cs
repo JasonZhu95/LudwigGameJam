@@ -152,7 +152,7 @@ public class MusicManager : MonoBehaviour
             else if(clip == "breakSound")
             {
                 current = 2;
-                music.volume = 0.07f;
+                music.volume = 0.055f;
             }
             else if (clip == "top64Sound")
             {
