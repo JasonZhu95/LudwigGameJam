@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour
     public static float playerPosY = 0;
     public static bool reload;
     private static bool loadNextLevel;
+    public static bool CheckStageCount;
 
     private int roomTracker = 0;
 
@@ -36,8 +37,9 @@ public class GameManager : MonoBehaviour
             player.transform.position = new Vector3(playerPosX, playerPosY, 0);
         }
 
-        if (PlayerStats.totalLossCount == 2)
+        if (CheckStageCount)
         {
+            CheckStageCount = false;
             StartCoroutine(ResetCurrentStageCount());
         }
 
@@ -46,7 +48,7 @@ public class GameManager : MonoBehaviour
 
     IEnumerator ResetCurrentStageCount()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(3f);
         StageText.currentStage = 0;
     }
     private void Update()
@@ -79,6 +81,7 @@ public class GameManager : MonoBehaviour
             {
                 reload = false;
                 PlayerStats.totalLossCount = 0;
+                CheckStageCount = true;
                 SceneManager.LoadScene(17);
             }
 
