@@ -3085,7 +3085,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -19.255299, y: 1.4745233, z: 2}
+  m_LocalPosition: {x: -17.092192, y: 1.4746718, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 388614582}
@@ -6012,6 +6012,8 @@ GameObject:
   - component: {fileID: 5942721494242369576}
   - component: {fileID: 5605155403145984259}
   - component: {fileID: 5605155403145984258}
+  - component: {fileID: 5605155403145984261}
+  - component: {fileID: 5605155403145984260}
   m_Layer: 2
   m_Name: Room1
   m_TagString: Level
@@ -6041,6 +6043,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3fec85fe89841e445bc319ed92de1de1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5605155403145984260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5605155403145984257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ff821444dc56e44f82321f9fa4bcda7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicToPlay: breakSound
+--- !u!114 &5605155403145984261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5605155403145984257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f38734cebcf3c840a174db630e97a5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!60 &5605155403145984319
