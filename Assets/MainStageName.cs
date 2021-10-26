@@ -5,11 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class MainStageName : MonoBehaviour
 {
-   
+    private GameManager GM;
     private float timer = 0f;
     private void Start()
     {
-        
+        GM = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 
     private void Update()
@@ -17,7 +17,7 @@ public class MainStageName : MonoBehaviour
         timer += Time.deltaTime;
         if (timer > 2f)
         {
-            SceneManager.LoadScene("Arena");
+            GM.LoadArenaLevel();
             timer = 0f;
         }
     }
