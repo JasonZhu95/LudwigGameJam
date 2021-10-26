@@ -25,6 +25,7 @@ public class SmashBall : MonoBehaviour
     {
         canvas = GameObject.FindGameObjectWithTag("Canvas");
         cm = canvas.GetComponent<CollectibleManager>();
+
         DontDestroyOnLoad(gameObject);
         if (objectID >= CollectibleManager.allowedNumOfSmashBalls)
         {

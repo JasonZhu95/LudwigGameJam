@@ -11,6 +11,7 @@ public class MusicManager : MonoBehaviour
     public AudioClip breakSound;
     public AudioClip top64Sound;
     public AudioClip top8Sound;
+    public AudioClip bossSound;
     public static string musicToPlay;
     private static int current = -3;
     
@@ -25,6 +26,7 @@ public class MusicManager : MonoBehaviour
         breakSound = Resources.Load<AudioClip>("breakSound");
         top64Sound = Resources.Load<AudioClip>("top64Sound");
         top8Sound = Resources.Load<AudioClip>("top8Sound");
+        bossSound = Resources.Load<AudioClip>("bossSound");
         if (FindObjectsOfType(typeof(MusicManager)).Length > 1)
         {
             Destroy(gameObject);
@@ -94,6 +96,16 @@ public class MusicManager : MonoBehaviour
                     music.Play();
                 }
             }
+            else if (musicToPlay == "bossSound")
+            {
+                if (current == 5)
+                {
+                    current = -1;
+                    music.clip = bossSound;
+
+                    music.Play();
+                }
+            }
 
         }
         
@@ -124,6 +136,11 @@ public class MusicManager : MonoBehaviour
             {
                 current = 4;
                 music.volume = 0.022f;
+            }
+            else if (clip == "bossSound")
+            {
+                current = 5;
+                
             }
         }
         
