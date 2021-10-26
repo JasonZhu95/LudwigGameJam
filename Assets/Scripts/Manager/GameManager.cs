@@ -51,7 +51,6 @@ public class GameManager : MonoBehaviour
     }
     private void Update()
     {
-        Debug.Log(StageText.currentStage);
         for (int i = 0; i < activeRooms.Length; i++)
         {
             if (activeRooms[i].activeSelf == true)
