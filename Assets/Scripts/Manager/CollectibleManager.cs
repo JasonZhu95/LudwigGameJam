@@ -146,6 +146,7 @@ public class CollectibleManager : MonoBehaviour
                     }
                 }
             }
+            
         }
 
         
@@ -195,6 +196,14 @@ public class CollectibleManager : MonoBehaviour
                         smashBallList[i].SetActive(true);
                     }
                 }
+            }
+
+        }
+        if (scene != "Top8" || scene != "Pools" || scene != "Top64" || scene != "Prologue")
+        {
+            for (int i = 0; i < smashBallList.Count; i++)
+            {
+                smashBallList[i].SetActive(false);
             }
         }
     }
