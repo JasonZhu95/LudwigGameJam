@@ -148,6 +148,55 @@ public class CollectibleManager : MonoBehaviour
             }
         }
 
+        if (scene == "Top8Wall")
+        {
+            for (int i = 0; i < smashBallList.Count; i++)
+            {
+                int k = smashBallList[i].GetComponent<SmashBall>().id;
+
+                if (k != 5 || k != 6 || k != 7)
+                {
+                    smashBallList[i].SetActive(false);
+                }
+                if (k == 5)
+                {
+                    bool c = smashBallList[i].GetComponent<SmashBall>().isCollected;
+                    if (c)
+                    {
+                        smashBallList[i].SetActive(false);
+                    }
+                    else
+                    {
+                        smashBallList[i].SetActive(true);
+                    }
+                }
+                if (k == 6)
+                {
+                    bool c = smashBallList[i].GetComponent<SmashBall>().isCollected;
+                    if (c)
+                    {
+                        smashBallList[i].SetActive(false);
+                    }
+                    else
+                    {
+                        smashBallList[i].SetActive(true);
+                    }
+                }
+                if (k == 7)
+                {
+                    bool c = smashBallList[i].GetComponent<SmashBall>().isCollected;
+                    if (c)
+                    {
+                        smashBallList[i].SetActive(false);
+                    }
+                    else
+                    {
+                        smashBallList[i].SetActive(true);
+                    }
+                }
+            }
+        }
+
 
         if (scene == "Top8")
         {

@@ -6,27 +6,34 @@ public class poolsUpdater : MonoBehaviour
 {
     public int nextLevelNum = 3;
     public static bool acquired = false;
-    void Awake()
-    {
+    public static int id = 0;
 
+    private void Awake()
+    {
+        id++;
     }
-
-    // Update is called once per frame
-    void Update()
+    public void Start()
     {
-
-    }
-
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Player"))
+        if (id > 1)
         {
-            acquired = true;
-            CollectibleManager.allowedNumOfSmashBalls += nextLevelNum;
-            if (acquired == true)
-            {
-                Destroy(gameObject);
-            }
+            Destroy(gameObject);
+        }
+        else
+        {
+            DontDestroyOnLoad(gameObject);
         }
     }
+
+        void OnTriggerEnter2D(Collider2D other)
+         {
+            if (other.CompareTag("Player"))
+            {
+                acquired = true;
+                CollectibleManager.allowedNumOfSmashBalls += nextLevelNum;
+                if (acquired == true)
+                {
+                    Destroy(gameObject);
+                }
+            }
+        }
 }

@@ -6,15 +6,22 @@ public class top64Updater : MonoBehaviour
 {
     public int nextLevelNum = 3;
     public static bool acquired = false;
-    void Awake()
-    {
+    public static int id = 0;
 
+    private void Awake()
+    {    
     }
-
-    // Update is called once per frame
-    void Update()
+    public void Start()
     {
-
+        if (id > 1)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            id++;
+            DontDestroyOnLoad(gameObject);
+        }
     }
 
     void OnTriggerEnter2D(Collider2D other)
