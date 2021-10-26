@@ -46,7 +46,7 @@ public class PlayerStats : MonoBehaviour
             player.RB.gravityScale = 5f;
         }
 
-        if (SceneManager.GetActiveScene().buildIndex != 1)
+        if (SceneManager.GetActiveScene().buildIndex != 1 || SceneManager.GetActiveScene().buildIndex != 16)
         {
             for (int i = 0; i < stocks.Length; i++)
             {

@@ -3526,6 +3526,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7381506252932412889, guid: 981b4cfc381075947b9c3c263c87fd4a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7381506253184081986, guid: 981b4cfc381075947b9c3c263c87fd4a, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -3626,6 +3630,18 @@ PrefabInstance:
       propertyPath: smashBallNum
       value: 
       objectReference: {fileID: 679858872}
+    - target: {fileID: 7381506253317123531, guid: 981b4cfc381075947b9c3c263c87fd4a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7381506253893643013, guid: 981b4cfc381075947b9c3c263c87fd4a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7381506254847750714, guid: 981b4cfc381075947b9c3c263c87fd4a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 981b4cfc381075947b9c3c263c87fd4a, type: 3}
 --- !u!114 &679858872 stripped
