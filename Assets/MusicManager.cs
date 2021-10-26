@@ -10,6 +10,7 @@ public class MusicManager : MonoBehaviour
     public  AudioClip poolsSound;
     public AudioClip breakSound;
     public AudioClip top64Sound;
+    public AudioClip wallClimbSound;
     public AudioClip top8Sound;
     public AudioClip bossSound;
     public static string musicToPlay;
@@ -27,6 +28,7 @@ public class MusicManager : MonoBehaviour
         top64Sound = Resources.Load<AudioClip>("top64Sound");
         top8Sound = Resources.Load<AudioClip>("top8Sound");
         bossSound = Resources.Load<AudioClip>("bossSound");
+        wallClimbSound = Resources.Load<AudioClip>("wallClimbSound");
         if (FindObjectsOfType(typeof(MusicManager)).Length > 1)
         {
             Destroy(gameObject);
@@ -106,6 +108,16 @@ public class MusicManager : MonoBehaviour
                     music.Play();
                 }
             }
+            else if (musicToPlay == "wallClimbSound")
+            {
+                if (current == 6)
+                {
+                    current = -1;
+                    music.clip = wallClimbSound;
+
+                    music.Play();
+                }
+            }
 
         }
         
@@ -116,31 +128,40 @@ public class MusicManager : MonoBehaviour
         {
             if (clip == "opSound")
             {
+                music.volume = 0.62f;
                 current = 0;
             }
             else if (clip == "poolsSound")
             {
+                music.volume = 0.23f;
                 current = 1;
             }
             else if(clip == "breakSound")
             {
                 current = 2;
-                music.volume = 0.022f;
+                music.volume = 0.33f;
             }
             else if (clip == "top64Sound")
             {
                 current = 3;
-                music.volume = 0.038f;
+                music.volume = 0.034f;
             }
             else if (clip == "top8Sound")
             {
                 current = 4;
-                music.volume = 0.022f;
+                music.volume = 0.044f;
             }
             else if (clip == "bossSound")
             {
                 current = 5;
-                
+                music.volume = 0.034f;
+
+
+            }
+            else if (clip == "wallClimbSound")
+            {
+                current = 6;
+
             }
         }
         
