@@ -15,7 +15,7 @@ public class StopTimer : MonoBehaviour
     {
         if (coll.gameObject.CompareTag("Player"))
         {
-            Destroy(timercanvas);
+            gameObject.SetActive(false);
         }
     }
 
