@@ -128,7 +128,7 @@ public class MusicManager : MonoBehaviour
         {
             if (clip == "opSound")
             {
-                music.volume = 0.62f;
+                music.volume = 0.084f;
                 current = 0;
             }
             else if (clip == "poolsSound")
